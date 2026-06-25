@@ -1,0 +1,1820 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": false,
+            "show_rating": true
+          }
+        },
+        "price_PjdzaF": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false,
+            "show_shop_pay_banner": false
+          }
+        },
+        "klarna_on_site_messaging_app_block_DjzHng": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "theme": "custom",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "rating_8NMkQr": {
+          "type": "rating",
+          "settings": {
+            "anchor_id": "reviews_widget"
+          }
+        },
+        "liquid_NfWAtQ": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"checkout-discount-badge\">\n  <strong>$125 Off </strong>|\n  Auto-Applied In Cart\n</div>\n<style>\n  .checkout-discount-badge {\n    display: inline-block;\n    padding: 0.45em 1em;\n    background: #56C271;\n    border-radius: 0.5em;\n    color: #ffffff;\n    text-align: center;\n    letter-spacing: 0.02em;\n    font-weight: 500;\n    /* font-family, font-size, line-height inherit from the theme */\n  }\n</style>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "color_swatch_type": "variant",
+            "size_chart": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 15,
+            "show_inventory_transfer": true,
+            "show_inventory_quantity": "always",
+            "color_scheme": "accent-1"
+          }
+        },
+        "text_mhkzQM": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 50,
+            "text": "<strong>Note: </strong>Pre-order inventory now shipping. Order today to receive yours by mid-December, in time for the holidays.",
+            "text_size": "text-sm"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_price": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": true,
+            "show_back_in_stock_phone": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "collapsible_tab_WYEM8d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "style": "with-border",
+            "icon": "none",
+            "heading": "The Smartest Laser Rangefinder In Golf:",
+            "content": "<p><strong>Plays Like Distances:</strong> The only rangefinder to deliver real-time “Plays Like” distances, automatically adjusting for weather conditions and slope, for the most precise yardage in the game.<br/><br/><strong>Smarter Data:</strong> Experience Smarter Data with automatic pin setting. Syncs with the app for less editing, more accurate stats and smarter insights.<br/><br/><strong>Tournament Mode</strong>: Built for casual or competitive rounds. Toggle tournament mode on/off to be permissible under the rules of golf.</p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "collapsible_tab_WqGrWk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "style": "with-border",
+            "icon": "none",
+            "heading": "Key Features:",
+            "content": "<ul><li>Accuracy +/- 1 Yard</li><li>Automatic Pin Setting</li><li>Vibration Lock</li><li>6.1x Optical Zoom</li><li>999 Yard Range</li><li>Weather Resistant</li><li>Storage Magnet</li><li>Arccos App Integration</li></ul>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "collapsible_tab_xFV9yJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "style": "with-border",
+            "icon": "none",
+            "heading": "Subscriptions & Access:",
+            "content": "<p>The Rangefinder Bundle includes one year of both the Arccos Game Tracking and Smart Laser subscriptions. Together, they power your complete Arccos experience from precise mapping and weather insights to automatic updates that keep getting smarter.</p><p>With a bundled subscription members receive <strong>$100 combined savings</strong>, for a total of <strong>$24.99/month, billed annually ($299.99 per year)</strong> across both subscriptions.</p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "icon": "truck",
+            "icon_width": 20,
+            "text": "In stock! Ships within 1-2 business days.",
+            "text_size": "text-sm"
+          }
+        },
+        "text-4": {
+          "type": "text",
+          "settings": {
+            "icon": "box",
+            "icon_width": 20,
+            "text": "Free shipping over $90 in United States",
+            "text_size": "text-sm"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "icon": "return",
+            "icon_width": 20,
+            "text": "30-day money-back guarantee",
+            "text_size": "text-sm"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "settings": {
+            "icon": "shield",
+            "icon_width": 20,
+            "text": "1-year warranty",
+            "text_size": "text-sm"
+          }
+        },
+        "complementary_m3RUQY": {
+          "type": "complementary",
+          "settings": {
+            "heading": "You may also like",
+            "product_limit": 4,
+            "show_vendor": true,
+            "show_price": true
+          }
+        },
+        "product_bundle_ca34jh": {
+          "type": "product_bundle",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "heading": "Add Accessories...",
+            "products": [
+              "superstroke-putter-accessory",
+              "air-hardware-only"
+            ],
+            "metafield": "",
+            "opened": true,
+            "clickable": false
+          }
+        },
+        "help_desk_CnAadR": {
+          "type": "help_desk",
+          "disabled": true,
+          "settings": {
+            "help_label": "Need help?",
+            "help_type": "drawer",
+            "help_page": ""
+          }
+        },
+        "sticky_buy_button": {
+          "type": "sticky_buy_button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "price_PjdzaF",
+        "klarna_on_site_messaging_app_block_DjzHng",
+        "rating_8NMkQr",
+        "liquid_NfWAtQ",
+        "variant_picker",
+        "inventory",
+        "text_mhkzQM",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_WYEM8d",
+        "collapsible_tab_WqGrWk",
+        "collapsible_tab_xFV9yJ",
+        "text-1",
+        "text-4",
+        "text-2",
+        "text-3",
+        "complementary_m3RUQY",
+        "product_bundle_ca34jh",
+        "help_desk_CnAadR",
+        "sticky_buy_button"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": 40,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "below",
+        "image_ratio": "square",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 72,
+        "padding_bottom": 84,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "multicolumn_with_icons_dxFDEm": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_TPKDjM": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_sensor",
+            "custom_icon": "",
+            "heading": "Smart Sensors",
+            "text": "<p>15 Smart Sensors & 1 Putter Sensor. Smart Sensors are weather-resistant, ultra-light, and feature a long lasting battery.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_98QzRB": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_smart_laser",
+            "custom_icon": "",
+            "heading": "Smart Laser Rangefinder",
+            "text": "<p>A first-of-its-kind connected rangefinder built on AI and software that syncs with the Arccos app.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_EmXYpM": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_year_membership",
+            "custom_icon": "",
+            "heading": "1st Year's Subscriptions",
+            "text": "<p>Includes first year's Smart Laser and Game Tracking subscriptions. Both required to unlock full features.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_zqrddV": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_renewal",
+            "custom_icon": "",
+            "heading": "Annual Free Sensor Renewal Program",
+            "text": "<p>Get 5 new smart sensors every year to use on additional clubs or as replacements.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_TPKDjM",
+        "column_98QzRB",
+        "column_EmXYpM",
+        "column_zqrddV"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "center",
+        "heading": "What's Included",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_jeCWYg": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_LMMbtn": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "LIMITED TIME OFFER",
+            "subheading_size": "subtitle-md",
+            "secondary_color": false
+          }
+        },
+        "heading_mjifGd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock A Free Swing Lesson",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_TTiyEj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Combine your Arccos insights with a free swing lesson for ultimate game improvement ($100 value).</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LMMbtn",
+        "heading_mjifGd",
+        "text_TTiyEj"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Skillest_Phone_Screens.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_mobile": "shopify://shop_images/Skillest_Phone_Screens.jpg",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 20,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_T7hEkw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9Bzb87": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-AutoShotTracking.jpg",
+            "image_ratio": "adapt",
+            "heading": "Automatic Shot Tracking",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Every shot captured seamlessly using your iPhone, Apple Watch, or Link Pro so you stay focused on your game.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_pXFnBX": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-SmartDistances-ArccosApp.jpg",
+            "image_ratio": "adapt",
+            "heading": "Smart Club Distances",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Know your true yardages with distances normalized for real-time conditions like wind, temperature, and altitude.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_djMPr7": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-StrokesGained_065551be-a1ae-4ed5-a488-1e2439269507.jpg",
+            "image_ratio": "adapt",
+            "heading": "Strokes Gained Insights",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Based on your target handicap, get personalized insights that highlight exactly where you gain and lose strokes across driving, approach, short game, and putting.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_a4p6Mq": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/AIStrategy-iPhoneAppScreen.jpg",
+            "image_ratio": "adapt",
+            "heading": "AI Strategy",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Tour-proven, real-time strategy including club recommendations and precise targets for every shot.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_9Bzb87",
+        "column_pXFnBX",
+        "column_djMPr7",
+        "column_a4p6Mq"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Powerful Features",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Arccos is trusted by Matt Fitzpatrick, Edoardo Molinari and hundreds of thousands of golfers around the world. Game tracking is the key to playing smarter and shooting lower scores.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "video_with_text_tQCYwQ": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_cU4AdW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Sensors",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_pPfGpq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Track your game just like the pros. Receive 15 Smart Sensors and 1 Putter sensor that twist into the top of your grips.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_THN3PA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/ZU-rpM9tZk0",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cU4AdW",
+        "text_pPfGpq",
+        "button_THN3PA"
+      ],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/Gen4 Sensors Hero_No packaging.mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "500px",
+        "video_width": "medium",
+        "layout": "video_first",
+        "text_alignment": "center",
+        "content_position": "align-self-center",
+        "video_url_mobile": "",
+        "image_height_mobile": "250px",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_TEfiDx": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_jBmzbR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Laser",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_ADQfqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Golf’s first AI powered smart laser rangefinder.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_yEJX73": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/c2j6JSc5L08",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_jBmzbR",
+        "text_ADQfqT",
+        "button_yEJX73"
+      ],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/Smart Laser BeautyReel Desktop.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "500px",
+        "video_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "center",
+        "content_position": "align-self-center",
+        "video_url_mobile": "",
+        "image_height_mobile": "250px",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "logo_list_aqG6q6": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_ptFkF8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/1_b9996e18-f114-4147-b45f-0746023ac1a3.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_yTMNFb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2_2a5dfb97-6618-4b9c-a491-f4be1c24bb2e.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_UCHTnM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/3_f4febe2a-4960-42dc-92e0-811dcceeec1b.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_ACWzCh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/4_b5217545-677a-4035-8e5a-5f2dbaa1702d.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_R7n9aU": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/5_ad6ac594-d31c-46d4-9a7f-7b66f97f6082.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_zBfdhX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/6_fbbc1d8a-a29a-4648-99fc-69aa02981ee6.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_LzMptB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/7_bfbeac43-a4fc-4ad5-9f30-ac38edfaaca6.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_YxH8c6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/8_85eafb04-5e87-43d1-b6d3-793ecedd9b67.png",
+            "height": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_ptFkF8",
+        "logo_yTMNFb",
+        "logo_UCHTnM",
+        "logo_ACWzCh",
+        "logo_R7n9aU",
+        "logo_zBfdhX",
+        "logo_LzMptB",
+        "logo_YxH8c6"
+      ],
+      "name": "t:sections.logo-list.presets.name",
+      "settings": {
+        "layout": "marquee",
+        "grid_horizontal": 50,
+        "direction": "left",
+        "speed": 5,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_VbRiXC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_L9JkNb": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaserRangefinder-PlaysLikeDistances.jpg",
+            "image_ratio": "adapt",
+            "heading": "<strong>“Plays Like” Distance</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Slope accounts for 19% of your distance adjustment. Only the Arccos Smart Laser automatically factors in real-time wind and weather.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_JDYGkd": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaserRangefinder-DigitalYardageBook.jpg",
+            "image_ratio": "adapt",
+            "heading": "<strong>Digital Yardage Book</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Access detailed hole layouts and distances for more than 40,000 courses worldwide through the Arccos App.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_HJrwtf": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaserRangefinder-AIStrategy.jpg",
+            "image_ratio": "adapt",
+            "heading": "<strong>AI Strategy For Every Shot</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>AI Strategy provides a recommended club and optimal target based on your tendencies, course layout, hazards, weather, and conditions.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_L9JkNb",
+        "column_JDYGkd",
+        "column_HJrwtf"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "The Smartest Laser in Golf",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 36,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_dx4b4g": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_B8gwqm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "AI STRATEGY",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_fpnqcX": {
+          "type": "heading",
+          "settings": {
+            "heading": "AI That Builds Your Game Plan Just Like PGA TOUR Pros Do",
+            "heading_size": "title-sm",
+            "heading_tag": "h3",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_YDQ6aC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arccos AI analyzes over 1.5 billion shots, your tendencies, course layout, wind, and elevation, then maps out the smartest way to play the entire hole. The same strategy Matt Fitzpatrick used to win a major.<br/><br/>*Feature initially available on iOS</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_B8gwqm",
+        "heading_fpnqcX",
+        "text_YDQ6aC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/AIStrategy_776516b2-1c67-4e0d-90ca-eedfe3355b4d.jpg",
+        "image_height": "adapt",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_mobile": "shopify://shop_images/AIStrategy_776516b2-1c67-4e0d-90ca-eedfe3355b4d.jpg",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_KBqHiU": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_6tCgXc": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "GREEN MAPS",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_F4KeWB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Precision All the Way to the Pin",
+            "heading_size": "title-sm",
+            "heading_tag": "h3",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_BXCUzp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read slope and elevation so you can attack with confidence, not guesswork. View the exact flag position mapped on the green, not just a front/middle/back guess.<br/><br/>*Feature initially available on iOS for 9,000+ courses (and counting)</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6tCgXc",
+        "heading_F4KeWB",
+        "text_BXCUzp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/GreenMaps.jpg",
+        "image_height": "adapt",
+        "image_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_mobile": "shopify://shop_images/GreenMaps.jpg",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_FDrNpH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_CbA6jn": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Trillium_Rose_5e2642ad-f744-4007-acc4-88e55be74c6d.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>PGA Professional - Trillium Rose</p>",
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/8zr81Nd_4Kg",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_gJ8Q9K": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Frame_9914244.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Major Champion - Matt Fitzpatrick</p>",
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/pea_wm9Lgls",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_CbA6jn",
+        "column_gJ8Q9K"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 2,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "What the Pros are Saying about the Smart Laser",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 36,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "testimonials_F7gWYb": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_48fpty": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>My caddie and I thought it was 10 yds longer. Arccos said 25. We played the “Plays Like number”, hit it to 4ft. We laughed. Arccos was smarter than both of us.</p>",
+            "author": "Edoardo Molinari",
+            "author_info": "European Ryder Cup Vice Captain, Arccos Chief Data Strategist, Titleist Brand Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/Edoardo-Quote.png",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_7zEB4B": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Arccos just dropped what could be the most significant advancement in rangefinder technology since the introduction of slope.</p>",
+            "author": "MyGolfSpy",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_RkbdTU": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Having a true yardage, that factors in more than just slope is so important. Over 18 holes, that can save 5 or more shots.</p>",
+            "author": "Trillium Rose",
+            "author_info": "Golf Digest Top 50 Teacher in America",
+            "author_url": "",
+            "image": "shopify://shop_images/Trillium.jpg",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_F6eWcq": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Arccos has announced a rangefinder that looks to take the concept of accurate distances to a completely new level.</p>",
+            "author": "Golf Monthly",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_Kmtmt8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Smartest rangefinder I’ve ever used. It factors in the environment and sets the pin, for even sharper Arccos stats.</p>",
+            "author": "Erika Larkin",
+            "author_info": "Golf Digest Top 50 Teacher in America",
+            "author_url": "",
+            "image": "shopify://shop_images/Erika.jpg",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_48fpty",
+        "testimonial_7zEB4B",
+        "testimonial_RkbdTU",
+        "testimonial_F6eWcq",
+        "testimonial_Kmtmt8"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "video_with_text_qFHK9V": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_LVUwmt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Laser Delivers Ongoing Value",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_6gQVeW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Automatic software updates keep the system evolving so you always have the most accurate, connected AI-powered rangefinder in the game, with lower upfront costs.</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_UGc3W8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/VW77pXLmOuU",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_LVUwmt",
+        "text_6gQVeW",
+        "button_UGc3W8"
+      ],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/Why Smart Laser Delivers Ongoing Value (1).mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "image_height": "adapt",
+        "video_width": "medium",
+        "layout": "video_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 36,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_HJcQkt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aUkMzn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Integrated Arccos Experience",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_XHWneL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smart Laser works seamlessly with an Arccos Game Tracking subscription. Automatically set the pin location in the app simply by shooting the flag, so you can get more accurate personalized data to improve all aspects of your game.</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aUkMzn",
+        "text_XHWneL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IntegratedExperience.jpg",
+        "image_height": "adapt",
+        "image_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "product_details_TN4VTn": {
+      "type": "product-details",
+      "blocks": {
+        "collapsible_tab_qJUfVb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "heading": "Structure",
+            "content": "<p><strong>LENGTH: </strong>4.2\"<br/><strong>WIDTH: </strong>1.5\"<strong><br/>HEIGHT: </strong>3\"<br/><strong>WEIGHT: </strong>7.1 oz<br/><strong>IP RATING: </strong>IP44</p>",
+            "metafields": ""
+          }
+        },
+        "collapsible_tab_Ygn777": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "heading": "Electronics",
+            "content": "<p><strong>DISPLAY: </strong>OLED<br/><strong>POWER SOURCE: </strong>3-Volt Lithium (CR-2)<br/><strong>BLUETOOTH: </strong>YES<br/><strong>SLOPE SWITCH: </strong>YES<br/><strong>VIBRATION PIN: </strong>YES<br/><strong>APP INTEGRATION: </strong>YES</p>",
+            "metafields": ""
+          }
+        },
+        "collapsible_tab_PFGnAy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "heading": "Optics",
+            "content": "<p><strong>MAGNIFICATION: </strong>6.1x<br/><strong>RANGE: </strong>5-1100 YARDS<br/><strong>ACCURACY: </strong>0.5 YARDS (+/-)</p>",
+            "metafields": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_qJUfVb",
+        "collapsible_tab_Ygn777",
+        "collapsible_tab_PFGnAy"
+      ],
+      "name": "t:sections.product-details.presets.name",
+      "settings": {
+        "style": "with-background",
+        "open_first_row": true,
+        "specifications_heading": "",
+        "heading": "Smart Laser Specs",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "faq_8XYCd7": {
+      "type": "faq",
+      "blocks": {
+        "question_kkQ9cg": {
+          "type": "question",
+          "settings": {
+            "title": "What makes the Arccos Smart Laser different from other rangefinders?",
+            "text": "<p>It’s the only rangefinder that combines best-in-class optics with real-time plays-like yardages automatically adjusted for slope, wind, temperature, altitude, and more. It also syncs pin positions to the Arccos app for more accurate stat tracking with less manual work.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_Xzd3JJ": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if I lose or break my Smart Laser?",
+            "text": "<p>If your device is lost or damaged, you’ll be able to purchase a replacement for a one-time fee. Your subscription remains active and tied to your account.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_9zMmkd": {
+          "type": "question",
+          "settings": {
+            "title": "How easy are the sensors to install?",
+            "text": "<p>Arccos Smart Sensors are really easy to install with twist-in sensors that are compatible with most golf clubs. Typical set up takes less than 10 minutes but requires an internet connection.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_afAany": {
+          "type": "question",
+          "settings": {
+            "title": "Is my course mapped?",
+            "text": "<p>We have over 40,000 courses mapped in our system. To see if your course is mapped, use our course search tool.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_MWPHXT": {
+          "type": "question",
+          "settings": {
+            "title": "Do sensors require battery replacements?",
+            "text": "<p>Batteries are not replaceable. The sensors have a 2-year guarantee and each member receives 5 new sensors upon membership renewal.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_4UrTNM": {
+          "type": "question",
+          "settings": {
+            "title": "Are the sensors waterproof?",
+            "text": "<p>Arccos Smart Sensors are weather and dust resistant. If you get caught out by the weather mid-round, don't worry we'll keep tracking your shots!</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_kkQ9cg",
+        "question_Xzd3JJ",
+        "question_9zMmkd",
+        "question_afAany",
+        "question_MWPHXT",
+        "question_4UrTNM"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "multicolumn_with_icons_wffU6j": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_MUbhJz": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "Free shipping",
+            "text": "<p>On all orders over <strong>$90 </strong>in the US</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_tqpazd": {
+          "type": "column",
+          "settings": {
+            "icon": "wallet",
+            "custom_icon": "",
+            "heading": "Money-back guarantee",
+            "text": "<p>30 days, no questions asked, money-back guarantee. Excludes installed Arccos Smart Grips, Apparel & Custom Prints.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_b3p8hM": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Premium support",
+            "text": "<p>Our team of internal customer support agents are available to answer any questions you may have.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_MUbhJz",
+        "column_tqpazd",
+        "column_b3p8hM"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "You may also like",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h5",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "175369173700e7f645": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_G9RhHP": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-polaris/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#56c271",
+            "review_type": "product_review,questions",
+            "per_page": 5,
+            "primary_btn_bg_color": "#252628",
+            "primary_btn_border_color": "#252628",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#252628",
+            "secondary_btn_text_color": "#252628",
+            "border_color": "#d1d6da",
+            "heading_text_color": "#252628",
+            "heading_font": "sans_serif_n4",
+            "body_text_color": "#252628",
+            "badge_icon_color": "#252628",
+            "badge_text_color": "#252628",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "date_desc"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_G9RhHP"
+      ],
+      "settings": {
+        "anchor_id": "reviews_widget",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "help-drawer": {
+      "type": "help-drawer",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Shipping Information",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "icon": "headphone",
+            "heading": "Customer Support",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "FAQ’s",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#be123c",
+            "color_background": "#fff1f2",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Contact Us",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Need help?",
+        "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "multicolumn_with_icons_dxFDEm",
+    "image_with_text_jeCWYg",
+    "multicolumn_T7hEkw",
+    "video_with_text_tQCYwQ",
+    "video_with_text_TEfiDx",
+    "logo_list_aqG6q6",
+    "multicolumn_VbRiXC",
+    "image_with_text_dx4b4g",
+    "image_with_text_KBqHiU",
+    "multicolumn_FDrNpH",
+    "testimonials_F7gWYb",
+    "video_with_text_qFHK9V",
+    "image_with_text_HJcQkt",
+    "product_details_TN4VTn",
+    "faq_8XYCd7",
+    "multicolumn_with_icons_wffU6j",
+    "product-recommendations",
+    "175369173700e7f645",
+    "help-drawer"
+  ]
+}

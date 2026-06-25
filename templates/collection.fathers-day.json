@@ -1,0 +1,400 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_XHUVPg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_iBYjxL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Get Up To $150 Off",
+            "subheading_size": "subtitle-md",
+            "secondary_color": false
+          }
+        },
+        "heading_kWXJVj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Father’s Day Sale",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_hWChW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gift Dad Lower Scores This Year</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_BRCPef": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "See Top Deals Below",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iBYjxL",
+        "heading_kWXJVj",
+        "text_hWChW3",
+        "button_BRCPef"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/FDPageBanner-Desktop.jpg",
+        "image_height": "400px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/FDPageBanner-Mobile_310f9005-6f08-4fa3-b0e4-5cbd4d72ed04.jpg",
+        "image_height_mobile": "250px",
+        "content_position_mobile": "items-end justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "featured_products_rrYhji": {
+      "type": "featured-products",
+      "name": "Featured Products",
+      "settings": {
+        "product_count": 3,
+        "eyebrow_text": "TOP FATHER'S DAY PICKS",
+        "heading_text": "The Smartest Gifts In Golf",
+        "product_1": "smart-laser-rangefinder",
+        "image_override_1": "shopify://shop_images/SmartLaser-ProductImage-1_eb1f173b-92b4-4b2f-8962-dc9e782cf3a7.jpg",
+        "ribbon_1_text": "BEST GIFT",
+        "show_new_ribbon_1": true,
+        "gift_framing_1": "Laser-precise \"Play's Like\" distances. AI Strategy access. Always the right club, every time.",
+        "original_price_1": "$299.99",
+        "sale_price_1": "$239.99",
+        "product_2": "air",
+        "image_override_2": "shopify://shop_images/ArccosAir-ProductImage-1_5ef3a447-9816-49f7-b46c-eaf6d172bf74.jpg",
+        "ribbon_2_text": "EASIEST SETUP",
+        "show_new_ribbon_2": true,
+        "gift_framing_2": "Automatic shot tracking, no sensors, no phone. Pure performance insights, effortlessly.",
+        "original_price_2": "$349.99",
+        "sale_price_2": "$279.99",
+        "product_3": "smart-sensors",
+        "image_override_3": "shopify://shop_images/SmartSensors-ProductImage-Smoke-1.webp",
+        "ribbon_3_text": "BEST VALUE",
+        "show_new_ribbon_3": false,
+        "gift_framing_3": "Personal performance insights. Complete distance breakdown for every club in your bag.",
+        "original_price_3": "$249.99",
+        "sale_price_3": "$199.99",
+        "new_ribbon_text": "NEW",
+        "discount_badge_text": "20% OFF",
+        "button_text": "Add to Cart",
+        "background_color": "#ffffff"
+      }
+    },
+    "featured_products_QVLmGY": {
+      "type": "featured-products",
+      "name": "Featured Products",
+      "settings": {
+        "product_count": 3,
+        "eyebrow_text": "BIGGEST SAVINGS",
+        "heading_text": "The Ultimate Father's Day Bundles",
+        "product_1": "air-rangefinder-bundle",
+        "image_override_1": "shopify://shop_images/AirLaserBundle-ProductImage-1.jpg",
+        "ribbon_1_text": "Save $150",
+        "show_new_ribbon_1": false,
+        "gift_framing_1": "Best for all-round improvement. Laser-precise distances. Personal performance insights. No sensors, no phone needed. Guaranteed to lower your handicap.",
+        "original_price_1": "$599.98",
+        "sale_price_1": "$449.99",
+        "product_2": "air-smart-sensors-bundle",
+        "image_override_2": "shopify://shop_images/AirSensorsBundle-ProductImage-1.jpg",
+        "ribbon_2_text": "Save $106",
+        "show_new_ribbon_2": false,
+        "gift_framing_2": "Best for flexibility and precise data. Full game tracking without your phone in your pocket. Sensors on every club deliver deep personal insights, effortlessly.",
+        "original_price_2": "$424.98",
+        "sale_price_2": "$318.74",
+        "product_3": "rangefinder-bundle",
+        "image_override_3": "shopify://shop_images/RangefinderBundle-ProductImage-2_04abebc7-1ae4-46e8-86bb-70c411927cb6.jpg",
+        "ribbon_3_text": "Save $125",
+        "show_new_ribbon_3": false,
+        "gift_framing_3": "Best for precision. The deepest club data in the game. Laser-precise distances, personal performance insights, and exact club distances for every shot.",
+        "original_price_3": "$499.98",
+        "sale_price_3": "$374.99",
+        "new_ribbon_text": "NEW",
+        "discount_badge_text": "25% OFF",
+        "button_text": "Add to Cart",
+        "background_color": "#f2f2f2"
+      }
+    },
+    "featured_giftcard_NFxfMT": {
+      "type": "featured-giftcard",
+      "name": "Featured Product - Gift Card",
+      "settings": {
+        "eyebrow_text": "THE EASY GIFT",
+        "heading_text": "Not sure what to get? Let Dad choose",
+        "product": "gift-card",
+        "badge_text": "GIFT CARD",
+        "gift_framing": "Not sure which Arccos products to gift? Let Dad choose. Delivered instantly by email — no wrapping required.",
+        "variant_label": "Select Value",
+        "button_text": "Add to Cart"
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "show_collections_link": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "title-xl"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "title"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": true,
+        "show_image": true,
+        "image_height": "400px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "menu": "",
+            "per_row": 5,
+            "show_count": true
+          }
+        },
+        "promotion_4T6PJf": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/shopify_product_images_new_4.jpg",
+            "heading": "Custom Prints",
+            "content": "<p>Memories to last a lifetime.</p>",
+            "button_label": "Shop Prints",
+            "button_link": "shopify://products/custom-hole-print",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#171717",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 40
+          }
+        },
+        "promotion_tBgYKg": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/Typical_Round-Mobile_9c535473-5735-41c6-b54f-3641f8f31f97.jpg",
+            "heading": "Ready To Track Your Game?",
+            "content": "<p>Get a personalized product recommendation</p>",
+            "button_label": "Take Quiz",
+            "button_link": "shopify://pages/quiz",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#171717",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "promotion_4T6PJf",
+        "promotion_tBgYKg"
+      ],
+      "disabled": true,
+      "settings": {
+        "products_per_page": 6,
+        "columns": 3,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_filtering": false,
+        "filter_collapsed": false,
+        "filter_type": "drawer",
+        "filter_color_swatches": true,
+        "enable_sorting": false,
+        "padding_top": 20,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_with_icons_qkyTce": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_TP4NcT": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Premium Support",
+            "text": "<p>Our team of internal customer support agents are available to answer any questions you may have.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_t49GM8": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Secure payment",
+            "text": "<p>Your payment information is processed securely</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_EfcKdG": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "Free Shipping",
+            "text": "<p>Get free shipping on on all orders over $90 in the United States.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_YPqhfn": {
+          "type": "column",
+          "settings": {
+            "icon": "wallet",
+            "custom_icon": "",
+            "heading": "Money-Back Guarantee",
+            "text": "<p>30 days, no questions asked, money-back guarantee. Excludes installed Arccos Smart Grips, Apparel & Custom Prints.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_TP4NcT",
+        "column_t49GM8",
+        "column_EfcKdG",
+        "column_YPqhfn"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_XHUVPg",
+    "featured_products_rrYhji",
+    "featured_products_QVLmGY",
+    "featured_giftcard_NFxfMT",
+    "main-collection-banner",
+    "main-collection",
+    "multicolumn_with_icons_qkyTce"
+  ]
+}

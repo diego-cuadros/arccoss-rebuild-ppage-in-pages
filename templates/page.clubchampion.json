@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_4VLTjA": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Club_Champion.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "adapt",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich_text_Uy9nLP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TEJiDJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Club Champion Smart Fitting - Powered by Arccos",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_kjEUey": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Club Champion – America’s #1 Club Fitter – has named Arccos its Official On-Course Data Partner. This means that Club Champion fitters are now leveraging Arccos’ on-course shot data and Strokes Gained Analysis to provide a Smart Fitting experience at each of its ~75 studios nationwide.</p><p>Trained and certified as Arccos experts, Club Champion fitters are using the Arccos Dashboard to access rich insights and data visualizations for each client’s shot-by-shot history, Smart Distance club averages, club gapping, club usage, dispersion patterns, miss tendencies and more.</p><p>“Having access to our clients’ Arccos on-course shot data allows us to fully understand each player’s unique golf DNA,” said Nick Sherburne, Club Champion Founder. “The data is golden. It helps golfers and our fitters better track performance while gaining an unbiased understanding of where they excel and what they need to improve.”</p><p>Sal Syed, Arccos CEO and Co-Founder, added: “The ultimate Smart Fitting experience requires on-course shot data, which until recently was exclusively available to PGA Tour players via ShotLink. Now, every Club Champion fitter can get a contextualized picture of their clients’ games. This can be a huge positive for the fitter-client relationship before, during and after each studio session.”</p><p>Ranked by <em>Golf Digest</em> as one of the 100 Best Club Fitters 10 years running, Club Champion is the only fitter in the country to offer 45,000 interchangeable head and shaft combinations on-site, at all locations. Club Champion fits, sells and builds custom golf clubs using brands like PING, Cobra, Callaway, TaylorMade, Titleist, Fujikura, Golf Pride and many more. The company delivers a Tour-quality fitting that produces longer, more accurate shots with a nearly 100% satisfaction rate for golfers of any ability level.</p><p>For more information about Club Champion, or to book a Smart Fitting appointment, visit <a href=\"https://www.clubchampiongolf.com/\" title=\"https://www.clubchampiongolf.com/\">www.clubchampiongolf.com</a>.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_LbtJrQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Fitting",
+            "button_link": "https://www.clubchampiongolf.com/",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_TEJiDJ",
+        "text_kjEUey",
+        "button_LbtJrQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_width": "medium",
+        "heading_tag": "h1",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_4VLTjA",
+    "rich_text_Uy9nLP"
+  ]
+}

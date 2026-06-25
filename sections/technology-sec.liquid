@@ -1,0 +1,600 @@
+<section id="technology-section-{{ section.id }}" class="technology-section-{{ section.id }}">
+  <div class="tech-container">
+    <!-- Top Part: Interactive Image and Features -->
+    {% if section.settings.show_top_section %}
+      <div class="tech-top">
+        <div class="tech-image-col">
+          {% if section.settings.heading != blank %}
+            <h2 class="tech-heading desk_hidden">{{ section.settings.heading }}</h2>
+          {% endif %}
+
+          {% if section.settings.image != blank %}
+            {{
+              section.settings.image
+              | image_url: width: 800
+              | image_tag: loading: 'lazy', alt: section.settings.heading
+              | escape
+            }}
+          {% else %}
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg tech-placeholder-image' }}
+          {% endif %}
+        </div>
+
+        <div class="tech-content-col">
+          {% if section.settings.heading != blank %}
+            <h2 class="tech-heading mob_hidden">{{ section.settings.heading }}</h2>
+          {% endif %}
+
+          <div class="tech-features">
+            {% for block in section.blocks %}
+              {% if block.type == 'feature' %}
+                <div class="tech-feature-item" {{ block.shopify_attributes }}>
+                  <div class="tech-feature-icon" style="background-color: {{ section.settings.icon_bg_color }};">
+                    {% if block.settings.icon != blank %}
+                      {{
+                        block.settings.icon
+                        | image_url: width: 48
+                        | image_tag: loading: 'lazy', alt: block.settings.title
+                        | escape
+                      }}
+                    {% else %}
+                      <!-- Provide a fallback subtle icon if no image uploaded -->
+                      <div class="tech-feature-icon-svg">
+                        <svg viewBox="0 0 24 24">
+                          <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  <div class="tech-feature-text">
+                    {% if block.settings.title != blank %}
+                      <h3>{{ block.settings.title }}</h3>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                      <p>
+                        {{ block.settings.text }}
+                      </p>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Bottom Part: Statistics Bar -->
+    {% if section.settings.show_stats_section %}
+      <div class="tech-stats-container">
+        {% assign has_stats = false %}
+        {% for block in section.blocks %}
+          {% if block.type == 'stat' %}
+            {% assign has_stats = true %}
+          {% endif %}
+        {% endfor %}
+
+        {% if has_stats %}
+          <div class="tech-stats">
+            {% for block in section.blocks %}
+              {% if block.type == 'stat' %}
+                <div class="tech-stat-item" {{ block.shopify_attributes }}>
+                  <div class="tech-stat-value" style="color: {{ block.settings.value_color }};">
+                    {{ block.settings.value }}
+                  </div>
+                  <div class="tech-stat-label">
+                    {{ block.settings.label }}
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% style %}
+    .technology-section-{{ section.id }} {
+      background-color: {{ section.settings.bg_color }};
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom:{{ section.settings.padding_bottom }}px;
+      font-family: inherit;
+    }
+
+    .tech-container {
+      max-width: 1270px;
+      padding-left:20px;
+      padding-right:20px;
+      margin: 0 auto;
+    }
+
+    /* Split Layout */
+    .tech-top {
+      display: flex;
+      align-items: center;
+      gap: 10%;
+      margin-bottom: 100px;
+    }
+
+    .tech-image-col {
+      flex: 1 1 450px;
+    }
+
+    .tech-image-col img,
+    .tech-placeholder-image {
+      width: 100%;
+      height: auto;
+      border-radius: 24px;
+      display: block;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      object-fit: cover;
+    }
+
+    .tech-placeholder-image {
+      background: #e0e0e0;
+      min-height: 500px;
+    }
+
+    .tech-content-col {
+      flex: 1 1 450px;
+    }
+    
+    .tech-heading {
+      margin: 0;
+      margin-bottom: 40px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height:52px;
+      letter-spacing: -0.02em;
+      color:#000000;
+    }
+    .desk_hidden{
+      display:none;
+    }
+
+    /* Features List */
+    .tech-features {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    .tech-feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    .tech-feature-icon {
+      flex-shrink: 0;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .tech-feature-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .tech-feature-icon-svg svg {
+      width: 22px;
+      height: 22px;
+      stroke: #ffffff;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .tech-feature-text h3 {
+      margin: 0 0 6px 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height:30px;
+      letter-spacing: -0.02em;
+      color: #242424;
+    }
+
+    .tech-feature-text p {
+      margin: 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height:22px;
+      letter-spacing: -0.02em;
+      color: #242424;
+      max-width: 450px;
+    }
+
+    /* Statistics Bar */
+    .tech-stats {
+      background: #333333; /* Dark gradient base */
+      background: linear-gradient(37.27deg, #242424 34.65%, #595959 97.45%), #242424;
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+      border: 1px solid #484848;
+    }
+
+    .tech-stat-item {
+      flex: 1;
+      text-align: center;
+      padding: 24px 20px;
+      min-width: 220px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+    }
+
+    /* Separators */
+    .tech-stat-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 1px;
+      background-color: rgba(255,255,255,0.1);
+    }
+
+    .tech-stat-item:not(:last-child)::after {
+        border-right: 1px dashed rgba(255,255,255,0.2);
+    }
+
+    .tech-stat-value {
+      margin-bottom: 12px;
+      font-weight: 500;
+      font-size: 64px;
+      line-height:64px;
+      text-align: center;
+      letter-spacing: -0.02em;
+    }
+
+    .tech-stat-label {
+      color: #FFFFFF;
+      max-width: 300px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height:27px;
+      text-align: center;
+      letter-spacing: -0.02em;
+    }
+
+    /* Responsive Adjustments */
+    @media (min-width: 768px) and (max-width: 992px){
+      .technology-section-{{ section.id }} {
+      padding-top:50px;
+      padding-bottom:50px;
+      }
+    }
+
+    @media screen and (max-width: 992px) {
+      .tech-top {
+        flex-direction: row;
+        gap: 40px;
+        margin-bottom: 64px;
+      }
+      .tech-image-col img, .tech-placeholder-image {
+        border-radius: 12px;
+      }
+
+      .tech-image-col,
+      .tech-content-col {
+        flex: 1 1 100%;
+        width: 100%;
+      }
+
+      .tech-image-col {
+        /* Show content before image on mobile or vice-versa? Based on design, usually image on top */
+        order: 1;
+      }
+      .tech-content-col {
+        order: 2;
+      }
+
+      .tech-heading {
+        font-size: 28px;
+        line-height:39px;
+        margin-bottom: 24px;
+      }
+      .tech-feature-item {
+        gap: 20px;
+      }
+
+      .tech-stats {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+      }
+
+      .tech-stat-item:not(:last-child)::after {
+        display: none; /* remove separators on stacking */
+      }
+
+      .tech-stat-item {
+          border-bottom: 1px dashed rgba(255,255,255,0.2);
+          padding-bottom: 30px;
+      }
+      .tech-stat-item:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .mob_hidden{
+        display:none;
+      }
+      .technology-section-{{ section.id }} {
+        padding-top:{{ section.settings.mobile_padding_top }}px;
+        padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+      }
+      .tech-container{
+        padding-right:16px;
+        padding-left:16px;
+      }
+      .tech-top {
+        flex-direction: column;
+        gap: 24px;
+      }
+      .tech-features {
+        gap: 20px;
+      }
+
+      .tech-stats {
+        padding: 20px 16px;
+        gap: 12px;
+        border-radius: 12px;
+      }
+      .tech-stat-item {
+        border-bottom: 1px dashed rgba(255,255,255,0.2);
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 12px;
+        gap: 15px;
+      }
+      .tech-stat-value {
+        font-size: 38px;
+        line-height: 40px;
+        margin-bottom: 0px;
+        min-width: 110px;
+        text-align: left;
+      }
+      .tech-stat-label {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: left;
+      }
+      .tech-image-col .tech-heading.desk_hidden {
+          display: block;
+      }
+    }
+    /* @media screen and (max-width: 480px) {
+      
+      .tech-heading {
+        font-size: 1.8rem;
+      }
+      .tech-stat-value {
+        font-size: 2.5rem;
+      }
+      .tech-feature-text h3 {
+          font-size: 1.05rem;
+      }
+    } */
+     @media screen and (max-width: 380px) {
+      .tech-heading {
+          font-size: 24px;
+          line-height: 35px;
+      }
+     }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Tech & Stats Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Main Left Image",
+      "info": "Upload main lifestyle or product image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading text",
+      "default": "Technology That's Always Getting Smarter"
+    },
+    {
+      "type": "header",
+      "content": "Section Visibility"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_top_section",
+      "label": "Show Image & Features",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_stats_section",
+      "label": "Show Statistics Box",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Appearance"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Section Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "icon_bg_color",
+      "label": "Icon Badge Background Color",
+      "default": "#5cc378"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 80
+    },
+    {
+      "type": "header",
+      "content": "Mobile Spacing"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "List Feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon (SVG/PNG)",
+          "info": "Upload a white icon on a transparent background for best results"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Feature Title",
+          "default": "Feature Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Feature Description",
+          "default": "Describe your specific technical feature here in a couple of sentences."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "name": "Statistic Box",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Metric Value",
+          "default": "5X"
+        },
+        {
+          "type": "color",
+          "id": "value_color",
+          "label": "Metric Color",
+          "default": "#5cc378"
+        },
+        {
+          "type": "textarea",
+          "id": "label",
+          "label": "Label or Description",
+          "default": "More Likely to Hit a Hole-in-One"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tech & Stats Section",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Future-Proofed",
+            "text": "Hardware and software evolve together. New features ship automatically."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "PGA TOUR-Proven",
+            "text": "The strategy framework behind Matt Fitzpatrick's major win. Developed with Edoardo Molinari."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Personalized",
+            "text": "The more you play, the sharper your insights. Arccos learns your game with every round."
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": "25%",
+            "label": "Handicap Improvement for New Members"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": "5X",
+            "label": "More Likely to Hit a Hole-in-One"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": "14.9 ft",
+            "label": "Closer Approach Shots with Arccos"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

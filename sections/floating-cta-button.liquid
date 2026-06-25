@@ -1,0 +1,97 @@
+{% if request.page_type == 'index' %}
+    <facet-sticky class="facet-sticky z-25 fixed left-0 text-center w-full pointer-events-none block lg:hidden"
+                  style="
+                          --button-shadow-color: {{ section.settings.button_shadow_color }};
+                          --button-shadow-blur: {{ section.settings.button_shadow_blur }}px;
+                          ">
+        {%- render 'button',
+                label: section.settings.button_label,
+                link: section.settings.button_link,
+                style: section.settings.button_style,
+                external: section.settings.button_external,
+                show_icon: section.settings.button_icon,
+                size: 'lg',
+                classes: "pointer-events-auto"
+        -%}
+    </facet-sticky>
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.floating-cta-button.name",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:sections.global.settings.button_label.label",
+      "info": "t:sections.global.settings.button_label.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.global.settings.button_link.label"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:sections.global.settings.button_style.options__1.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.global.settings.button_style.options__2.label"
+        },
+        {
+          "value": "link",
+          "label": "t:sections.global.settings.button_style.options__3.label"
+        },
+        {
+          "value": "inverse-primary",
+          "label": "t:sections.global.settings.button_style.options__4.label"
+        }
+      ],
+      "default": "inverse-primary",
+      "label": "t:sections.global.settings.button_style.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_external",
+      "label": "t:sections.global.settings.button_external.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "button_icon",
+      "label": "t:sections.global.settings.button_icon.label",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "button_shadow_color",
+      "label": "t:sections.global.settings.button_shadow_color.label",
+      "default": "#00000080"
+    },
+    {
+      "type": "range",
+      "id": "button_shadow_blur",
+      "label": "t:sections.global.settings.button_shadow_blur.label",
+      "default": 20,
+      "min": 0,
+      "max": 50,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.floating-cta-button.presets.name"
+    }
+  ],
+  "enabled_on": {
+    "groups": [
+      "custom.overlay"
+    ]
+  }
+}
+{% endschema %}

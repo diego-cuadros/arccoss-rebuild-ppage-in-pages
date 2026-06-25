@@ -1,0 +1,238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "custom_liquid_V4KLUk": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<meta name=\"robots\" content=\"noindex\"><meta charset=\"utf-8\">",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "custom_liquid_rWz8M3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div class=\"join-now-page-wrapper\">\n  <style>\n    .join-now-page-wrapper {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: flex-start; /* was 'top' (invalid) */\n      position: relative;\n      background-image:\n        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),\n        url('https://cdn.shopify.com/s/files/1/0780/5525/files/Group_1129.jpg?v=1706876314');\n      background-size: cover;\n      background-repeat: no-repeat;\n      padding: max(10px, 5vw);\n      width: 100%;\n      margin-bottom: 0 !important;\n      min-height: max(100vh, 600px);\n    }\n\n    .membership-images {\n      display: grid;\n      grid-template-columns: 1fr;\n      grid-template-rows: 1fr 1fr 1fr;\n      align-items: center;\n      justify-content: center;\n      gap: max(10px, 2vw); /* grid-gap -> gap */\n      width: 100%;\n      max-width: 1200px;\n    }\n\n    @media (min-width: 768px) {\n      .membership-images {\n        grid-template-columns: 1fr 1fr 1fr;\n        grid-template-rows: 1fr;\n      }\n    }\n\n    .membership-image-container {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .membership-link {\n      height: 100%;\n      width: 100%;\n      display: block;\n    }\n\n    .membership-image {\n      width: 100%;\n      height: auto;\n      display: block;\n    }\n\n    .text-content {\n      color: white;\n      text-align: center;\n      margin-bottom: max(30px, 3vw);\n      line-height: 1.5;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .title-text {\n      font-family: inherit;\n      font-size: min(7vw, 40px);\n      text-transform: none;\n      line-height: 1;\ncolor: #ffffff;\n      margin: 0.25em 0 0.1em;\n    }\n\n    .subtext {\n      font-size: min(3.5vw, 18px);\n      color: #B2BEC6;\n      line-height: 1.25;\n    }\n\n\n    .no-clubs-option {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: max(50px, 5vw);\n    }\n\n    .no-clubs-option > a {\n      color: white;\n      text-decoration: underline;\n      text-align: center;\n      opacity: 0.8;\n      font-size: 14px;\n      width: 100%;\n    }\n\n    .pga-logo {\n      height: 3.75em;\n      width: auto;\n      display: inline-block;\n    }\n  </style>\n\n  <div class=\"header\">\n    <img\n      class=\"pga-logo\"\n      src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/official-game-tracker-pga.svg?v=1692031498\"\n      alt=\"PGA TOUR Official Game Tracker\">\n  </div>\n\n  <div class=\"text-content\">\n    <h1 class=\"title-text\">Choose A Membership</h1>\n    <div class=\"subtext\">Join Arccos Today &amp; Access Golf's #1 Game Tracker.</div>\n  </div>\n\n  <div class=\"membership-images\">\n    <div class=\"membership-image-container\">\n      <a class=\"membership-link\" href=\"https://activate.arccosgolf.com/?utm_source=joinnow&utm_medium=referral&utm_campaign=landingpage\">\n        <img alt=\"Free Sensors\" class=\"membership-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/FreeSensors.png?v=17503470352\">\n      </a>\n    </div>\n\n    <div class=\"membership-image-container\">\n      <a class=\"membership-link\" href=\"/products/smart-sensors/?utm_source=joinnow&utm_medium=referral&utm_campaign=landingpage\">\n        <img alt=\"Annual Membership\" class=\"membership-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Annual.png?v=1750347408\">\n      </a>\n    </div>\n\n    <div class=\"membership-image-container\">\n      <a class=\"membership-link\" href=\"/products/arccos-starter-bundle/?utm_source=joinnow&utm_medium=referral&utm_campaign=landingpage\">\n        <img alt=\"Bundle Membership\" class=\"membership-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Bundle.png?v=1750347407\">\n      </a>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      var links = document.getElementsByClassName('membership-link');\n      var pageParams = new URLSearchParams(window.location.search);\n\n      // Append any page query params to each membership link if they aren't already present\n      for (var i = 0; i < links.length; i++) {\n        var a = links[i];\n        var url = new URL(a.getAttribute('href'), window.location.origin);\n\n        pageParams.forEach(function (value, key) {\n          if (!url.searchParams.has(key)) {\n            url.searchParams.set(key, value);\n          }\n        });\n\n        // Keep same path + merged params (avoid duplicating the domain on relative links)\n        if (url.origin === window.location.origin) {\n          a.setAttribute('href', url.pathname + (url.searchParams.toString() ? '?' + url.searchParams.toString() : ''));\n        } else {\n          a.setAttribute('href', url.toString());\n        }\n      }\n    })();\n  </script>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_Mnjnbq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_i6AY36": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "<strong>Free Sensors & Trial - FREE</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<ul><li>14 Free Smart Sensors </li><li>45 Day Trial</li><li>Automatic Shot Tracking</li><li>Smart Club Distances</li><li>Personal Game Insights </li><li>Full Access to Arccos App</li></ul>",
+            "button_label": "Select Free Trial",
+            "button_link": "https://activate.arccosgolf.com/?utm_source=joinnow&utm_medium=referral&utm_campaign=landingpage",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_RBr9CY": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "<strong>Annual Membership - $249.99</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<ul><li>16 Smart Sensors</li><li>First Year’s Membership</li><li>Automatic Shot Tracking</li><li>Smart Club Distances</li><li>Personal Game Insights </li><li>Full Access to Arccos App</li></ul>",
+            "button_label": "Select Annual",
+            "button_link": "/products/smart-sensors/?utm_source=joinnow&utm_medium=referral&utm_campaign=landingpage",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_DLYqTH": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "<strong>Starter Bundle - $374.98 (Save $100)</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<ul><li>16 Smart Sensors</li><li>Link Pro For Phone Free Tracking</li><li>First Year’s Membership</li><li>Automatic Shot Tracking</li><li>Smart Club Distances</li><li>Personal Game Insights </li><li>Full Access to Arccos App</li></ul>",
+            "button_label": "Select Bundle",
+            "button_link": "/products/arccos-starter-bundle/?utm_source=joinnow&utm_medium=referral&utm_campaign=landingpage",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_i6AY36",
+        "column_RBr9CY",
+        "column_DLYqTH"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Choose A Membership",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Join Arccos Today & Access Golf's #1 Game Tracker.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "rich_text_tnhPmH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k7Hyhg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose A Membership",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HPpVGi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Arccos Today & Access Golf's #1 Game Tracker.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7Hyhg",
+        "text_HPpVGi"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "custom_liquid_V4KLUk",
+    "custom_liquid_rWz8M3",
+    "multicolumn_Mnjnbq",
+    "rich_text_tnhPmH"
+  ]
+}

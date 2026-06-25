@@ -1,0 +1,547 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "video_with_text_overlay_3CJCMa": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_69tLQ7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Arccos for Apple Watch",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_9CppjT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Even more ways to play the game your way.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_YbDUzQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/bCz2s4Cg4ms",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_69tLQ7",
+        "text_9CppjT",
+        "button_YbDUzQ"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/2023_Arccos_AW SITE HEAD (1).mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "650px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_9RiFrK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8pzB8e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Arccos App For Apple Watch",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_aqHCLU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now features significant enhancements to the experience for players seeking to record their on-course shot data without carrying their phone in pocket during play.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8pzB8e",
+        "text_aqHCLU"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/AW-3Screen.jpg",
+        "image_height": "adapt",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_n4hT7W": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7qp3GQ": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Start.jpg",
+            "image_ratio": "adapt",
+            "heading": "Start",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>When you are ready to play, open the Arccos app on the Apple Watch, select the course and tees, you can now start the round directly from your watch. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_PJRhdE": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Sync_981170a4-eb93-48e0-903b-07fbccaee3f3.jpg",
+            "image_ratio": "adapt",
+            "heading": "Sync",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>The Arccos Apple watch app syncs with smart sensors in your clubs so it knows exactly what you are using on every shot.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_HycXr6": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Play_229bf2a0-9064-4970-b8a0-ae1e85a406af.jpg",
+            "image_ratio": "adapt",
+            "heading": "Play",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>You now have the freedom to leave your phone in the bag and get A.I. powered rangefinder yardages, club recommendations and even mark the pin directly from your watch.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_7qp3GQ",
+        "column_PJRhdE",
+        "column_HycXr6"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "How Does It Work?",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_jyLxBK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6A7w3i": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Rangefinder-Wrist_b248450d-6d25-421d-aa5b-1e301adb64f6.jpg",
+            "image_ratio": "adapt",
+            "heading": "A.I. Rangefinder Yardages",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Get the Arccos number directly on your wrist, and see a recommended club based on average yardages.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_j6fnBa": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Shot_Detection_c0c6943c-37fa-4bd9-89e9-b089fea4db60.jpg",
+            "image_ratio": "adapt",
+            "heading": "Shot Detection",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Collect your shot data directly from your wrist. Play the game your way without the need for your phone.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_KpAbta": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Set_Flag_d067416e-55c1-4ff6-baf1-49b1ad6a9816.jpg",
+            "image_ratio": "adapt",
+            "heading": "Ability to Set Pin",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Set the pin location and make other edits including add/remove putts and changing a putt to a chip.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_6A7w3i",
+        "column_j6fnBa",
+        "column_KpAbta"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Features Include",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_BHgmcF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XBhXDA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Compatibility",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_pwAFGw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Optimized for use with Apple Watch 6 and newer models (longer lasting battery life).</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBhXDA",
+        "text_pwAFGw"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/AppleWatchCompatibility_c22c338c-7094-4e86-bc44-9e3bb64e8384.jpg",
+        "image_height": "550px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "faq_kFcBxg": {
+      "type": "faq",
+      "blocks": {
+        "question_arY7ng": {
+          "type": "question",
+          "settings": {
+            "title": "How does Arccos work with Apple Watch?",
+            "text": "<p>We launched the Arccos Apple Watch App to provide members with another way for them to play the game their way. The Apple Watch app works with the Arccos system to allow members to have some of the features from the mobile app, conveniently located on their wrist so they can leave their phones in their bags. Features include: shot tracking capabilities, rangefinder distances, caddie recommendations, editing shots, marking the pin location and more.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_EtKTeY": {
+          "type": "question",
+          "settings": {
+            "title": "Which Apple Watch models work with Arccos?",
+            "text": "<p>The Arccos App was designed to work best with the Apple Watch Series 6 and newer. Thanks to some hardware improvements Apple made to the battery and GPS functionality, these models will work best with Arccos. That being said, we do work with some of the earlier models but each setup is a little different. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_hXWXXK": {
+          "type": "question",
+          "settings": {
+            "title": "What is Apple Watch – Rangefinder Mode?",
+            "text": "<p>Arccos members using an Apple watch can see the A.I. Rangefinder distances (traditionally in the mobile app) now available on their Apple Watch. Just like in the phone app, players can see the front, middle and back distances, the white numbers are GPS yardages and the green numbers are yardages adjusted in real-time for slope, weather and altitude. </p><p>With Apple’s improvements on battery and GPS, the Arccos Apple Watch app is optimized for the series 6 and newer to include GPS distances from the watch. To reduce battery, open settings by swiping the watch face right to left, and toggle off ‘Watch GPS’. For this option you will still need to have the phone near you for accurate measurement, as distances will come from the phone’s GPS.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_GQr493": {
+          "type": "question",
+          "settings": {
+            "title": "What is Apple Watch – Shot Tracking Mode?",
+            "text": "<p>With the Apple Watch Arccos App, players can use their watch to capture their shots instead of their phone in their front pocket. Shot tracking with Apple Watch is available for series 3 models and newer running OS 8 and newer, but optimized for the Series 6 Model and newer.</p><p>Note: Apple Watch must be running on watchOS 8 or later and requires iPhone 8 or later with iOS 16 or later. Ultra requires app version 4.17.0 or later for shot detection.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_ndp8ge": {
+          "type": "question",
+          "settings": {
+            "title": "What is the battery life for using Apple Watch during a round?",
+            "text": "<p>Battery life is greatly determined by the Watch Model being used as well as the feature selection of usage. Series 6 models and newer have optimal battery life for using the shot tracking mode as well as the rangefinder mode, simultaneously.</p><p>Leveraging the GPS from the watch will impact the battery the most. To minimize battery usage of the watch, you can leverage the GPS from your phone (on any model). This means that distances shown on the watch will be from your phone’s location, so you’ll have to keep your phone in your pocket for accurate distances. To enable this, open watch settings by swiping the watch face right to left, and toggle off ‘Watch GPS’ so distances come from the phone’s GPS.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_3CfRBc": {
+          "type": "question",
+          "settings": {
+            "title": "Can I still use my Arccos Link for shot tracking if I am using my Apple Watch?",
+            "text": "<p>Yes you can! This is particularly helpful for players who are using older Watch Models, as this will extend the battery life of your watch, if you are using the Link for shot tracking, and the watch for rangefinder distances. GPS distances will come from the watch. To further reduce battery, open settings by swiping the watch face right to left, and toggle off ‘Watch GPS’.  For this option you will still need to have the phone near you for accurate measurement, as distances will come from the phone’s GPS. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_mHbNzr": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I find more technical instruction or support for Apple Watch and Arccos?",
+            "text": "<p>We have a number of other helpful resources on our support page that can give you more information about using Apple Watch with Arccos. <a href=\"https://support.arccosgolf.com/hc/en-us/search?utf8=%E2%9C%93&query=apple+watch\" target=\"_blank\" title=\"Arccos Support Site\">Check out the articles here</a> for more detailed or technical information.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_arY7ng",
+        "question_EtKTeY",
+        "question_hXWXXK",
+        "question_GQr493",
+        "question_ndp8ge",
+        "question_3CfRBc",
+        "question_mHbNzr"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "video_with_text_overlay_3CJCMa",
+    "image_with_text_9RiFrK",
+    "multicolumn_n4hT7W",
+    "multicolumn_jyLxBK",
+    "image_with_text_overlay_BHgmcF",
+    "faq_kFcBxg"
+  ]
+}

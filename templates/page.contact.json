@@ -1,0 +1,172 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-lg md:text-2xl",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re here to help! Fill out the form below and we’ll get back to you as soon as we can.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "contact_RR4T3E": {
+          "type": "contact",
+          "settings": {
+            "heading": "Support",
+            "text": "<p><a href=\"https://calendly.com/arccosgolf/one-on-one?month=2021-06\" target=\"_self\">Schedule Phone Support</a><br/><br/><a href=\"https://support.arccosgolf.com\" target=\"_blank\" title=\"https://support.arccosgolf.com\">support.arccosgolf.com<br/></a>Online help center</p>"
+          }
+        },
+        "contact-3": {
+          "type": "contact",
+          "settings": {
+            "heading": "Contact",
+            "text": "<p><a href=\"mailto:starter@arccosgolf.com\" target=\"_blank\" title=\"mailto:starter@arccosgolf.com\">starter@arccosgolf.com</a></p><p><a target=\"_blank\">+1 844-692-7226<br/></a>Mon – fri: 11:00 - 15:00 EST</p>"
+          }
+        },
+        "custom_field-1": {
+          "type": "custom_field",
+          "settings": {
+            "type": "text",
+            "title": "Phone number",
+            "required": false,
+            "full_width": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field-2": {
+          "type": "custom_field",
+          "settings": {
+            "type": "select",
+            "title": "Subject",
+            "required": false,
+            "full_width": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": "Product, Order, Marketing, Sales, Other"
+          }
+        }
+      },
+      "block_order": [
+        "contact_RR4T3E",
+        "contact-3",
+        "custom_field-1",
+        "custom_field-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "contact-form"
+  ]
+}

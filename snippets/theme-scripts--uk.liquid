@@ -1,0 +1,94 @@
+{% doc %}
+  Renders all script related tags for the UK store.
+  Only call this once within the layout's head element and immediately after content_for_header.
+{% enddoc %}
+{% # theme-check-disable ParserBlockingScript %}
+{% # theme-check-disable RemoteAsset %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50163865-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50163865-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EY2MJMEVKC"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-774109081"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-774109081');
+</script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EY2MJMEVKC');
+</script>
+
+<!-- Facebook Tag -->
+<meta name="facebook-domain-verification" content="k197othlku5f5w4l1d66ar39fy370h" />
+<meta name="facebook-domain-verification" content="m3u2lasfel949zqhxl6euuntbgwmev" />
+<!-- Facebook Tag -->
+
+<!-- Site Verifications -->
+<meta name="google-site-verification" content="fTIdwvESNS4_6_yruA8poEzDlY6CGhRpF9W79QdDnag" />
+<meta name="ahrefs-site-verification" content="0faed7931bd94907c1a1bc7bd5fcbbdaab90779dfd3f279f47599087a7c786d5">
+<meta name="google-site-verification" content="bCDNxQ6wKNhab6ZEEwKDtIy77dk3mzN_lzMYGoAQjzo" />
+
+<!-- KONETIQ CODE / DO NOT REMOVE -->
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.tiqcdn.com/utag/clarivoy/arccos/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+<!-- END KONETIQ CODE -->
+
+<script>
+  {%if content_for_header contains "cdn.secomapp.com\/promotionpopup\/cdn" %}
+	SCAPPLive = {};
+  {% endif %}
+  SCAPPShop = {};
+    {% if customer %}
+  SCAPPShop.customer = {};
+  SCAPPShop.customer.first_name = '{{customer.first_name}}';
+  SCAPPShop.customer.last_name = '{{customer.last_name}}';
+  SCAPPShop.customer.email = '{{customer.email}}';
+  SCAPPShop.customer.verified_email = '{{customer.verified_email}}';
+  SCAPPShop.customer.accepts_marketing = '{{customer.accepts_marketing}}';
+  SCAPPShop.customer.has_account = '{{customer.has_account}}';
+  SCAPPShop.customer.id = '{{customer.id}}';
+  SCAPPShop.customer.tags  = {{customer.tags|json}};
+  SCAPPShop.customer.addresses = {{customer.addresses|json}};
+  {% endif %}
+</script>
+{{ 'sca-pp-initial.js' | asset_url | script_tag }}
+
+<!--START reviews.io-->
+
+<script src="https://widget.reviews.co.uk/product/dist.js"></script>
+<script src="https://widget.reviews.co.uk/rating-snippet/dist.js"></script>
+<link rel="stylesheet" href="https://widget.reviews.co.uk/rating-snippet/dist.css" />
+<script>
+  ratingSnippet("ruk_rating_snippet",{
+    store: "arccosgolf.com",
+    color: "#5eb445",
+    linebreak: false,
+    // text: "Reviews"
+  });
+</script>

@@ -1,0 +1,722 @@
+{% style %}
+  #section-{{ section.id }} {
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    color: {{ section.settings.text_color }};
+    background-color: {{ section.settings.bg_color }};
+  }
+  /* Prevent layout shift: hide slides until Slick is ready */
+  #slick-{{ section.id }}:not(.slick-initialized) {
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+  }
+  #slick-{{ section.id }}:not(.slick-initialized) .slick-slide-item {
+    min-width: 45%;
+  }
+  @media only screen and (max-width: 768px) {
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding-top-mobile }}px;
+      padding-bottom: {{ section.settings.padding-bottom-mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<section class="sc-technology-info" id="section-{{ section.id }}">
+  <div class="slider-main">
+    <div class="technologu-title">
+      <h2>{{ section.settings.heading }}</h2>
+      <div class="slick-nav-container">
+          <div class="prev-btn-slick-{{ section.id }} custom-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12.5 15L7.5 10L12.5 5" stroke="#242424" stroke-width="1.5" stroke-miterlimit="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="next-btn-slick-{{ section.id }} custom-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"> <path d="M7.5 15L12.5 10L7.5 5" stroke="#242424" stroke-width="1.5" stroke-miterlimit="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+    </div>
+
+    <div class="technology-slick-wrapper" id="slick-{{ section.id }}">
+        {% for block in section.blocks %}
+          <div class="slick-slide-item" {{ block.shopify_attributes }}>
+            <div class="review-box">
+              <div class="review-img">
+                <img src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.client-name }}">
+              </div>
+              <div class="review-info">
+                <img src="{{ block.settings.queas-img | img_url: '100x' }}" alt="quote icon" class="quote-icon">
+                <p>{{ block.settings.text }}</p>
+                <div class="client-info">
+                  <h4>{{ block.settings.client-name }}</h4>
+                  <div class="veri-info">
+                      <img src="https://cdn.shopify.com/s/files/1/0780/5525/files/badge-1-check.png?v=1773317829" alt="verified">
+                      <div class="client-name">{{ block.settings.client-info }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+/* Core Slick Styling */
+.slick-track { display: flex !important; align-items: stretch; }
+.slick-slide { height: inherit !important; outline: none; }
+.slick-slide-item { padding: 0 6px; height: 100%; }
+
+.sc-technology-info .slider-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media only screen and (max-width: 768px){
+  .sc-technology-info .slider-main {
+    padding:0px;
+  }
+}
+
+.sc-technology-info .review-box {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px){
+  .sc-technology-info .review-box {
+    gap:0px;
+  }
+}
+
+.sc-technology-info .technologu-title {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sc-technology-info .technologu-title h2 {
+    font-size: 40px;
+    font-weight:500;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 900px;
+}
+
+@media only screen and (max-width:768px){
+  .sc-technology-info .technologu-title h2 {
+    text-align:center;
+    font-size:28px;
+    padding:0px 16px;
+  }
+}
+
+
+.sc-technology-info .review-img img {
+    width: 100%;
+    border-radius: 20px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+.sc-technology-info .custom-arrow {
+    background: #fff;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    transition: 0.3s;
+}
+.sc-technology-info .custom-arrow:hover { background: #56C271; border-color: #56C271; }
+.sc-technology-info .slick-nav-container { display: flex; gap: 12px; }
+
+.sc-technology-info .review-info {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sc-technology-info .quote-icon { max-width: 25px; margin-bottom: 15px; }
+.sc-technology-info .review-info p { font-size: 16px; margin-bottom: 20px; line-height: 1.6; font-weight:500; }
+.sc-technology-info .veri-info { display: flex; align-items: center; gap: 5px; justify-content: center;}
+.sc-technology-info .veri-info img { width: 16px; }
+
+.client-info h4{
+  font-weight:700 !important;
+  font-size:18px;
+  border-bottom:2px;
+}
+
+
+.client-name{
+  font-size:14px;
+}
+
+/* Mobile Dots */
+.slick-dots {
+    display: flex !important;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+.slick-dots li { margin: 0 5px; }
+.slick-dots li button {
+    font-size: 0; width: 10px; height: 10px;
+    border-radius: 50%; background: #242424;
+    opacity: 0.2; border: none; cursor: pointer;
+}
+.slick-dots li.slick-active button { opacity: 1; background: #56C271; }
+
+@media (max-width: 768px) {
+    .sc-technology-info .slick-nav-container { display: none; }
+    .sc-technology-info .review-box { grid-template-columns: 1fr; }
+    .sc-technology-info .review-img img { border-radius: 20px 20px 0 0; height: 300px; }
+    .sc-technology-info .review-info { border-radius: 0 0 20px 20px; }
+}
+
+
+@media (max-width: 768px) {
+    .sc-technology-info .slick-nav-container { 
+        display: none; 
+    }
+    
+    /* Force the container to be a flex column to kill grid gaps */
+    .sc-technology-info .review-box { 
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: 1fr; 
+        gap: 0 !important; /* Explicitly kill any grid/flex gap */
+        height: 100%;
+    }
+
+    .sc-technology-info .review-img {
+        line-height: 0; /* Prevents tiny sub-pixel gaps below images */
+        display: block;
+        width: 100%;
+    }
+
+    .sc-technology-info .review-img img { 
+        border-radius: 20px 20px 0 0; 
+        height: 300px; 
+        margin-bottom: 0 !important; /* Ensure no bottom margin on the image */
+        display: block; /* Removes the descender space below inline images */
+    }
+
+    .sc-technology-info .review-info { 
+        border-radius: 0 0 20px 20px; 
+        flex-grow: 1; /* Ensures the white box fills the remaining slide height */
+        margin-top: -1px; /* Slight overlap to prevent sub-pixel "daylight" between image and box */
+    }
+
+    .slick-dots li button::before {
+      display:none;
+    }
+ 
+    .slick-dots li button {
+        margin-top:35px;
+        background: #CACACA; 
+    }
+
+    /* 2. Active State Color */
+    .slick-dots li.slick-active button {
+        background: #242424;
+    }
+
+    /* Optional: Hover effect */
+    .slick-dots li button:hover {
+        background: #242424;
+    }
+}
+</style>
+
+<script>
+$(window).on('load', function() {
+    const initSlick = () => {
+        const $target = $('#slick-{{ section.id }}');
+        if ($target.length && !$target.hasClass('slick-initialized')) {
+            $target.slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                prevArrow: $('.prev-btn-slick-{{ section.id }}'),
+                nextArrow: $('.next-btn-slick-{{ section.id }}'),
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: { slidesToShow: 2 }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: true,
+                            centerPadding: '20px',
+                            dots: true,
+                            arrows: false
+                        }
+                    }
+                ]
+            });
+        }
+    };
+
+    initSlick();
+    // Shopify Theme Editor support
+    $(document).on('shopify:section:load', initSlick);
+});
+</script>
+
+{% schema %}
+{
+  "name": "Technology Slider",
+  "settings": [
+    { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#f9f9f9" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#242424" },
+    { "type": "text", "id": "heading", "default": "Intelligence That Helps You Play Smarter", "label": "Heading" },
+    { "type": "header", "content": "Padding" },
+    { "type": "range", "id": "padding-top", "label": "Top Spacing", "min": 0, "max": 200, "step": 2, "default": 100 },
+    { "type": "range", "id": "padding-bottom", "label": "Bottom Spacing", "min": 0, "max": 200, "step": 2, "default": 100 },
+    { "type": "range", "id": "padding-top-mobile", "label": "Top Mobile Spacing", "min": 0, "max": 150, "step": 2, "default": 60 },
+    { "type": "range", "id": "padding-bottom-mobile", "label": "Bottom Mobile Spacing", "min": 0, "max": 150, "step": 2, "default": 60 }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Review Image" },
+        { "type": "image_picker", "id": "queas-img", "label": "Quote Icon" },
+        { "type": "textarea", "id": "text", "label": "Description" },
+        { "type": "text", "id": "client-name", "label": "Name" },
+        { "type": "text", "id": "client-info", "label": "Role/Location" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Technology Slider" }]
+}
+{% endschema %}
+
+{% comment %}
+{% style %}
+  #section-{{ section.id }} {
+    
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    color: {{ section.settings.text_color }};
+    background-color: {{ section.settings.bg_color }};
+  }
+
+  @media only screen and (max-width: 768px) {
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding-top-mobile }}px;
+      padding-bottom: {{ section.settings.padding-bottom-mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<section class="sc-technology-info" id="section-{{ section.id }}">
+  <div class="slider-main">
+    <div class="technologu-title">
+      <h2>{{ section.settings.heading }}</h2>
+
+      <div class="swiper-nav">
+          <div class="swiper-button-prev01"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12.5 15L7.5 10L12.5 5" stroke="#242424" stroke-width="1.5" stroke-miterlimit="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="swiper-button-next01"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"> <path d="M7.5 15L12.5 10L7.5 5" stroke="#242424" stroke-width="1.5" stroke-miterlimit="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+    </div>
+
+    <div class="swiper technology">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="review-box">
+              <div class="review-img">
+                <img src="{{ block.settings.image | img_url: '600x' }}" alt="">
+              </div>
+
+              <div class="review-info">
+                <img src="{{ block.settings.queas-img | img_url: '600x' }}" alt="">
+                <p>{{ block.settings.text }}</p>
+                <div class="client-info">
+                <h4>{{ block.settings.client-name }}</h4>
+                <div class="veri-info">
+                    <img src="https://cdn.shopify.com/s/files/1/0780/5525/files/badge-1-check.png?v=1773317829" alt="">
+                    <div class="client-name">{{ block.settings.client-info }}</div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<style>
+
+.sc-technology-info{
+    overflow: hidden;
+}
+ .sc-technology-info .slider-main {
+    max-width: 1272px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0px 16px;
+}
+ .sc-technology-info .review-box {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+ .sc-technology-info  .technologu-title {
+    margin-bottom: 56px;
+    position:relative;
+}
+.sc-technology-info  .sc-technology-info{
+  position:relative;
+  padding:120px 0;
+  overflow:hidden;
+  }
+.sc-technology-info .technologu-title h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #242424;
+    width:100%;
+}
+.sc-technology-info .review-info h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+ .sc-technology-info .review-img img{
+    width:100%;
+    border-radius:20px;
+    height: 350px;
+    object-fit: cover;
+}
+.sc-technology-info .swiper-button-next01:hover, .sc-technology-info .swiper-button-prev01:hover {
+    background: #56C271;
+}
+ .sc-technology-info .review-info p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom:24px;
+  }
+ .sc-technology-info .swiper-button-next01, .sc-technology-info .swiper-button-prev01 {
+    color: #fff;
+    background: rgb(255 255 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    position: unset;
+}
+  .sc-technology-info .veri-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.sc-technology-info .veri-info img {
+    width: 100%;
+    max-width: 16px;
+}
+.sc-technology-info .veri-info .client-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #242424;
+}
+    .sc-technology-info .swiper-button-next01:after,
+    .sc-technology-info .swiper-button-prev01:after{
+      display:none;
+    }
+  .sc-technology-info .smart-bg{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:-1;
+  }
+.sc-technology-info .swiper-nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 12px;
+    top: 5px;
+}
+.sc-technology-info .smart-bg img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.sc-technology-info .technology{
+  overflow:visible;
+}
+.sc-technology-info .review-info h4 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #242424;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    text-align:center;
+}
+.sc-technology-info .review-info {
+    background: #fff;
+    padding: 24px 24px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sc-technology-info .review-info img {
+    width: 100%;
+    max-width: 26px;
+}
+.sc-technology-info .swiper-pagination {
+    text-align: center;
+    margin-bottom: 15px;
+    display: none;
+}
+.sc-technology-info .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #242424;
+    opacity: 20%;
+    margin: 0px 6px !important;
+}
+
+.sc-technology-info .swiper-pagination-bullet-active{
+  background:#242424;
+  opacity:1;
+}
+@media only screen and (max-width: 991px) {
+.sc-technology-info .technologu-title h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+}
+@media only screen and (max-width: 768px) {
+.sc-technology-info .swiper-nav {
+   display:none;
+} 
+.sc-technology-info .swiper-slide {
+    height: auto;
+    display: flex;
+}
+.sc-technology-info .swiper-pagination {
+    display: block;
+}
+.sc-technology-info .review-info img {
+    width: 100%;
+    max-width: 20px;
+}
+.sc-technology-info .review-info {
+    padding: 16px 12px;
+    border-radius: 0px 0px 15px 15px;
+    height: 100%;
+    justify-content: center;
+}   
+.sc-technology-info .client-info {
+    margin-top: unset;
+}
+.sc-technology-info .review-box {
+    gap: 0;
+    grid-template-columns: 1fr;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sc-technology-info .review-img img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0;
+    height: 300px;
+}
+.sc-technology-info .review-img img {
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    object-position: top;
+}
+.sc-technology-info  .technologu-title {
+    margin-bottom: 24px;
+}
+}
+@media only screen and (max-width: 575px) {
+}
+@media only screen and (max-width: 380px) {
+  .sc-technology-info .technologu-title h2 {
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 300px;
+    margin: auto;
+}
+}
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.technology', {
+      slidesPerView: 2.4,
+      spaceBetween: 25,
+      loop: true,
+
+      navigation: {
+        nextEl: '.swiper-button-next01',
+        prevEl: '.swiper-button-prev01',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1.05,
+          spaceBetween: 12,
+          centeredSlides: true,
+        },
+        641: {
+          slidesPerView: 2.2,
+          spaceBetween: 12,
+          centeredSlides: true,
+        },
+
+        992: {
+          slidesPerView: 2.2,
+        },
+
+        1440: {
+          slidesPerView: 2.1,
+        },
+      },
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Technology Slider",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Intelligence That Helps You Play Smarter and Improve Faster",
+      "label": "Heading"
+    },
+    {
+      "type": "header",
+      "content": "padding settings"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "label": "Top Spacing",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 134
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "label": "Bottom Spacing",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 108
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "label": "Top Mobile Spacing",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "default": 114
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "label": "Bottom Mobile Spacing",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Slider review",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Review Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "queas-img",
+          "label": "Image"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "client-name",
+          "label": "Client Name"
+        },
+        {
+          "type": "text",
+          "id": "client-info",
+          "label": "Client Info"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Technology Slider"
+    }
+  ]
+}
+{% endschema %}
+{% endcomment %}

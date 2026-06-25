@@ -1,0 +1,673 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_iYJeUb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_RVrpkh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Arccos Professional Dashboard",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_JV7FRU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Available for FREE to all PGA Professionals and other instructors.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVrpkh",
+        "text_JV7FRU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Group_633142_cda0d648-4d30-4cee-9666-5adb92066c1c.jpg",
+        "image_height": "700px",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich_text_zheBM4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NeBjRn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Power Your Lessons with On-Course Performance Data",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_t3kdq4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arccos Professional Dashboard allows a coach to easily access, analyze and understand all their students’ on-course performance data. Please complete your information below to receive more information from one of our account managers, so you can begin accessing your students' accurate on-course performance data.</p><p></p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NeBjRn",
+        "text_t3kdq4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "1755169154155c77d6": {
+      "type": "apps",
+      "blocks": {
+        "qikify_form_builder_embed_form_myNVMy": {
+          "type": "shopify://apps/qikify-form-builder/blocks/embed-form/753fa0d7-50d4-480a-b094-cff26e632c36",
+          "settings": {
+            "type": "form",
+            "formId": 486170
+          }
+        }
+      },
+      "block_order": [
+        "qikify_form_builder_embed_form_myNVMy"
+      ],
+      "settings": {
+        "anchor_id": "",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_dpDBFQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BWLiEW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Speed Student Improvement,  Enhance Loyalty & Increase Revenue",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_a6rThp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arccos Professional Dashboard connects the dots like never before between what a coach sees on the lesson tee, and what your student is actually doing on the course. It leverages the award-winning Arccos Caddie system, which is proven to speed user improvement at a dramatic rate across all skill levels. The Dashboard is an invaluable tool for informing lesson plans, practice regimens, pre-tournament strategies and equipment decisions.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BWLiEW",
+        "text_a6rThp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Improvement_Across_All_Skill_Levels.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_Fk4pQe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zcYJRA": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Simple, Centralized Solution",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HicmWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leveraging “ShotLink” style data that has become an essential component of PGA Tour player instruction, Arccos Coaches Dashboard features:​</p><ul><li>Advanced analytics for every game facet</li><li>Strokes Gained analysis for driving, approach, chipping, sand & putting</li><li>Powerful visualizations for Smart Distance club gapping</li><li>Accuracy and performance data for every club and distance</li><li>Player performance trend identification</li></ul>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zcYJRA",
+        "text_HicmWW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Arccos_Pro_Dashboard_TabScreens_d0671000-6cf4-4cf8-88d4-64b078b3df8d.png",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_AGDcUF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hNFjBw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maximize Coaching Time & Student Satisfaction",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_tbMnQy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No longer does a coach need to rely on a student’s post-round feedback or much-flawed manual data-collection protocols. The Arccos Caddie system automatically records and analyzes each shot. That data then flows seamlessly to the Arccos Coaches Dashboard. This allows a coach to review a round shot-by-shot, providing a factual, non-biased and data-driven platform to underpin coaching strategies.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hNFjBw",
+        "text_tbMnQy"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Arccos_Pro_Dashboard_Screens.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "testimonials_8etTtp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ECCwKf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Ing that player. It is night and day, unless you are a professional golfer. You see a different person on the course than on the practice range.</p>",
+            "author": "Bob Ford",
+            "author_info": "PGA Hall of Famer & Arccos Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/Bob_Ford_-_16x9_1-_1.png",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ECCwKf"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "faq_cTaTCf": {
+      "type": "faq",
+      "blocks": {
+        "question_fzLTrA": {
+          "type": "question",
+          "settings": {
+            "title": "What is Arccos Strokes Gained Analytics (SGA)?",
+            "text": "<p>Strokes Gained (SG) is a revolutionary way to analyze the data behind your game. We use our A.I. neural network to accurately compare your current game versus a target handicap of your choosing. Thanks to our vast range of benchmarking options and the largest set of on-course data worldwide, we’re able to provide insights within your player stats for each facet of your game, plus clear ways to improve from world-class coaches.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_XFCBkT": {
+          "type": "question",
+          "settings": {
+            "title": "How do I see an individual round’s Arccos Strokes Gained Analytics?",
+            "text": "<p>To check your individual round stats, go to the <strong>Rounds</strong> tab and select <strong>Stats</strong> under the round you want to review.</p><p>As long as you've played <strong>6 holes or more</strong>, you'll see a detailed <strong>Strokes Gained</strong> analysis for that round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_yiA9V6": {
+          "type": "question",
+          "settings": {
+            "title": "What gets calculated into the Arccos Short Game facet?",
+            "text": "<p>Arccos Short Game facet factors in both your chipping and sand performance from 0-25 yards and 25-50 yards of the green. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_UFJfAP": {
+          "type": "question",
+          "settings": {
+            "title": "What is the Trend Analysis?",
+            "text": "<p>Your <strong>Trend Analysis</strong> chart provides a visual overview of your game’s progression from a <strong>Strokes Gained</strong> perspective. Each round is mapped out, showing your total <strong>SG</strong> for the round, as well as SG stats for each individual facet of your game.</p><ul><li><strong>Selector:</strong> Drag the selector left or right to focus on a specific round.</li><li><strong>Facet Toggle:</strong> You can toggle each facet on and off to zero in on a particular area of your game.</li><li><strong>Grey Bar:</strong> The grey bar in the background compares your overall strokes gained data to your target handicap.</li><li><strong>Colored Lines:</strong> The colored lines represent the performance of each individual facet during that round.</li></ul><p>For a more detailed breakdown of your Strokes Gained Analytics for any given round, simply tap <strong>“See Full Round Details”</strong> for that specific round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_fzLTrA",
+        "question_XFCBkT",
+        "question_yiA9V6",
+        "question_UFJfAP"
+      ],
+      "disabled": true,
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_jyLxBK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6A7w3i": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Smart-Sensors.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Sensors",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players that like their current grips.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-sensors",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_j6fnBa": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartGrips.png",
+            "image_ratio": "square",
+            "heading": "Smart Grips",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players that want new grips.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/arccos-caddie-smart-grips",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_KpAbta": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/LinkPro-ProductImage-1_0785cb2d-18a3-496f-96fa-0ad3911443ae.png",
+            "image_ratio": "square",
+            "heading": "Link Pro",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Play the game your way, and leave your phone in the bag.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/air-hardware-only",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_6A7w3i",
+        "column_j6fnBa",
+        "column_KpAbta"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Our Products",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>To start a membership, you need smart sensors for every club in your bag. With your smart sensors or smart grips purchase, your first year membership is included.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_BHgmcF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XBhXDA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Already an Arccos user?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_YYtzjx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Log-in with your existing account to access our Players Dashboard. Your coach can then follow you to access your on-course performance data.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_kgmKBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Dashboard",
+            "button_link": "https://dashboard.arccosgolf.com",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBhXDA",
+        "text_YYtzjx",
+        "button_kgmKBU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/MoreFeatures.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "400px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_iYJeUb",
+    "rich_text_zheBM4",
+    "1755169154155c77d6",
+    "image_with_text_dpDBFQ",
+    "image_with_text_Fk4pQe",
+    "image_with_text_AGDcUF",
+    "testimonials_8etTtp",
+    "faq_cTaTCf",
+    "multicolumn_jyLxBK",
+    "image_with_text_overlay_BHgmcF"
+  ]
+}

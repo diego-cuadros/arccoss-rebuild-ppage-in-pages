@@ -1,0 +1,742 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_iYJeUb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_RVrpkh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing PGA TOUR Quality Approach",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_JV7FRU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Compare your best approach shots to the Pros!</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_yBy6qd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/2vafoxitACA?si=6NFBWMwSBJ01RHdI",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVrpkh",
+        "text_JV7FRU",
+        "button_yBy6qd"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Matt_Fitz_Hero_66537bbe-c9b0-4810-a8c9-e337004c8492.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/Group_48095428.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_dpDBFQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_6HPemG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "New Feature",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_BWLiEW": {
+          "type": "heading",
+          "settings": {
+            "heading": "PGA TOUR Quality Approach",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_a6rThp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Think you can beat Matt Fitzpatrick? Now is your chance to find out. Compare your approach shots to Matt and other PGA TOUR players. Share it with your friends as proof you were better, for one shot anyway!</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6HPemG",
+        "heading_BWLiEW",
+        "text_a6rThp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/TQA_iPhones.png",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_Fk4pQe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zcYJRA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Achieve TOUR Quality Shots",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HicmWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tour quality shots are achieved when you hit an approach shot that is better than 50% of the PGA TOUR average, taking into account the location and terrain (rough, fairway, sand). Arccos will show the quality of your shot by displaying a percentage of how much better it was vs PGA TOUR average.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zcYJRA",
+        "text_HicmWW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/TQA_Phones_and_Icon_3ac6dab3-060c-4716-920c-f7435b0f7f15.png",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_TbGaqb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HjbWHk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Share Your Top Shots",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_BcGphx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PGA TOUR Quality shots will be displayed in your activity page in the Arccos app. You may also see other Top Shots as well in your round highlight reel. Share on social and tag @Arccosgolf for the chance to win special prizes.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HjbWHk",
+        "text_BcGphx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/TQA_Golfers_and_Phone_Screen.png",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_FGQPnV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HtaqAg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want Access to PGA TOUR Quality Shots?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_KLR4K8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start comparing your game to Matt Fitzpatrick and other PGA TOUR players. Get Arccos Air and start tracking your game today.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_e6tf6J": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify://products/air",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_HtaqAg",
+        "text_KLR4K8",
+        "button_e6tf6J"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ArccosAir-PhoneFreeGameTracking-Mobile.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_overlay_p8tUiw": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_g8Kigc": {
+          "type": "heading",
+          "settings": {
+            "heading": "See How You Compare To The Pros",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_rD9T4Y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/2vafoxitACA?si=6NFBWMwSBJ01RHdI",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_g8Kigc",
+        "button_rD9T4Y"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/Trimmed New Path.mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "testimonials_8etTtp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ECCwKf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Strokes gained data can reveal so much. The problem with it up until this point is that the benchmarks were PGA Tour players and scratch golfers. This is overwhelming if you’re a 20 handicap. Now with Arccos SGA it is truly amazing.</p>",
+            "author": "Trillium Rose",
+            "author_info": "Arccos Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/Trillium_Rose_360x_b20af66a-ae09-4096-addd-762ef10bc4d8.jpg",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_mXNpNP": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Strokes Gained information might seem like it is only for Tour players. No it is not; it is for you. And I believe every golfer, once they see the new Arccos SGA, will gain perspective of what better stats and better decision making brings to the table, and they are going to play better golf.</p>",
+            "author": "Andrew Rice",
+            "author_info": "Arccos Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/Andrew_Rice_arccos_director_of_instruction_headshot.png",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ECCwKf",
+        "testimonial_mXNpNP"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "faq_cTaTCf": {
+      "type": "faq",
+      "blocks": {
+        "question_fzLTrA": {
+          "type": "question",
+          "settings": {
+            "title": "What are Top Shots and Tour Quality Shots?",
+            "text": "<p>Arccos is excited to launch our new Top Shots and Tour Quality Shots to highlight the best shots in your given round. Top Shots celebrates some of your best moments from each round. Exceptional approach shots are tagged PGA TOUR Quality (TQS) when your proximity to the hole is better than PGA TOUR average. Please, set the hole location and/or confirm your first putt distance for best results. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_WkWHHK": {
+          "type": "question",
+          "settings": {
+            "title": "How do I achieve Tour Quality Shots?",
+            "text": "<p>Tour Quality Shots: You must edit the flag location for a Tour Quality Shots to be attributed properly. Multiple TQS's can be attributed in a single round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_XFCBkT": {
+          "type": "question",
+          "settings": {
+            "title": "How do I achieve Top Shots?",
+            "text": "<p>Top Shots: No editing needed, we automatically assign the best shots to your round. The highest SG (strokes gained) on a single shot, multiple Top Shots can be attributed in a single round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_yiA9V6": {
+          "type": "question",
+          "settings": {
+            "title": "How do I view & share Top Shots and Tour Quality Shots?",
+            "text": "<p>To view your Tour Quality Shots/Top Shots go to the Activity screen/tab after your round.</p><p>To Share a TQS or TO use the \"Share your shot\" button.</p><p>TQS and Top Shots are only eligible in NEW rounds, these are not available for previously recorded rounds.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_fzLTrA",
+        "question_WkWHHK",
+        "question_XFCBkT",
+        "question_yiA9V6"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_cf8web": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6TFLdk": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Air-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Arccos Air",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want actionable insights without the distraction</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/air",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_btH84w": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaser-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Laser",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the most accurate \"Plays Like\" distance in golf</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_dETaJE": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Smart-Sensors.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Sensors",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the deepest club-level data in the game</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-sensors",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_6TFLdk",
+        "column_btH84w",
+        "column_dETaJE"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Play Smarter Your Way",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": true,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_BHgmcF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XBhXDA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to see more powerful Arccos features?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_kgmKBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/arccos-app",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBhXDA",
+        "button_kgmKBU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/PowerfulFeatures.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "400px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_iYJeUb",
+    "image_with_text_dpDBFQ",
+    "image_with_text_Fk4pQe",
+    "image_with_text_TbGaqb",
+    "image_with_text_FGQPnV",
+    "video_with_text_overlay_p8tUiw",
+    "testimonials_8etTtp",
+    "faq_cTaTCf",
+    "multicolumn_cf8web",
+    "image_with_text_overlay_BHgmcF"
+  ]
+}

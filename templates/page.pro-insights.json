@@ -1,0 +1,437 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_EaVwqH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_p9LKnH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pro_Insights_v1.svg",
+            "image_width": "custom",
+            "image_max_width": 300,
+            "image_max_width_mobile": 150
+          }
+        },
+        "heading_jHabC7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing Arccos Pro Insights",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_yRwqFY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Formerly known as StatisticGolf and founded in 2020 by Edoardo Molinari. Arccos Pro Insights is golf’s most advanced analytics for tour players. It is trusted by more than 35 players on the PGA TOUR, DP World Tour and LPGA Tour, including Matthew Fitzpatrick, Viktor Hovland and Nelly Korda. </p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "image_p9LKnH",
+        "heading_jHabC7",
+        "text_yRwqFY"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/EdoardoMolinari.jpg",
+        "image_height": "850px",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich_text_tnhPmH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k7Hyhg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exclusive Opportunity for Pro & Elite Players",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HPpVGi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to experience the advanced analytics of Arccos Pro Insights? Sign up below for your chance to be considered in our next round of players. Expansion to all golfers ahead.<br/></p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7Hyhg",
+        "text_HPpVGi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "custom_liquid_3hiHnL": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<style>\n  .pro-insights-form-section {\n    max-width: 585px;\n    margin: 0 auto;\n    font-family: Montserrat, sans-serif;\n  }\n\n  /* Modal */\n  .pro-insights-form-section .modal-background {\n    position: fixed;\n    top: 0; left: 0;\n    width: 100vw; height: 100vh;\n    background: rgba(36,36,36,0.6);\n    visibility: hidden;\n    z-index: 9999;\n  }\n  .pro-insights-form-section .pro-insights-modal {\n    background: #fff;\n    width: 90%; max-width: 400px;\n    margin: 20% auto;\n    border-radius: 6px;\n    padding: 30px;\n    text-align: center;\n  }\n  .loader {\n    border: 5px solid rgba(36,36,36,0.3);\n    border-top: 5px solid #242424;\n    border-radius: 50%;\n    width: 40px; height: 40px;\n    margin: 0 auto;\n    animation: spin 1s linear infinite;\n  }\n  @keyframes spin { 0%{transform:rotate(0)} 100%{transform:rotate(360deg)} }\n\n  /* Form */\n  .pro-insights-form {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    margin-top: 24px;\n  }\n  .name-input-container {\n    display: flex;\n    gap: 8px;\n  }\n  .form-input {\n    flex: 1;\n    padding: 14px 16px;\n    border: 1px solid #626A77;\n    border-radius: 5px;\n    font-size: 15px;\n    font-weight: 500;\n  }\n  .form-submit-button {\n    padding: 14px 16px;\n    border: none;\n    border-radius: 5px;\n    background: #56C271;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    cursor: pointer;\n  }\n  .form-submit-button:disabled { background: #D1D6DA; }\n\n/* Mobile tweak: stack first/last name */\n@media (max-width: 600px) {\n  .pro-insights-form .name-input-container {\n    flex-direction: column;\n    gap: 12px; /* space between stacked fields */\n  }\n}\n</style>\n\n<script>\n  async function handleSubmit(e) {\n    e.preventDefault();\n    document.getElementById(\"pro-insights-modal\").style.visibility = \"visible\";\n\n    const form = e.target;\n    const data = {\n      firstName: form['form-first'].value,\n      lastName: form['form-last'].value,\n      email: form['form-email'].value,\n      phone: form['form-phone'].value,\n      role: form['form-role'].value,\n      playerNames: form['form-role'].value !== 'Player' ? form['form-players'].value : null\n    };\n\n    try {\n      const response = await fetch('https://api.arccosgolf.com/users/shopify/form', {\n        method: 'POST',\n        headers: { 'Content-Type': 'application/json' },\n        body: JSON.stringify({ form_key: \"PRO_INSIGHTS_FORM\", form_data: data })\n      });\n\n      document.getElementById(\"pro-insights-loader\").style.display = \"none\";\n      if (response.status === 200) {\n        document.getElementById(\"pro-insights-success-message\").style.display = \"block\";\n      } else {\n        document.getElementById(\"pro-insights-error-message\").style.display = \"block\";\n      }\n    } catch (err) {\n      document.getElementById(\"pro-insights-loader\").style.display = \"none\";\n      document.getElementById(\"pro-insights-error-message\").style.display = \"block\";\n    }\n  }\n\n  function showPlayerRepInput(e) {\n    const players = document.getElementById(\"form-players\");\n    if (e.value === 'Coach' || e.value === 'Agent') {\n      players.style.display = \"block\";\n      players.required = true;\n    } else {\n      players.style.display = \"none\";\n      players.required = false;\n    }\n  }\n\n  function closeErrorModal() {\n    document.getElementById(\"pro-insights-modal\").style.visibility=\"hidden\";\n    document.getElementById(\"pro-insights-error-message\").style.display=\"none\";\n    document.getElementById(\"pro-insights-loader\").style.display=\"block\";\n  }\n</script>\n\n<div class=\"pro-insights-form-section\">\n  <!-- Modal -->\n  <div class=\"modal-background\" id=\"pro-insights-modal\">\n    <div class=\"pro-insights-modal\">\n      <div class=\"loader\" id=\"pro-insights-loader\"></div>\n      <div class=\"success-message\" id=\"pro-insights-success-message\" style=\"display:none\">\n        <h3>Success!</h3>\n        <p>Your information has been received.</p>\n        <button onclick=\"window.location.reload()\">Got it. Thanks!</button>\n      </div>\n      <div class=\"error-message\" id=\"pro-insights-error-message\" style=\"display:none\">\n        <h3>Something went wrong.</h3>\n        <p>Please try again later or email starter@arccosgolf.com</p>\n        <button onclick=\"closeErrorModal()\">Try Again</button>\n      </div>\n    </div>\n  </div>\n\n  <!-- Form -->\n  <form id=\"pro-insights-form\" class=\"pro-insights-form\" onsubmit=\"handleSubmit(event)\">\n    <div class=\"name-input-container\">\n      <input type=\"text\" id=\"form-first\" name=\"form-first\" class=\"form-input\" placeholder=\"First Name\" required>\n      <input type=\"text\" id=\"form-last\" name=\"form-last\" class=\"form-input\" placeholder=\"Last Name\" required>\n    </div>\n    <input type=\"email\" id=\"form-email\" name=\"form-email\" class=\"form-input\" placeholder=\"Email Address\" required>\n    <input type=\"tel\" id=\"form-phone\" name=\"form-phone\" class=\"form-input\" placeholder=\"Mobile\" required>\n    <select id=\"form-role\" name=\"form-role\" class=\"form-input\" onchange=\"showPlayerRepInput(this)\" required>\n      <option value=\"\" disabled selected>Select Role</option>\n      <option value=\"Player\">Player</option>\n      <option value=\"Coach\">Coach</option>\n      <option value=\"Agent\">Agent</option>\n    </select>\n    <input type=\"text\" id=\"form-players\" name=\"form-players\" class=\"form-input\" placeholder=\"Player Name(s) You Represent\" style=\"display:none\">\n    <button type=\"submit\" id=\"form-submit-button\" class=\"form-submit-button\" disabled>Submit</button>\n  </form>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 24,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_XWgKDF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VrP7DM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Proven success at the highest levels of the game.",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_mKGNrh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over the past 3 years, Arccos Pro Insights clients have 27 wins, including US Open, FedexCup, Ryder Cup and DP World Tour Championship titles.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VrP7DM",
+        "text_mKGNrh"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pro-insights-slide2-desktop.png",
+        "image_height": "550px",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_m9Emif": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QDbkmD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hailed as a ‘stats genius’ by tour players and media.",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_6Mefcp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Edoardo Molinari graduated from a 5-year engineering program before turning pro. He then leveraged his own on-course data to achieve great success – including Ryder Cup (2010), DP World Tour (3x) and US Amateur (2005) victories – peaking at #14 on the OWGR.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QDbkmD",
+        "text_6Mefcp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Edoardo-Quote.png",
+        "image_height": "500px",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 120,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "custom_liquid_DKLJRj": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div class=\"pro-insights-page\">\n  <!-- Left: Carousel -->\n  <div class=\"pro-insights-carousel-container\">\n    <div class=\"pro-insights-carousel\" data-align-top=\"true\">\n      <div class=\"slideshow-wrapper\">\n        <div class=\"slide one\" id=\"pro-insights-slide-one\">\n          <div class=\"background-image\">\n            <div class=\"background-image-content\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Pro_Insights_v1.svg?v=1709632801\" alt=\"_\" class=\"logo-image\"/>\n              <h1 class=\"title-text\">Introducing Arccos Pro Insights</h1>\n              <p class=\"body-text\">Formerly known as StatisticGolf and founded in 2020 by Edoardo Molinari. Arccos Pro Insights is golf’s most advanced analytics for tour players. It is trusted by more than 35 players on the PGA TOUR, DP World Tour and LPGA Tour, including Matthew Fitzpatrick, Viktor Hovland and Nelly Korda.</p>\n              <p class=\"body-text mobile\">Formerly StatisticGolf and founded by Edoardo Molinari. Arccos Pro Insights is golf’s most advanced analytics for the pros. Now trusted by more than 35 tour players.</p>\n              <div class=\"slide-controls\">\n                <button type=\"button\" onclick=\"proInsightsChangeSlide(-1)\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 24\" fill=\"none\">\n                    <path d=\"M13 2L3 12L13 22\" stroke=\"white\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n                  </svg>\n                </button>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 75 15\" fill=\"none\" class=\"progress-dots\">\n                  <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"white\"/>\n                  <circle opacity=\"0.5\" cx=\"37.4961\" cy=\"7.5\" r=\"7.5\" fill=\"#A0ADB7\"/>\n                  <circle opacity=\"0.5\" cx=\"67.5\" cy=\"7.5\" r=\"7.5\" fill=\"#A0ADB7\"/>\n                </svg>\n                <button type=\"button\" onclick=\"proInsightsChangeSlide(1)\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 24\" fill=\"none\">\n                    <path d=\"M2 22.0001L12 12.0001L2 2.00006\" stroke=\"white\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n                  </svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"slide two\" id=\"pro-insights-slide-two\">\n          <div class=\"background-image\">\n            <div class=\"background-image-content\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Pro_Insights_v1.svg?v=1709632801\" alt=\"_\" class=\"logo-image\"/>\n              <h1 class=\"title-text\">Proven success at the highest levels of the game.</h1>\n              <p class=\"body-text\">Over the past 3 years, Arccos Pro Insights clients have 27 wins, including US Open, FedexCup, Ryder Cup and DP World Tour Championship titles.</p>\n              <p class=\"body-text mobile\">Over the past 3 years, Arccos Pro Insights clients have 27 wins, including US Open, FedexCup, Ryder Cup and DP World Tour Championship titles.</p>\n              <div class=\"slide-controls\">\n                <button type=\"button\" onclick=\"proInsightsChangeSlide(-1)\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 24\" fill=\"none\">\n                    <path d=\"M13 2L3 12L13 22\" stroke=\"white\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n                  </svg>\n                </button>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 75 15\" fill=\"none\" class=\"progress-dots\">\n                  <circle opacity=\"0.5\" cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"#A0ADB7\"/>\n                  <circle cx=\"37.4961\" cy=\"7.5\" r=\"7.5\" fill=\"white\"/>\n                  <circle opacity=\"0.5\" cx=\"67.5\" cy=\"7.5\" r=\"7.5\" fill=\"#A0ADB7\"/>\n                </svg>\n                <button type=\"button\" onclick=\"proInsightsChangeSlide(1)\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 24\" fill=\"none\">\n                    <path d=\"M2 22.0001L12 12.0001L2 2.00006\" stroke=\"white\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n                  </svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"slide three\" id=\"pro-insights-slide-three\">\n          <div class=\"background-image\">\n            <div class=\"background-image-content\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Pro_Insights_v1.svg?v=1709632801\" alt=\"_\" class=\"logo-image\"/>\n              <h1 class=\"title-text\">Hailed as a ‘stats genius’ by tour players and media.</h1>\n              <p class=\"body-text\">Edoardo Molinari graduated from a 5-year engineering program before turning pro. He then leveraged his own on-course data to achieve great success – including Ryder Cup (2010), DP World Tour (3x) and US Amateur (2005) victories – peaking at #14 on the OWGR.</p>\n              <p class=\"body-text mobile\">Edoardo Molinari, an engineering graduate turned pro, used data to win Ryder Cup (2010), DP World Tour (3x), and US Amateur (2005), peaking at #14 OWGR.</p>\n              <div class=\"slide-controls\">\n                <button type=\"button\" onclick=\"proInsightsChangeSlide(-1)\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 24\" fill=\"none\">\n                    <path d=\"M13 2L3 12L13 22\" stroke=\"white\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n                  </svg>\n                </button>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 75 15\" fill=\"none\" class=\"progress-dots\">\n                  <circle opacity=\"0.5\" cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"#A0ADB7\"/>\n                  <circle opacity=\"0.5\" cx=\"37.4961\" cy=\"7.5\" r=\"7.5\" fill=\"#A0ADB7\"/>\n                  <circle cx=\"67.5\" cy=\"7.5\" r=\"7.5\" fill=\"white\"/>\n                </svg>\n                <button type=\"button\" onclick=\"proInsightsChangeSlide(1)\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 24\" fill=\"none\">\n                    <path d=\"M2 22.0001L12 12.0001L2 2.00006\" stroke=\"white\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n                  </svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n\n      </div><!-- /.slideshow-wrapper -->\n    </div><!-- /.pro-insights-carousel -->\n  </div><!-- /.pro-insights-carousel-container -->\n\n  <!-- Right: Form -->\n  <div class=\"pro-insights-form-container\">\n    <div id=\"proinsightsformsection\" class=\"pro-insights-form-section\">\n      <div class=\"modal-background\" id=\"pro-insights-modal\">\n        <div class=\"pro-insights-modal\">\n          <div class=\"loader\" id=\"pro-insights-loader\"></div>\n          <div class=\"success-message\" id=\"pro-insights-success-message\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"45\" height=\"45\" viewBox=\"0 0 45 45\" fill=\"none\">\n              <circle cx=\"22.5\" cy=\"22.5\" r=\"22.5\" fill=\"#56C271\"/>\n              <rect x=\"11.113\" y=\"21.4353\" width=\"12.7276\" height=\"3.62795\" rx=\"1.81398\" transform=\"rotate(45 11.113 21.4353)\" fill=\"white\"/>\n              <rect x=\"35.5466\" y=\"15.0011\" width=\"25.4551\" height=\"3.62757\" rx=\"1.81379\" transform=\"rotate(135 35.5466 15.0011)\" fill=\"white\"/>\n            </svg>\n            <h3>Success!</h3>\n            <p>Your information has been received.</p>\n            <p>Thank you for applying.</p>\n            <button type=\"button\" onclick=\"window.location.reload();\">Got it. Thanks!</button>\n          </div>\n          <div class=\"error-message\" id=\"pro-insights-error-message\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\">\n              <circle cx=\"22\" cy=\"22\" r=\"22\" fill=\"#F26565\"/>\n              <path d=\"M22.137 27.1818C21.0665 27.1818 20.1747 26.3612 20.0858 25.2944L19.0111 12.3973C18.8587 10.5685 20.3019 9 22.137 9C23.9722 9 25.4154 10.5685 25.263 12.3973L24.1883 25.2944C24.0994 26.3612 23.2075 27.1818 22.137 27.1818Z\" fill=\"white\"/>\n              <path d=\"M22.137 36C20.6726 36 19.4855 34.8129 19.4855 33.3485C19.4855 31.8841 20.6726 30.697 22.137 30.697C23.6014 30.697 24.7885 31.8841 24.7885 33.3485C24.7885 34.8129 23.6014 36 22.137 36Z\" fill=\"white\"/>\n            </svg>\n            <h3>Something went wrong.</h3>\n            <p>Please try again later or reach out to starter@arccosgolf.com for support.</p>\n            <button type=\"button\" onclick=\"proInsightsCloseErrorModal()\">Try Again</button>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-info-section-wrapper\">\n        <div class=\"form-entry-info-section\">\n          <h2 class=\"form-section-title\">Exclusive Opportunity for Pro &amp; Elite Players</h2>\n          <div class=\"form-section-text\">\n            <span class=\"text\">\n              Want to experience the advanced analytics of Arccos Pro Insights? Sign up below for your chance to be considered in our next round of players. Expansion to all golfers ahead.\n            </span>\n            <div class=\"br\"></div>\n            <br><br>\n          </div>\n        </div>\n\n        <form action=\"\" id=\"pro-insights-form\" class=\"pro-insights-form\" onchange=\"proInsightsCheckIsFormValid()\">\n          <div class=\"name-input-container\">\n            <input type=\"text\" placeholder=\"First Name\" id=\"form-first\" name=\"form-first\" class=\"form-input\" required/>\n            <input type=\"text\" placeholder=\"Last Name\" id=\"form-last\" name=\"form-last\" class=\"form-input\" required/>\n          </div>\n          <input type=\"email\" placeholder=\"Email Address\" id=\"form-email\" name=\"form-email\" class=\"form-input\" required/>\n          <input type=\"tel\" placeholder=\"Mobile\" id=\"form-phone\" name=\"form-phone\" class=\"form-input\" required/>\n          <select id=\"form-role\" name=\"form-role\" onchange=\"proInsightsShowPlayerRepInput(this)\" class=\"form-input\" required>\n            <option value=\"\" disabled selected>Select Role</option>\n            <option value=\"Player\">Player</option>\n            <option value=\"Coach\">Coach</option>\n            <option value=\"Agent\">Agent</option>\n          </select>\n          <input type=\"text\" placeholder=\"Player Name(s) You Represent\" id=\"form-players\" name=\"form-players\" style=\"display:none\" class=\"form-input\"/>\n          <input type=\"submit\" id=\"form-submit-button\" class=\"form-submit-button\" disabled/>\n        </form>\n      </div>\n    </div>\n  </div><!-- /.pro-insights-form-container -->\n</div><!-- /.pro-insights-page -->\n\n<style>\n  /* Layout */\n  .pro-insights-page { display:flex; width:100%; min-height:100vh; }\n  .pro-insights-carousel-container { width:63.5%; flex-grow:1; }\n  .pro-insights-form-container { width:36.5%; min-width:490px; max-width:585px; flex-grow:0; }\n  @media (max-width: 768px) {\n    .pro-insights-page { flex-direction:column; }\n    .pro-insights-carousel-container { width:100%; flex-grow:0; }\n    .pro-insights-form-container { width:100%; max-width:unset; min-width:unset; }\n  }\n\n  /* Carousel */\n  .pro-insights-carousel .slideshow-wrapper { width:100%; height:100vh; background-color:#242424; }\n  .pro-insights-carousel .slideshow-wrapper .slide { width:100%; height:100%; display:none; animation: fadeIn 2s; }\n  .pro-insights-carousel .slideshow-wrapper .slide.one { display:block; }\n  .pro-insights-carousel .slideshow-wrapper .slide-controls { display:flex; align-items:center; }\n  .pro-insights-carousel .slideshow-wrapper .slide-controls button { line-height:unset; display:flex; justify-content:center; align-items:center; }\n  .pro-insights-carousel .slideshow-wrapper .slide-controls button svg { width:10px; height:20px; }\n  .pro-insights-carousel .slideshow-wrapper .slide-controls .progress-dots { margin:0 10px; width:65px; height:13px; }\n\n  .pro-insights-carousel .slideshow-wrapper .slide.one .background-image { background:url(\"https://cdn.arccosgolf.com/images/shopify/pro-insights-slide1.png\") top/cover; }\n  .pro-insights-carousel .slideshow-wrapper .slide.two .background-image { background:url(\"https://cdn.arccosgolf.com/images/shopify/pro-insights-slide2-desktop.png\") top/cover; }\n  .pro-insights-carousel .slideshow-wrapper .slide.three .background-image { background:url(\"https://cdn.arccosgolf.com/images/shopify/pro-insights-slide3-desktop3.png\") top/cover; }\n\n  .pro-insights-carousel .background-image-content {\n    background: linear-gradient(180deg, rgba(67,75,89,0.40) 41.42%, #242424 100%);\n    height:100vh; display:flex; flex-direction:column; justify-content:flex-end; padding:0 7% 10%;\n  }\n  .pro-insights-carousel .title-text { color:#fff; font-size:44px; font-weight:700; line-height:105%; margin-bottom:30px; }\n  .pro-insights-carousel .body-text { color:#F2F2F2; font-size:16px; font-weight:500; line-height:120%; max-width:70%; margin-bottom:75px; min-height:max(96px,10%); }\n  .pro-insights-carousel .body-text.mobile { display:none; margin-bottom:30px; }\n  .pro-insights-carousel .logo-image { height:80px; width:250px; margin-bottom:30px; }\n\n  @keyframes fadeIn { from { opacity:0.1; color:rgba(255,255,255,0);} to { opacity:1; color:rgba(255,255,255,1);} }\n\n  @media (max-width: 768px) {\n    .pro-insights-carousel .slideshow-wrapper .slide.one .background-image { background:url(\"https://cdn.arccosgolf.com/images/shopify/pro-insights-slide1-mobile.png\") top/cover; }\n    .pro-insights-carousel .slideshow-wrapper .slide.two .background-image { background:url(\"https://cdn.arccosgolf.com/images/shopify/pro-insights-slide2-mobile.png\") top/cover; }\n    .pro-insights-carousel .slideshow-wrapper .slide.three .background-image { background:url(\"https://cdn.arccosgolf.com/images/shopify/pro-insights-slide3-mobile2.png\") top/cover; }\n    .pro-insights-carousel .slideshow-wrapper { height:unset; }\n    .pro-insights-carousel .slideshow-wrapper .slide-controls button svg { width:7px; height:14px; }\n    .pro-insights-carousel .slideshow-wrapper .slide-controls .progress-dots { margin:0 10px; width:50px; height:10px; }\n    .pro-insights-carousel .background-image-content { height:auto; min-height:350px; padding: 0 30px 40px; }\n    .pro-insights-carousel .title-text { font-size:22px; margin-bottom:15px; }\n    .pro-insights-carousel .body-text { display:none; }\n    .pro-insights-carousel .body-text.mobile { font-size:14px; display:block; max-width:unset; padding-right:21px; }\n    .pro-insights-carousel .logo-image { width:150px; height:48px; margin-bottom:15px; }\n  }\n\n  /* Form */\n  .pro-insights-form-section { height:100%; }\n  .pro-insights-form-section .modal-background {\n    position: fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(36,36,36,0.60); visibility:hidden; z-index:9999;\n  }\n  .pro-insights-form-section .modal-background .pro-insights-modal {\n    background:#fff; width:28%; height:36%; margin:17% 36%; border-radius:5px; display:flex; flex-direction:column; align-items:center; justify-content:center;\n  }\n  .pro-insights-form-section .modal-background .pro-insights-modal > *:not(:first-child) {\n    flex-direction:column; align-items:center; justify-content:center; width:80%; display:none;\n  }\n  .loader { border:5px solid rgba(36,36,36,0.4); border-top:5px solid #242424; border-radius:50%; width:40px; height:40px; animation:spin 1s linear infinite; }\n  @keyframes spin { 0% {transform:rotate(0);} 100% {transform:rotate(360deg);} }\n  .pro-insights-form-section .modal-background .pro-insights-modal h3 { color:#575B65; text-align:center; font-size:24px; font-weight:600; line-height:115%; margin:20px 0; }\n  .pro-insights-form-section .modal-background .pro-insights-modal p { color:#828E96; text-align:center; font-size:14px; font-weight:500; line-height:125%; margin:0; padding:0; }\n  .pro-insights-form-section .modal-background .pro-insights-modal button { border-radius:5px; background:#575B65; min-height:44px; width:100%; margin-top:30px; color:#fff; font-weight:600; }\n\n  .pro-insights-form-section .form-info-section-wrapper { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; padding:0 68px; }\n  .pro-insights-form-section .form-info-section-wrapper .form-section-title { text-transform:unset; color:#3D3F44; text-align:center; font-family:Montserrat, sans-serif; font-size:32px; font-weight:700; line-height:115%; letter-spacing:-0.96px; margin-bottom: 24px;}\n  .pro-insights-form-section .form-info-section-wrapper .form-section-text { color:#A0ADB7; text-align:center; font-size:16px; font-weight:500; line-height:115%; padding:0 10px; margin-bottom: 24px;}\n  .pro-insights-form-section .pro-insights-form { display:flex; flex-direction:column; align-items:center; padding:0 35px; }\n  .pro-insights-form-section .pro-insights-form > *:not(:last-child) { margin-bottom:10px; }\n  .pro-insights-form-section .name-input-container { display:flex; }\n  .pro-insights-form-section .form-input { width:100%; min-height:52px; border:#626A77 solid 1px; border-radius:5px; color:#252628; font-size:14px!important; font-weight:600; line-height:125%; padding: 14px 16px;}\n  .pro-insights-form-section .name-input-container > *:first-child { margin-right:5px; border-radius:5px 0 0 5px; }\n  .pro-insights-form-section .name-input-container > *:last-child { border-radius:0 5px 5px 0; }\n  .pro-insights-form-section .form-submit-button { width:100%; border:none; border-radius:5px; background:#56C271; color:#fff; text-align:center; font-family:Montserrat, sans-serif; font-size:16px; font-weight:700; letter-spacing:-0.32px; text-transform:uppercase; min-height:52px; margin-top:25px; }\n  .pro-insights-form-section .form-submit-button:disabled { background:#D1D6DA; }\n\n  @media (max-width: 768px) {\n    .pro-insights-form-section .modal-background .pro-insights-modal { width:84%; height:23%; margin:65% 8%; }\n    .pro-insights-form-section .form-info-section-wrapper { padding:30px 30px; }\n    .pro-insights-form-section .form-info-section-wrapper .form-section-title { font-size:24px; margin-bottom:16px; }\n    .pro-insights-form-section .form-info-section-wrapper .form-section-text { font-size:14px; padding:0; font-weight:500; line-height:115%; }\n    .pro-insights-form-section .pro-insights-form { padding:0 10px; }\n    .pro-insights-form-section .pro-insights-form > *:not(:last-child) { margin-bottom:15px; }\n  }\n</style>\n\n<script>\n  /* Carousel */\n  window.proInsightsActiveSlide = 1;\n  function proInsightsDisplaySlides() {\n    document.getElementById(\"pro-insights-slide-one\").style.display   = (window.proInsightsActiveSlide === 1) ? \"block\" : \"none\";\n    document.getElementById(\"pro-insights-slide-two\").style.display   = (window.proInsightsActiveSlide === 2) ? \"block\" : \"none\";\n    document.getElementById(\"pro-insights-slide-three\").style.display = (window.proInsightsActiveSlide === 3) ? \"block\" : \"none\";\n  }\n  function proInsightsChangeSlide(num) {\n    var temp = window.proInsightsActiveSlide + num;\n    if (temp > 3) window.proInsightsActiveSlide = 1;\n    else if (temp < 1) window.proInsightsActiveSlide = 3;\n    else window.proInsightsActiveSlide = temp;\n\n    proInsightsDisplaySlides();\n    clearTimeout(window.proInsightsAutoplay);\n    window.proInsightsAutoplay = setTimeout(function(){ proInsightsChangeSlide(1); }, 15000);\n  }\n  document.addEventListener('DOMContentLoaded', function(){\n    proInsightsDisplaySlides();\n    window.proInsightsAutoplay = setTimeout(function(){ proInsightsChangeSlide(1); }, 15000);\n  });\n\n  /* Form */\n  function proInsightsScrollToTop() {\n    document.body.scrollTop = 0;\n    document.documentElement.scrollTop = 0;\n  }\n  async function proInsightsHandleSubmit(e) {\n    document.getElementById(\"pro-insights-modal\").style.visibility = \"visible\";\n\n    var email = e.target['form-email'].value;\n    var firstName = e.target['form-first'].value;\n    var lastName = e.target['form-last'].value;\n    var phone = e.target['form-phone'].value;\n    var role = e.target['form-role'].value;\n    var playerNames = e.target['form-players'].value;\n\n    try {\n      var response = await window.fetch('https://api.arccosgolf.com/users/shopify/form', {\n        method: 'POST',\n        headers: { 'Content-Type': 'application/json' },\n        body: JSON.stringify({\n          form_key: \"PRO_INSIGHTS_FORM\",\n          form_data: {\n            firstName, lastName, email, phone, role,\n            playerNames: role !== 'Player' ? playerNames : null\n          }\n        })\n      });\n\n      proInsightsScrollToTop();\n      document.getElementById(\"pro-insights-loader\").style.display=\"none\";\n      if (response.status === 200) {\n        document.getElementById(\"pro-insights-success-message\").style.display=\"flex\";\n      } else {\n        document.getElementById(\"pro-insights-error-message\").style.display=\"flex\";\n      }\n    } catch (err) {\n      proInsightsScrollToTop();\n      document.getElementById(\"pro-insights-loader\").style.display=\"none\";\n      document.getElementById(\"pro-insights-error-message\").style.display=\"flex\";\n    }\n  }\n  function proInsightsSetupForm() {\n    var form = document.getElementById('pro-insights-form');\n    if (form) {\n      form.addEventListener('submit', function(e){\n        e.preventDefault();\n        proInsightsHandleSubmit(e);\n      });\n    }\n    if (typeof window.jQuery !== 'undefined') {\n      var $ = window.jQuery;\n      $('p').filter(function(){ return $(this).text() === 'NOT A MEMBER?'; })\n        .attr('name', 'arccos-bundle-anchor')\n        .attr('id', 'arccos-bundle-anchor');\n    }\n  }\n  function proInsightsShowPlayerRepInput(el) {\n    var input = document.getElementById(\"form-players\");\n    if (!input) return;\n    if (el.value === 'Coach' || el.value === 'Agent') {\n      input.style.display = \"block\";\n      input.required = true;\n    } else {\n      input.style.display = \"none\";\n      input.required = false;\n    }\n  }\n  function proInsightsCloseErrorModal() {\n    document.getElementById(\"pro-insights-modal\").style.visibility=\"hidden\";\n    document.getElementById(\"pro-insights-error-message\").style.display=\"none\";\n    document.getElementById(\"pro-insights-loader\").style.display=\"block\";\n  }\n  function proInsightsCheckEmpty(el){ return !el || el.value === \"\"; }\n  function proInsightsCheckIsFormValid() {\n    var email = document.getElementById(\"form-email\");\n    var first = document.getElementById(\"form-first\");\n    var last  = document.getElementById(\"form-last\");\n    var phone = document.getElementById(\"form-phone\");\n    var role  = document.getElementById(\"form-role\");\n    var players = document.getElementById(\"form-players\");\n    var allow =\n      !proInsightsCheckEmpty(email) &&\n      !proInsightsCheckEmpty(first) &&\n      !proInsightsCheckEmpty(last) &&\n      !proInsightsCheckEmpty(phone) &&\n      role && role.value &&\n      (role.value === 'Player' || ((role.value === 'Coach' || role.value === 'Agent') && !proInsightsCheckEmpty(players)));\n    var btn = document.getElementById(\"form-submit-button\");\n    if (btn) { btn.disabled = !allow; }\n  }\n  document.addEventListener('DOMContentLoaded', proInsightsSetupForm);\n</script>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "slideshow_aKXexR": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8deaqN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pro-insights-slide1-desktop.png",
+            "logo": "shopify://shop_images/Pro_Insights_v1.svg",
+            "heading": "Introducing Arccos Pro Insights",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "subtext": "Formerly known as StatisticGolf and founded in 2020 by Edoardo Molinari. Arccos Pro Insights is golf’s most advanced analytics for tour players. It is trusted by more than 35 players on the PGA TOUR, DP World Tour and LPGA Tour, including Matthew Fitzpatrick, Viktor Hovland and Nelly Korda. ",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "secondary_button_video": false
+          }
+        },
+        "image_TfhCat": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pro-insights-slide2-desktop.png",
+            "logo": "shopify://shop_images/Pro_Insights_v1.svg",
+            "heading": "Proven success at the highest levels of the game.",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "subtext": "Over the past 3 years, Arccos Pro Insights clients have 27 wins, including US Open, FedexCup, Ryder Cup and DP World Tour Championship titles.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "secondary_button_video": false
+          }
+        },
+        "image_KgcEYw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pro-insights-slide3-mobile2.png",
+            "logo": "shopify://shop_images/Pro_Insights_v1.svg",
+            "heading": "Hailed as a ‘stats genius’ by tour players and media.",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "subtext": "Edoardo Molinari graduated from a 5-year engineering program before turning pro. He then leveraged his own on-course data to achieve great success – including Ryder Cup (2010), DP World Tour (3x) and US Amateur (2005) victories – peaking at #14 on the OWGR.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "secondary_button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "image_8deaqN",
+        "image_TfhCat",
+        "image_KgcEYw"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "text_position": "center",
+        "text_vertical_alignment": "bottom",
+        "show_navigation": true,
+        "image_height": "650px",
+        "content_width": "small",
+        "image_height_mobile": "auto",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "custom_liquid_yr86nF": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<style>\n    #shopify-section-pro-insights-form {\n        width: 36.5%;\n        min-width: 490px;\n        max-width: 585px;\n      flex-grow: 0;\n    }\n    .pro-insights-form-section {\n        height: 100%;\n    }\n    .pro-insights-form-section .modal-background {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100vw;\n        height: 100vh;\n        background: rgba(36, 36, 36, 0.60);\n        visibility: hidden;\n    }\n    .pro-insights-form-section .modal-background .pro-insights-modal {\n        background: white;\n        width: 28%;\n        height: 36%;\n        margin: 17% 36%;\n        border-radius: 5px;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n    .pro-insights-form-section .modal-background .pro-insights-modal > *:not(:first-child) {\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        display: none;\n    }\n    .loader {\n      border: 5px solid rgba(36, 36, 36, 0.4); /* Light grey */\n      border-top: 5px solid #242424; /* Blue */\n      border-radius: 50%;\n      width: 40px;\n      height: 40px;\n      animation: spin 1s linear infinite;\n    }\n    \n    @keyframes spin {\n      0% { transform: rotate(0deg); }\n      100% { transform: rotate(360deg); }\n    }\n    .pro-insights-form-section .modal-background .pro-insights-modal h3 {\n        color: #575B65;\n        text-align: center;\n        font-size: 24px;\n        font-style: normal;\n        font-weight: 600;\n        line-height: 115%;\n        text-transform: unset;\n        margin: 20px 0;\n    }\n    .pro-insights-form-section .modal-background .pro-insights-modal p {\n        color: #828E96;\n        text-align: center;\n        font-size: 14px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 125%;\n        margin: 0;\n        padding: 0;\n    }\n    .pro-insights-form-section .modal-background .pro-insights-modal button {\n        border-radius: 5px;\n        background: #575B65;\n        min-height: 44px;\n        width: 100%;\n        margin-top: 30px;\n        color: white;\n        font-weight: 600;\n    }\n    .pro-insights-form-section .form-info-section-wrapper {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        height: 100%;\n        padding: 0 68px;\n    }\n    .pro-insights-form-section .form-info-section-wrapper \n    .pro-insights-form-section .form-info-section-wrapper .form-section-text {\n        color: #A0ADB7;\n        text-align: center;\n        font-size: 16px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 115%;\n        padding: 0 10px;\n    }\n    .pro-insights-form-section .form-info-section-wrapper .form-entry-info-section {\n        text-align: center;\n    }\n    .pro-insights-form-section .pro-insights-form {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        padding: 0 35px;\n    }\n    .pro-insights-form-section .pro-insights-form > *:not(:last-child) {\n        margin-bottom: 10px;\n    }\n    .pro-insights-form-section .name-input-container {\n        display: flex;\n    }\n    .pro-insights-form-section .form-input {\n        width: 100%;\n        min-height: 52px;\n        border: #626A77 solid 1px;\n        border-radius: 5px;\n        color: #252628;\n        font-size: 14px!important;\n        font-style: normal;\n        font-weight: 600;\n        line-height: 125%;\n    }\n    .pro-insights-form-section .name-input-container > *:first-child {\n        margin-right: 5px;\n        border-radius: 5px 0 0 5px;\n    }\n    .pro-insights-form-section .name-input-container > *:last-child {\n        border-radius: 0 5px 5px 0;\n    }\n    .pro-insights-form-section .form-submit-button {\n        width: 100%;\n        border: none;\n        border-radius: 5px;\n        background-color: #56C271;\n        color: white;\n        text-align: center;\n        font-family: Montserrat, sans-serif;\n        font-size: 16px;\n        font-style: normal;\n        font-weight: 700;\n        line-height: normal;\n        letter-spacing: -0.32px;\n        text-transform: uppercase;\n        min-height: 52px;\n        margin-top: 25px;\n    }\n    .pro-insights-form-section .form-submit-button:disabled {\n        background: #D1D6DA;\n    }\n    @media screen and (max-width: 768px) {\n        #shopify-section-pro-insights-form {\n            width: 100%;\n            max-width: unset;\n            min-width: unset;\n        }\n      .pro-insights-form-section .modal-background .pro-insights-modal {\n        width: 84%;\n        height: 23%;\n        margin: 65% 8%;\n      }\n        .pro-insights-form-section .form-info-section-wrapper {\n            padding: 30px 30px;\n        }\n        .pro-insights-form-section .form-info-section-wrapper .form-section-title {\n            font-size: 24px;\n            margin-bottom: 16px;\n        }\n        .pro-insights-form-section .form-info-section-wrapper .form-section-text {\n            font-size: 14px;\n            padding: 0;\n            font-weight: 500;\n            line-height: 115%;\n        }\n        .pro-insights-form-section .pro-insights-form {\n            padding: 0 10px;\n        }\n        .pro-insights-form-section .pro-insights-form > *:not(:last-child) {\n            margin-bottom: 15px;\n        }\n    }\n</style>\n<script>\n    let failureCount = 0\n    const handleSubmit = async e => {\n        document.getElementById(\"pro-insights-modal\").style.visibility=\"visible\"\n        const email = e.target['form-email'].value\n        const firstName = e.target['form-first'].value\n        const lastName = e.target['form-last'].value\n        const phone = e.target['form-phone'].value\n        const role = e.target['form-role'].value\n        const playerNames = e.target['form-players'].value\n        const response = await window.fetch('https://api.arccosgolf.com/users/shopify/form', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/json',\n            },\n            body: JSON.stringify({\n                form_key: \"PRO_INSIGHTS_FORM\",\n                form_data: {\n                    firstName,\n                    lastName,\n                    email,\n                    phone,\n                    role,\n                    playerNames: role !== 'Player' ? playerNames : null\n                }\n            })\n        })\n        console.log({response})\n        if (response.status === 200) {\n            scrollToTop()\n            document.getElementById(\"pro-insights-loader\").style.display=\"none\"\n            document.getElementById(\"pro-insights-success-message\").style.display=\"flex\"\n        } else {\n            scrollToTop()\n            document.getElementById(\"pro-insights-loader\").style.display=\"none\"\n            document.getElementById(\"pro-insights-error-message\").style.display=\"flex\"\n        }\n    }\n    function scrollToTop() {\n        document.body.scrollTop = 0; // For Safari\n        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera\n    }\n    const setup = () => {\n        console.log('setup')\n        $('#pro-insights-form')\n            .removeAttr('onsubmit')\n            .submit(e => {\n                e.preventDefault()\n                handleSubmit(e)\n            })\n        $('p').filter(function () {\n            return $(this).text() === 'NOT A MEMBER?'\n        })\n            .attr('name', 'arccos-bundle-anchor')\n            .attr('id', 'arccos-bundle-anchor')\n    }\n    let intervalId\n    if (!intervalId) {\n        console.log('interval id')\n        intervalId = setInterval(() => {\n            if (typeof $ !== 'undefined') {\n                clearInterval(intervalId)\n                intervalId = undefined\n                setup()\n            }\n        }, 300)\n    }\n    const showPlayerRepInput = (e) => {\n        if (e.value === 'Coach' || e.value === 'Agent') {\n            document.getElementById(\"form-players\").style.display=\"block\"\n            document.getElementById(\"form-players\").required=true\n        } else {\n            document.getElementById(\"form-players\").style.display=\"none\"\n            document.getElementById(\"form-players\").required=false\n        }\n    }\n    const closeErrorModal = () => {\n        document.getElementById(\"pro-insights-modal\").style.visibility=\"hidden\"\n        document.getElementById(\"pro-insights-error-message\").style.display=\"none\"\n    }\n    function checkEmpty(obj) {\n        console.log(obj)\n        console.log($(obj).val())\n        if($(obj).val() === \"\") {\n            return true;\n        }\n        return false;\n    }\n    const checkIsFormValid = () => {\n        console.log('checking form')\n        if (!checkEmpty($(\"#form-email\")) && !checkEmpty($(\"#form-first\")) && !checkEmpty($(\"#form-last\")) && !checkEmpty($(\"#form-phone\")) && ($(\"#form-role\").val() === 'Player' || (($(\"#form-role\").val() === 'Coach' || $(\"#form-role\").val() === 'Agent') && !checkEmpty($(\"#form-players\"))))) {\n            $(\"#form-submit-button\").removeAttr(\"disabled\")\n        } else {\n            document.getElementById(\"form-submit-button\").disabled=true\n        }\n    }\n</script>\n<div id=\"proinsightsformsection\" name=\"proinsightsformsection\" class=\"pro-insights-form-section\">\n    <div class=\"modal-background\" id=\"pro-insights-modal\">\n        <div class=\"pro-insights-modal\">\n            <div class=\"loader\" id=\"pro-insights-loader\"></div>\n            <div class=\"success-message\" id=\"pro-insights-success-message\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"45\" height=\"45\" viewBox=\"0 0 45 45\" fill=\"none\">\n                    <circle cx=\"22.5\" cy=\"22.5\" r=\"22.5\" fill=\"#56C271\"/>\n                    <rect x=\"11.113\" y=\"21.4353\" width=\"12.7276\" height=\"3.62795\" rx=\"1.81398\" transform=\"rotate(45 11.113 21.4353)\" fill=\"white\"/>\n                    <rect x=\"35.5466\" y=\"15.0011\" width=\"25.4551\" height=\"3.62757\" rx=\"1.81379\" transform=\"rotate(135 35.5466 15.0011)\" fill=\"white\"/>\n                </svg>\n                <h3>Success!</h3>\n                <p>Your information has been received.</p>\n                <p>Thank you for applying.</p>\n                <button type=\"button\" onclick=\"window.location.reload();\">Got it. Thanks!</button>\n            </div>\n            <div class=\"error-message\" id=\"pro-insights-error-message\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\">\n                <circle cx=\"22\" cy=\"22\" r=\"22\" fill=\"#F26565\"/>\n                <path d=\"M22.137 27.1818C21.0665 27.1818 20.1747 26.3612 20.0858 25.2944L19.0111 12.3973C18.8587 10.5685 20.3019 9 22.137 9C23.9722 9 25.4154 10.5685 25.263 12.3973L24.1883 25.2944C24.0994 26.3612 23.2075 27.1818 22.137 27.1818Z\" fill=\"white\"/>\n                <path d=\"M22.137 36C20.6726 36 19.4855 34.8129 19.4855 33.3485C19.4855 31.8841 20.6726 30.697 22.137 30.697C23.6014 30.697 24.7885 31.8841 24.7885 33.3485C24.7885 34.8129 23.6014 36 22.137 36Z\" fill=\"white\"/>\n              </svg>\n                <h3>Something went wrong.</h3>\n                <p>Please try again later or reach out to starter@arccosgolf.com for support.</p>\n                <button type=\"button\" onclick=\"closeErrorModal()\">Try Again</button>\n            </div>\n        </div>\n    </div>\n        <div class=\"form-info-section-wrapper\">\n            <div id=\"form-entry-info-section\" class=\"form-entry-info-section\">\n               \n                <div class=\"form-section-text\">\n                  \n                    <div class=\"br\"></div>\n                    \n                </div>\n            </div>\n            <form action=\"\" id=\"pro-insights-form\" class=\"pro-insights-form\" onchange=\"checkIsFormValid()\" >\n                <div class=\"name-input-container\">\n                    <input\n                            type=\"text\"\n                            placeholder=\"First Name\"\n                            id=\"form-first\"\n                            name=\"form-first\"\n                            class=\"form-input\"\n                            required\n                    />\n                    <input\n                            type=\"text\"\n                            placeholder=\"Last Name\"\n                            id=\"form-last\"\n                            name=\"form-last\"\n                            class=\"form-input\"\n                            required\n                    />\n                </div>\n                <input\n                        type=\"email\"\n                        placeholder=\"Email Address\"\n                        id=\"form-email\"\n                        name=\"form-email\"\n                        class=\"form-input\"\n                        required\n                />\n                <input\n                        type=\"tel\"\n                        placeholder=\"Mobile\"\n                        id=\"form-phone\"\n                        name=\"form-phone\"\n                        class=\"form-input\"\n                        required\n                />\n                <select id=\"form-role\" name=\"form-role\" onchange=\"showPlayerRepInput(this)\" class=\"form-input\" required>\n                    <option value=\"\" disabled selected>Select Role</option>\n                    <option value=\"Player\">Player</option>\n                    <option value=\"Coach\">Coach</option>\n                    <option value=\"Agent\">Agent</option>\n                </select>\n                <input\n                        type=\"text\"\n                        placeholder=\"Player Name(s) You Represent\"\n                        id=\"form-players\"\n                        name=\"form-players\"\n                        style=\"display:none\"\n                        class=\"form-input\"\n                />\n                <input type=\"submit\" id=\"form-submit-button\" class=\"form-submit-button\" disabled/>\n            </form>\n        </div>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 24,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_EaVwqH",
+    "rich_text_tnhPmH",
+    "custom_liquid_3hiHnL",
+    "image_with_text_XWgKDF",
+    "image_with_text_m9Emif",
+    "custom_liquid_DKLJRj",
+    "slideshow_aKXexR",
+    "custom_liquid_yr86nF"
+  ]
+}

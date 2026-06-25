@@ -1,0 +1,334 @@
+{% style %}
+  #section-{{ section.id }} {
+    padding:0px 16px;
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    color: {{ section.settings.text_color }};
+    background-color: {{ section.settings.bg_color }};
+  }
+.slider-inner{
+    background-image: url({{ section.settings.bg_image | img_url: 'master' }})
+}
+  @media only screen and (max-width: 768px) {
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding-top-mobile }}px;
+      padding-bottom: {{ section.settings.padding-bottom-mobile }}px;
+    }
+    .slider-inner{
+    background-image: url({{ section.settings.mobile_bg_image | img_url: 'master' }})
+}
+  }
+{% endstyle %}
+
+<section class="sc-intelligence-info" id="section-{{ section.id }}">
+  <div class="slider-inner">
+    <div class="smart-header">
+      <h2>{{ section.settings.heading }}</h2>
+
+      <div class="swiper-nav">
+          <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12.5 15L7.5 10L12.5 5" stroke="#242424" stroke-width="1.5" stroke-miterlimit="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"> <path d="M7.5 15L12.5 10L7.5 5" stroke="#242424" stroke-width="1.5" stroke-miterlimit="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+    </div>
+
+    <div class="swiper smartSwiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="smart-card">
+              <div class="card-img">
+                <img src="{{ block.settings.image | img_url: '600x' }}" alt="">
+              </div>
+
+              <div class="card-content">
+                <h4>{{ block.settings.title }}</h4>
+                <p>{{ block.settings.text }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+
+  .sc-intelligence-info{
+    padding:0px 48px !important;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+  @media only screen and (max-width:768px){
+    .sc-intelligence-info{
+      padding:0px 16px !important;
+    }
+  }
+
+.sc-intelligence-info .container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width:100%;
+}
+ .sc-intelligence-info .slider-inner {
+    max-width: 1999px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 88px 122px;
+    border-radius: 20px;
+}
+
+ .sc-intelligence-info  .smart-header {
+    margin-bottom: 56px;
+    position:relative;
+}
+.sc-intelligence-info  .sc-intelligence-info{
+  position:relative;
+  padding:120px 0;
+  overflow:hidden;
+  }
+.sc-intelligence-info .smart-header h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width:100%;
+    max-width: 700px;
+}
+.sc-intelligence-info .card-content h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+ .sc-intelligence-info .card-img img{
+    /*width:100%;*/
+    border-radius:20px;
+    margin-bottom:20px;
+    height: 350px;
+}
+ .sc-intelligence-info .card-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+}
+ .sc-intelligence-info .swiper-button-next, .sc-intelligence-info .swiper-button-prev {
+    color: #fff;
+    background: rgb(255 255 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    position: unset;
+}
+  
+    .sc-intelligence-info .swiper-button-next:after,
+    .sc-intelligence-info .swiper-button-prev:after{
+      display:none;
+    }
+  .sc-intelligence-info .smart-bg{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:-1;
+  }
+.sc-intelligence-info .swiper-nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 12px;
+    top: 50%;
+}
+  
+ 
+  .sc-intelligence-info .smart-bg img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  }
+  .sc-intelligence-info .smartSwiper{
+  overflow:visible;
+  }
+
+  .sc-intelligence-info .card-content h4{
+  font-size:16px;
+  margin-bottom:8px;
+  }
+  @media only screen and (max-width: 1199px) {
+    }
+    @media only screen and (max-width: 1024px) {
+    .sc-intelligence-info .slider-inner {
+    padding: 40px 40px 40px;
+    border-radius: 15px;
+}
+}
+@media only screen and (max-width: 991px) {
+.sc-intelligence-info .smart-header h2 {
+    font-size: 28px;
+    line-height: 34px;
+        max-width: 500px;
+}
+.sc-intelligence-info .card-img img {
+    height: 330px;
+}
+}
+    @media only screen and (max-width: 767px) {
+    .sc-intelligence-info .slider-inner {
+    padding: 32px 16px 32px;
+    border-radius: 15px;
+}
+.sc-intelligence-info .swiper-nav {
+   display:none;
+}    
+.sc-intelligence-info  .smart-header {
+    margin-bottom: 48px;
+}
+}
+    @media only screen and (max-width: 575px) {
+    }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.smartSwiper', {
+      slidesPerView: 2.4,
+      spaceBetween: 25,
+      loop: true,
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1.1,
+          spaceBetween: 12,
+        },
+
+        641: {
+          slidesPerView: 1.5,
+        },
+
+        992: {
+          slidesPerView: 2.4,
+        },
+
+        1200: {
+          slidesPerView: 3.4,
+        },
+      },
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "intelligence Slider",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_bg_image",
+      "label": "Mobile Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Intelligence That Helps You Play Smarter and Improve Faster",
+      "label": "Heading"
+    },
+    {
+      "type": "header",
+      "content": "padding settings"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "label": "Top Spacing",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 134
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "label": "Bottom Spacing",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 108
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "label": "Top Mobile Spacing",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "default": 114
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "label": "Bottom Mobile Spacing",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Slider Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Card Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "intelligence Slider"
+    }
+  ]
+}
+{% endschema %}

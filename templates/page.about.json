@@ -1,0 +1,286 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "rich_text_iwtqeE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zY6fcw": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Arccos",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_4RaNeC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Golf’s #1 game tracking platform, Arccos is the Official Game Tracker of the PGA TOUR. A pioneer of connected golf products, Arccos’ mission is to transform the golfing experience by seamlessly combining automatic shot tracking with Artificial Intelligence and Stroke Gained analytics. By allowing golfers to track their game like the pros and delivering powerful, personalized insights, Arccos helps them play smarter and shoot lower scores.</p><p>Among Arccos’ investors are many of golf’s biggest brands and most impactful businesses, including the <strong>PGA TOUR, PING, Inc., TaylorMade Golf Company, Cobra PUMA Golf, Topgolf Callaway Brands Corp. (NYSE: MODG), </strong>and others.</p><p>Arccos also partners with <strong>Srixon-Cleveland Golf, CBS Sports, ESPN/PGA TOUR Live, Golf Channel, Club Champion, EA Sports, Golf Digest, Golf Monthly, Me and My Golf, The Stack System </strong>and <strong>Skillest</strong>.</p><p>Listed among the “World’s Most Innovative Companies” by Fast Company, Arccos boasts the golf industry’s richest data set. This includes 1.2 billion shots taken during more than 22 million rounds played by Arccos members on courses in 160 countries.</p><p>Named after the inverse function of cosine – an element of advanced mathematics that is featured in the Arccos algorithm – Arccos has received awards from media and business organizations worldwide, including Forbes, Entrepreneur Magazine, Golf Digest, GOLF Magazine, Golf Channel, MyGolfSpy, National Golf Foundation, Golf Monthly, Golf Today, SCOREGolf, Connecticut Technology Council, ING, Gear Patrol and the PGA of America, among others.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zY6fcw",
+        "text_4RaNeC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_width": "medium",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_izP3cz": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_XbxDFw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "CEO & CO-FOUNDER",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_WXtmV6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sal Syed",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_YkJbgL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sal received his MBA from Yale where he was a Fellow at the Yale Entrepreneurial Institute. He has been a featured speaker at Yale University on Entrepreneurship and Leadership topics and belongs to the Young Presidents’ Organization (YPO).</p><p>In 2019, Sal was recognized as the top innovator in golf by the industry-leading publication Golf Inc. Magazine and was the opening keynote speaker at the annual Golf Inc. Summit.</p><p>Prior to Arccos, Sal worked at software startups for more than 10 years as a software engineer, engineering manager, product manager, and data architect.</p><p>Sal is a scratch golfer, a club champion and has notched six holes-in-one (five of which he credits to the power of Arccos). Sal is passionate about course architecture and is a Golf Digest panelist. At Ohio Wesleyan, he was captain of both the Men’s Varsity Tennis Team and the Cricket Team.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XbxDFw",
+        "heading_WXtmV6",
+        "text_YkJbgL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Sal-Headshot.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich_text_NLGgYV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mALFQz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founding Story",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_xR6CEq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sal Syed, the CEO of Arccos Golf, embarked on a journey to create an innovative product fueled by his passion for both golf and technology.</p><p>During his pursuit of an MBA at the Yale University School of Management, Sal crossed paths with co-founder Clinton Grusd. Together, they laid the foundation for the business, developing crucial concepts, plans, and strategies that now drive Arccos.</p><p>Joining forces with his childhood friend, Ammad Faisal, the trio recognized the absence of a high-performing, comprehensive tool in the golfing world to effectively track and analyze a golfer's game, ultimately enhancing decision-making on the course. Driven by this realization, they set out to revolutionize the way golf is approached and played.</p><p>Through the collaboration of brilliant minds, including PhDs, engineers, designers, and PGA Professionals, they successfully launched a groundbreaking product that is making waves in the golfing community: Arccos.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mALFQz",
+        "text_xR6CEq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_width": "medium",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "video_with_text_overlay_e46PdD": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_afn8Xg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Arccos x Microsoft",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_jKxFJU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/FfosT6kIq_M",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_afn8Xg",
+        "button_jKxFJU"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video_url": "https://youtu.be/FfosT6kIq_M",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "650px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_iwtqeE",
+    "image_with_text_izP3cz",
+    "rich_text_NLGgYV",
+    "video_with_text_overlay_e46PdD"
+  ]
+}

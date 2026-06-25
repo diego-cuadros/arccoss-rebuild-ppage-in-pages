@@ -1,0 +1,21 @@
+<div
+  id="video-modal"
+  class="video-modal hidden"
+  aria-hidden="true"
+>
+  <div class="video-modal__inner">
+    <div class="video-modal__content" role="dialog" aria-modal="true">
+      <div class="video-modal__inner-wrapper">
+        <div class="video-modal__iframe-wrapper"></div>
+      </div>
+    </div>
+  </div>
+  <button
+    class="video-modal__close"
+    type="button"
+    data-modal-close
+    aria-label="{{ 'general.accessibility.close' | t | escape }}"
+  >
+    {%- render 'icon', icon: 'close', size: 'sm' -%}
+  </button>
+</div>

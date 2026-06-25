@@ -1,0 +1,69 @@
+{% assign button_icon = icon %}
+{% assign icon_template = icon_template | default: 'icon' %}
+{% assign icon_size = icon_size | default: 'xs' %}
+{% assign icon_class = icon_class | default: '' %}
+{% assign icon_position = icon_position | default: 'right' %}
+{% if show_icon == null %}
+  {% assign show_icon = true %}
+{% endif %}
+
+{%- capture rendered_icon -%}
+  {% case icon_template %}
+    {% when 'icon' %}
+      {% render 'icon', icon: button_icon, size: icon_size, class: icon_class %}
+    {% when 'icon-brand' %}
+      {% render 'icon-brand', icon: button_icon, size: icon_size, class: icon_class %}
+    {% else %}
+      {% render 'icon', icon: button_icon, size: icon_size, class: icon_class %}
+  {% endcase %}
+{%- endcapture %}
+
+{% capture icon %}
+  <span class="btn-icon flex{% if icon_wrapper_classes != blank %} {{ icon_wrapper_classes }}{% endif %}">
+    <span class="btn-icon__absolute">
+      {{ rendered_icon }}
+    </span>
+    <span class="btn-icon__absolute">
+      {{ rendered_icon }}
+    </span>
+    <span class="btn-icon__hidden">
+      {{ rendered_icon }}
+    </span>
+  </span>
+{% endcapture %}
+
+{%- if show_icon and icon_position == 'left' and button_icon != blank -%}
+  {{ icon }}
+{%- endif -%}
+{% if invisible_label %}
+  <span class="sr-only">
+    {{ invisible_label }}
+  </span>
+{% endif %}
+{% if label %}
+  <span
+    class="btn-text flex{% if label_classes != blank %} {{ label_classes }}{% endif %}"
+    {% if label_attributes %}
+      {{- label_attributes -}}
+    {% endif %}
+  >
+    <split-chars class="btn-text__absolute">
+      {{- label | escape -}}
+    </split-chars>
+    <split-chars class="btn-text__absolute">
+      {{- label | escape -}}
+    </split-chars>
+    <span class="btn-text__hidden">
+      {{- label | escape -}}
+    </span>
+    {% if button_label_extra %}
+      {{ button_label_extra }}
+    {% endif %}
+  </span>
+{% endif %}
+{% if button_extra %}
+  {{ button_extra }}
+{% endif %}
+{%- if show_icon and icon_position == 'right' and button_icon != blank -%}
+  {{ icon }}
+{%- endif -%}

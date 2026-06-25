@@ -1,0 +1,666 @@
+
+{%- liquid
+  assign fp_id = section.id | replace: '_', '' | replace: '-', '' | downcase
+  assign product_count = section.settings.product_count | default: 3
+
+  # Count how many of the chosen slots actually have a product picked.
+  # Used by the grid CSS so an unfilled slot doesn't reserve a dead column.
+  # NOTE: unset product settings return an EmptyDrop (truthy), so we must
+  # compare against `blank`, not rely on plain truthiness.
+  assign active_count = 0
+  for i in (1..product_count)
+    case i
+      when 1
+        if section.settings.product_1 != blank
+          assign active_count = active_count | plus: 1
+        endif
+      when 2
+        if section.settings.product_2 != blank
+          assign active_count = active_count | plus: 1
+        endif
+      when 3
+        if section.settings.product_3 != blank
+          assign active_count = active_count | plus: 1
+        endif
+    endcase
+  endfor
+  if active_count < 1
+    assign active_count = 1
+  endif
+-%}
+
+{% style %}
+  .featured-products-{{ fp_id }} {
+    display: block;
+    width: 100%;
+    padding: 60px 20px;
+    background-color: {{ section.settings.background_color }};
+    /* Inherit theme font stack */
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+  }
+
+  .featured-products__container-{{ fp_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .featured-products__header-{{ fp_id }} {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .featured-products__eyebrow-{{ fp_id }} {
+    color: #56C271;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 14px 0;
+    font-family: var(--font-body-family);
+  }
+
+  .featured-products__title-{{ fp_id }} {
+    color: #3D3F44;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.15;
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+  }
+
+  .featured-products__grid-{{ fp_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ active_count }}, 1fr);
+    gap: 24px;
+    {%- if active_count == 1 %}
+    max-width: 400px;
+    margin: 0 auto;
+    {%- endif %}
+  }
+
+  .featured-products__card-{{ fp_id }} {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+  }
+
+  .featured-products__card-{{ fp_id }}:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.11);
+  }
+
+  .featured-products__image-wrapper-{{ fp_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+
+  .featured-products__image-{{ fp_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .featured-products__card-{{ fp_id }}:hover .featured-products__image-{{ fp_id }} {
+    transform: scale(1.03);
+  }
+
+  .featured-products__ribbon-{{ fp_id }} {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #56C271;
+    color: #ffffff;
+    padding: 5px 11px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+    font-family: var(--font-body-family);
+    line-height: 1;
+  }
+
+  .featured-products__ribbon-new-{{ fp_id }} {
+    position: absolute;
+    top: 36px;
+    left: 12px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 11px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+    font-family: var(--font-body-family);
+    line-height: 1;
+  }
+
+  .featured-products__content-{{ fp_id }} {
+    padding: 20px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+  }
+
+  .featured-products__product-title-{{ fp_id }} {
+    color: #252628;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .featured-products__gift-framing-{{ fp_id }} {
+    font-size: 13px;
+    color: #3D3F44;
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.85;
+    font-family: var(--font-body-family);
+  }
+
+  .featured-products__price-row-{{ fp_id }} {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .featured-products__price-original-{{ fp_id }} {
+    font-size: 15px;
+    font-weight: 600;
+    color: #A0ADB7;
+    text-decoration: line-through;
+    font-family: var(--font-body-family);
+  }
+
+  .featured-products__price-{{ fp_id }} {
+    font-size: 19px;
+    font-weight: 700;
+    color: #252628;
+    margin: 0;
+    font-family: var(--font-body-family);
+  }
+
+  .featured-products__price-badge-{{ fp_id }} {
+    background-color: #56C271;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-family: var(--font-body-family);
+  }
+
+  /*
+   * Buy button: inherits the theme's own button styling
+   * (`button button--primary button--fixed grow` + is="hover-button"),
+   * so we only add layout glue here — push it to the bottom of the card
+   * and make sure it sits above the card's hover overlay.
+   *
+   * The theme's `grow` class sets flex-grow:1, which the PDP needs because
+   * its buy buttons live in a HORIZONTAL flex row. Our card content is a
+   * VERTICAL flex column, so flex-grow:1 would stretch the button's height
+   * vertically when the grid forces cards to equal heights. Force it back
+   * to 0 here, and let margin-top:auto handle the bottom-alignment instead.
+   */
+  .featured-products__button-{{ fp_id }} {
+    position: relative;
+    z-index: 2;
+    flex: 0 0 auto;
+    margin-top: auto;
+    width: 100%;
+  }
+
+  /*
+   * Wrap each card in a Shopify product form. display:contents lets the
+   * form be transparent in the grid layout so the <a> card inside still
+   * lays out as a normal grid item.
+   */
+  .featured-products__form-{{ fp_id }} {
+    display: contents;
+  }
+
+  @media screen and (max-width: 989px) {
+    .featured-products__grid-{{ fp_id }} {
+      {%- if active_count >= 2 %}
+      grid-template-columns: repeat(2, 1fr);
+      {%- else %}
+      grid-template-columns: 1fr;
+      {%- endif %}
+      gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .featured-products-{{ fp_id }} {
+      padding: 40px 16px;
+    }
+
+    .featured-products__grid-{{ fp_id }} {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .featured-products__title-{{ fp_id }} {
+      font-size: 28px;
+    }
+  }
+{% endstyle %}
+
+<featured-products-{{ fp_id }} class="featured-products-{{ fp_id }}">
+  <div class="featured-products__container-{{ fp_id }}">
+
+    <div class="featured-products__header-{{ fp_id }}">
+      <p class="featured-products__eyebrow-{{ fp_id }}">{{ section.settings.eyebrow_text }}</p>
+      <h2 class="featured-products__title-{{ fp_id }}">{{ section.settings.heading_text }}</h2>
+    </div>
+
+    <div class="featured-products__grid-{{ fp_id }}">
+
+      {%- for i in (1..product_count) -%}
+        {%- liquid
+          if i == 1
+            assign current_product = section.settings.product_1
+            assign current_ribbon  = section.settings.ribbon_1_text
+            assign current_framing = section.settings.gift_framing_1
+            assign current_original_price = section.settings.original_price_1
+            assign current_sale_price = section.settings.sale_price_1
+            assign show_new_ribbon = section.settings.show_new_ribbon_1
+            assign current_image_override = section.settings.image_override_1
+          elsif i == 2
+            assign current_product = section.settings.product_2
+            assign current_ribbon  = section.settings.ribbon_2_text
+            assign current_framing = section.settings.gift_framing_2
+            assign current_original_price = section.settings.original_price_2
+            assign current_sale_price = section.settings.sale_price_2
+            assign show_new_ribbon = section.settings.show_new_ribbon_2
+            assign current_image_override = section.settings.image_override_2
+          else
+            assign current_product = section.settings.product_3
+            assign current_ribbon  = section.settings.ribbon_3_text
+            assign current_framing = section.settings.gift_framing_3
+            assign current_original_price = section.settings.original_price_3
+            assign current_sale_price = section.settings.sale_price_3
+            assign show_new_ribbon = section.settings.show_new_ribbon_3
+            assign current_image_override = section.settings.image_override_3
+          endif
+        -%}
+
+        {%- comment -%}
+          Unset product settings return an EmptyDrop (truthy) — we must
+          compare against `blank`, not rely on `{% if current_product %}`,
+          or the {% form 'product' %} tag below will error with
+          "product form must be given a product".
+        {%- endcomment -%}
+        {%- if current_product != blank -%}
+          {%- assign fp_form_id = 'FPProductForm-' | append: fp_id | append: '-' | append: i -%}
+          {%- assign fp_form_class = 'featured-products__form-' | append: fp_id -%}
+
+          {%- comment -%}
+            Wrap the whole card in a real Shopify product form. The theme's
+            `is="product-form"` customized built-in element listens on this
+            form's submit event and handles the AJAX add + cart-drawer open
+            atomically — the same pipeline the PDP buy button uses.
+            display:contents on the form keeps the grid layout intact.
+          {%- endcomment -%}
+          {%- form 'product',
+            current_product,
+            id: fp_form_id,
+            class: fp_form_class,
+            data-type: 'add-to-cart-form',
+            is: 'product-form'
+          -%}
+            <input
+              type="hidden"
+              name="id"
+              value="{{ current_product.selected_or_first_available_variant.id }}"
+              disabled
+            >
+
+            <a href="{{ current_product.url }}" class="featured-products__card-{{ fp_id }}" aria-label="{{ current_product.title | escape }}">
+
+              <div class="featured-products__image-wrapper-{{ fp_id }}">
+                {%- comment -%}
+                  Use the image override if one has been selected in the
+                  section settings, otherwise fall back to the product's
+                  featured image, and finally to the placeholder SVG.
+                {%- endcomment -%}
+                {%- if current_image_override != blank -%}
+                  <img
+                    src="{{ current_image_override | image_url: width: 800 }}"
+                    srcset="
+                      {{ current_image_override | image_url: width: 400 }} 400w,
+                      {{ current_image_override | image_url: width: 800 }} 800w
+                    "
+                    sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33vw"
+                    alt="{{ current_image_override.alt | default: current_product.title | escape }}"
+                    class="featured-products__image-{{ fp_id }}"
+                    {% if i == 1 %}loading="eager"{% else %}loading="lazy"{% endif %}
+                    width="800"
+                    height="800"
+                  >
+                {%- elsif current_product.featured_image -%}
+                  <img
+                    src="{{ current_product.featured_image | image_url: width: 800 }}"
+                    srcset="
+                      {{ current_product.featured_image | image_url: width: 400 }} 400w,
+                      {{ current_product.featured_image | image_url: width: 800 }} 800w
+                    "
+                    sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33vw"
+                    alt="{{ current_product.featured_image.alt | default: current_product.title | escape }}"
+                    class="featured-products__image-{{ fp_id }}"
+                    {% if i == 1 %}loading="eager"{% else %}loading="lazy"{% endif %}
+                    width="800"
+                    height="800"
+                  >
+                {%- else -%}
+                  {%- assign placeholder_class = 'featured-products__image-' | append: fp_id -%}
+                  {{ 'product-1' | placeholder_svg_tag: placeholder_class }}
+                {%- endif -%}
+
+                {%- if current_ribbon != blank -%}
+                  <div class="featured-products__ribbon-{{ fp_id }}">{{ current_ribbon }}</div>
+                {%- endif -%}
+                {%- if show_new_ribbon -%}
+                  <div class="featured-products__ribbon-new-{{ fp_id }}">{{ section.settings.new_ribbon_text }}</div>
+                {%- endif -%}
+              </div>
+
+              <div class="featured-products__content-{{ fp_id }}">
+
+                <h3 class="featured-products__product-title-{{ fp_id }} text-base-xl font-medium leading-tight">
+                  {{ current_product.title }}
+                </h3>
+
+                <p class="featured-products__gift-framing-{{ fp_id }}">
+                  {{ current_framing }}
+                </p>
+
+
+                <div class="featured-products__price-row-{{ fp_id }}">
+                  <span class="featured-products__price-original-{{ fp_id }}">{{ current_original_price }}</span>
+                  <span class="featured-products__price-{{ fp_id }}">{{ current_sale_price }}</span>
+                  <span class="featured-products__price-badge-{{ fp_id }}">{{ section.settings.discount_badge_text }}</span>
+                </div>
+
+                {%- capture fp_button_label -%}{{ section.settings.button_text }}{%- endcapture -%}
+                <button
+                  type="submit"
+                  name="add"
+                  form="{{ fp_form_id }}"
+                  class="featured-products__button-{{ fp_id }} product-form__submit button button--primary button--fixed grow"
+                  is="hover-button"
+                  aria-label="{{ 'Add ' | append: current_product.title | append: ' to cart' | escape }}"
+                >
+                  {%- render 'button__inner', label: fp_button_label -%}
+                </button>
+
+              </div>
+            </a>
+          {%- endform -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+    </div>
+  </div>
+</featured-products-{{ fp_id }}>
+
+<script>
+  (function () {
+    class FeaturedProducts{{ fp_id }} extends HTMLElement {
+      connectedCallback() {
+        // The buy button is a real <button type="submit" name="add"> bound to
+        // a hidden Shopify product form via its `form="..."` attribute. The
+        // theme's `is="product-form"` customized built-in element handles the
+        // AJAX add and opens the cart drawer.
+        //
+        // The button visually sits inside the card's <a> link, so without this
+        // listener a click would also fire the link's navigation. stopPropagation
+        // (NOT preventDefault) blocks the link click from reaching the <a>
+        // while still letting the button submit its associated form normally.
+        this.querySelectorAll('.featured-products__button-{{ fp_id }}').forEach((btn) => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+          });
+        });
+      }
+    }
+
+    if (!customElements.get('featured-products-{{ fp_id }}')) {
+      customElements.define(
+        'featured-products-{{ fp_id }}',
+        FeaturedProducts{{ fp_id }}
+      );
+    }
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Featured Products",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "product_count",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 3,
+      "label": "Number of products to show"
+    },
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Eyebrow text",
+      "default": "TOP FATHER'S DAY PICKS"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading",
+      "default": "The Smartest Gifts In Golf"
+    },
+    {
+      "type": "header",
+      "content": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "product_1",
+      "label": "Product"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_override_1",
+      "label": "Image override",
+      "info": "Optional. Replaces the product's featured image on this card. Leave blank to use the product image."
+    },
+    {
+      "type": "text",
+      "id": "ribbon_1_text",
+      "label": "Badge ribbon text",
+      "default": "BEST GIFT"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_new_ribbon_1",
+      "label": "Show NEW ribbon",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "gift_framing_1",
+      "label": "Gift framing copy",
+      "default": "Laser-precise \"Play's Like\" distances. AI Strategy access. Always the right club, every time."
+    },
+    {
+      "type": "text",
+      "id": "original_price_1",
+      "label": "Original price (strike-through)",
+      "default": "$299.99"
+    },
+    {
+      "type": "text",
+      "id": "sale_price_1",
+      "label": "Sale price",
+      "default": "$239.99"
+    },
+    {
+      "type": "header",
+      "content": "Product 2",
+      "info": "Only rendered when 'Number of products to show' is 2 or more."
+    },
+    {
+      "type": "product",
+      "id": "product_2",
+      "label": "Product"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_override_2",
+      "label": "Image override",
+      "info": "Optional. Replaces the product's featured image on this card. Leave blank to use the product image."
+    },
+    {
+      "type": "text",
+      "id": "ribbon_2_text",
+      "label": "Badge ribbon text",
+      "default": "EASIEST SETUP"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_new_ribbon_2",
+      "label": "Show NEW ribbon",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "gift_framing_2",
+      "label": "Gift framing copy",
+      "default": "Automatic shot tracking, no sensors, no phone. Pure performance insights, effortlessly."
+    },
+    {
+      "type": "text",
+      "id": "original_price_2",
+      "label": "Original price (strike-through)",
+      "default": "$349.99"
+    },
+    {
+      "type": "text",
+      "id": "sale_price_2",
+      "label": "Sale price",
+      "default": "$279.99"
+    },
+    {
+      "type": "header",
+      "content": "Product 3",
+      "info": "Only rendered when 'Number of products to show' is 3."
+    },
+    {
+      "type": "product",
+      "id": "product_3",
+      "label": "Product"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_override_3",
+      "label": "Image override",
+      "info": "Optional. Replaces the product's featured image on this card. Leave blank to use the product image."
+    },
+    {
+      "type": "text",
+      "id": "ribbon_3_text",
+      "label": "Badge ribbon text",
+      "default": "BEST VALUE"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_new_ribbon_3",
+      "label": "Show NEW ribbon",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "gift_framing_3",
+      "label": "Gift framing copy",
+      "default": "Personal performance insights. Complete distance breakdown for every club in your bag."
+    },
+    {
+      "type": "text",
+      "id": "original_price_3",
+      "label": "Original price (strike-through)",
+      "default": "$249.99"
+    },
+    {
+      "type": "text",
+      "id": "sale_price_3",
+      "label": "Sale price",
+      "default": "$199.99"
+    },
+    {
+      "type": "header",
+      "content": "Shared settings"
+    },
+    {
+      "type": "text",
+      "id": "new_ribbon_text",
+      "label": "NEW ribbon text",
+      "default": "NEW"
+    },
+    {
+      "type": "text",
+      "id": "discount_badge_text",
+      "label": "Discount badge text",
+      "default": "20% OFF"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Add to Cart"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section background",
+      "default": "#F7F7F7"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Products"
+    }
+  ]
+}
+{% endschema %}

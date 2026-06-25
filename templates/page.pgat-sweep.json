@@ -1,0 +1,967 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_EaVwqH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_p9LKnH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/official-game-tracker-pga.svg",
+            "image_width": "custom",
+            "image_max_width": 300,
+            "image_max_width_mobile": 150
+          }
+        },
+        "heading_jHabC7": {
+          "type": "heading",
+          "settings": {
+            "heading": "The 2024 Arccos Invitational",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_yRwqFY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ultimate Arccos Experience • TPC Sawgrass • March 26-27, 2024</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_EPWH89": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "View Details",
+            "button_link": "#sweepstakesformsection",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "image_p9LKnH",
+        "heading_jHabC7",
+        "text_yRwqFY",
+        "button_EPWH89"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/2017-TPCSawgrass-Stadium-Hole13B-CH_1.jpg",
+        "image_height": "850px",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich_text_tnhPmH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k7Hyhg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enter To Win an Arccos One-of-a-Kind Experience",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HPpVGi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Active Annual Arccos Members, enter your email below for an opportunity to win an exclusive experience at TPC Sawgrass. 12 Lucky Arccos members will have the chance to compete in the 2024 Arccos Invitational.<br/><br/><em><strong>Entries are now closed, the 12 winners have been selected.</strong></em></p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7Hyhg",
+        "text_HPpVGi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "custom_liquid_3hiHnL": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<style>\n    .sweepstakes-form-section {\n        font-family: 'Montserrat', sans-serif;\n        text-align: center;\n\n        font-size: 4px;\n        position: relative;\n\n        --color-1: #3D3F44;\n        --color-3: #B2BEC6;\n        --color-4: #A0ADB7;\n        --arccos-green: #56C271;\n        --disabled-button-color: #8F8F8F;\n        --shopify-root-font-size: 16px;\n    }\n\n    .sweepstakes-form-section * {\n        box-sizing: border-box;\n        margin: 0;\n        padding: 0;\n    }\n\n    #sweepstakes-entry-layout {\n        padding-top: 20em;\n        padding-bottom: 20em;\n    }\n\n    #sweepstakes-success-layout {\n        position: absolute;\n        top: 0;\n        left: 0;\n        height: 100%;\n        width: 100%;\n        display: none;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n\n    #sweepstakes-failure-info-section {\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        display: none;\n        top: 0;\n        left: 0;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n\n    .sweepstakes-form-section .sweepstakes-info-section-wrapper {\n        position: relative;\n    }\n\n    .sweepstakes-form-section .sweepstakes-section-text {\n        font-size: var(--shopify-root-font-size);\n        margin-bottom: calc(15em / 8);\n        max-width: 46em;\n    }\n\n    .sweepstakes-form-section .br:before {\n        white-space: pre;\n        content: '\\A';\n    }\n\n    .sweepstakes-form-section .italic {\n        font-style: italic;\n        font-weight: 400;\n    }\n\n    .sweepstakes-form-section .bold {\n        font-weight: bold;\n    }\n\n    .sweepstakes-form-section .email-input-wrapper {\n        margin-bottom: 12.5em;\n    }\n\n    .sweepstakes-form-section .sweepstakes-section-title {\n        margin: 0 0 0.75em 0;\n        font-size: calc(1.6125 * var(--shopify-root-font-size));\n        font-weight: 400;\n    }\n\n    @media only screen and (max-width: 768px) {\n        .sweepstakes-form-section {\n            --shopify-root-font-size: 13.6px;\n        }\n    }\n\n    #sweepstakes-form {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n\n    .sweepstakes-form-section .input-wrapper {\n        position: relative;\n        height: 13em;\n        --input-padding-left: 1.5em;\n        border: 0.5em solid #B2BEC6;\n        border-radius: 1.25em;\n        margin-bottom: 12.5em;\n        width: min(100%, 120em);\n    }\n\n    .sweepstakes-form-section .input-label {\n        font-size: 2.5em;\n        position: absolute;\n        top: 0.2em;\n        left: var(--input-padding-left);\n    }\n\n    #sweepstakes-email {\n        --modifier: 3; /* change font-size of input text while maintaining label alignment */\n        --top-padding: 1em;\n        height: 100%;\n        border: none;\n        font-size: calc(1em * var(--modifier)) !important;\n        padding: var(--top-padding) 0 0 calc(var(--input-padding-left) * calc(5 / calc(2 * var(--modifier))));\n        width: 100%;\n    }\n\n    .sweepstakes-form-section .input-field:focus {\n        outline: none;\n    }\n\n    .button-wrapper {\n        display: flex;\n        flex-direction: row;\n        align-items: center;\n        justify-content: center;\n        width: min(100%, 30em);\n        font-size: 3.5em;\n    }\n\n    .button-wrapper > * {\n        width: 100%;\n    }\n\n    .button-wrapper > *:not(:last-child) {\n        margin-right: calc(10em / 7);\n    }\n\n    #sweepstakes-submit-button {\n        background-color: var(--arccos-green);\n        border-radius: calc(5em / 14);\n        font-weight: bold;\n        color: white;\n        border: none;\n        padding: 1em 0;\n        cursor: pointer;\n        font-size: inherit;\n    }\n\n    #sweepstakes-join-link {\n        --border-width: calc(1em / 7);\n        color: var(--color-1);\n        border: var(--border-width) solid var(--color-1);\n        border-radius: calc(5em / 14);\n        background: none;\n        padding: calc(1em - var(--border-width)) 0;\n        text-decoration: none;\n    }\n\n    #sweepstakes-join-link::after {\n        content: none !important;\n    }\n\n    #sweepstakes-join-link:hover {\n        text-decoration: none;\n        cursor: pointer;\n    }\n\n    #sweepstakes-submit-button:disabled {\n        background-color: var(--disabled-button-color);\n        cursor: not-allowed;\n    }\n\n    #bang-svg {\n        position: absolute;\n        top: 1.5em;\n        right: 2em;\n        display: none;\n    }\n\n    #checkmark-svg {\n        margin-bottom: 5em;\n    }\n\n    .sweepstakes-form-section .text {\n        margin: 0;\n        padding: 0;\n    }\n\n    #sweepstakes-entry-info-section {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n</style>\n<script>\n    let failureCount = 0\n\n    const handleSubmit = async e => {\n        const email = e.target['sweepstakes-email'].value\n        const response = await window.fetch('https://api.arccosgolf.com/v1/offers/sweepstakes/entries', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/json',\n            },\n            body: JSON.stringify({\n                email,\n            })\n        })\n        const json = await response.json()\n        // add visibility hidden\n        if (json.isEmailRegistered) {\n            $('#sweepstakes-entry-layout').css('visibility', 'hidden')\n            $('#sweepstakes-success-layout').css('display', 'flex')\n        } else {\n            failureCount++\n            $('#sweepstakes-entry-info-section').css('visibility', 'hidden')\n            $('#sweepstakes-failure-info-section').css('display', 'flex')\n            $('#bang-svg').css('display', 'block')\n            $('#sweepstakes-email').css('padding-right', '4em')\n            if (failureCount >= 3) {\n                // replace failure text div content with new text\n                $('#failure-text-div').html('<p class=\"text\">Please Email <a href=\"mailto:starter@arccosgolf.com?subject=Arccos%20Invitational%20Inquiry\">starter@arccosgolf.com</a></p>')\n            }\n        }\n    }\n\n    const enableSmoothScrolling = () => {\n        document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {\n            anchor.addEventListener('click', function (e) {\n                e.preventDefault()\n                document.querySelector(this.getAttribute('href')).scrollIntoView({\n                    behavior: 'smooth'\n                })\n            })\n        })\n    }\n\n    const setup = () => {\n        $('#sweepstakes-form')\n            .removeAttr('onsubmit')\n            .submit(e => {\n                e.preventDefault()\n                handleSubmit(e)\n            })\n        $('#sweepstakes-submit-button')\n            .removeAttr('disabled')\n        $('p').filter(function () {\n            return $(this).text() === 'NOT A MEMBER?'\n        })\n            .attr('name', 'arccos-bundle-anchor')\n            .attr('id', 'arccos-bundle-anchor')\n        enableSmoothScrolling()\n    }\n\n    let intervalId\n\n    if (!intervalId) {\n        intervalId = setInterval(() => {\n            if (typeof $ !== 'undefined') {\n                clearInterval(intervalId)\n                intervalId = undefined\n                setup()\n            }\n        }, 300)\n    }\n</script>\n<div id=\"sweepstakesformsection\" name=\"sweepstakesformsection\" class=\"sweepstakes-form-section\">\n    <div id=\"sweepstakes-entry-layout\">\n        <div class=\"sweepstakes-info-section-wrapper\">\n            <div id=\"sweepstakes-entry-info-section\">\n                <h2 class=\"sweepstakes-section-title\">\n                    Enter To Win an Arccos One-of-a-Kind Experience\n                </h2>\n                <div class=\"sweepstakes-section-text\">\n          <span class=\"text\">\n            Active Annual Arccos Members, enter your email below for an opportunity to win an exclusive experience at TPC Sawgrass. 12 Lucky Arccos members will have the chance to compete in the 2024 Arccos Invitational.\n          </span>\n                    <div class=\"br\"></div>\n                    <span class=\"italic text\">\n            Next 4 winners will be selected on January 15, 2024\n          </span>\n                </div>\n            </div>\n            <div id=\"sweepstakes-failure-info-section\">\n                <h2 class=\"sweepstakes-section-title\">\n                    We Don't Recognize Your Email.\n                </h2>\n                <div id=\"failure-text-div\" class=\"sweepstakes-section-text\">\n                    <p class=\"text\">\n                        Check your spelling and re-enter your email. Not an Annual Arccos member? Join Arccos today!\n                    </p>\n                                  </div>\n            </div>\n        </div>\n        <form id=\"sweepstakes-form\">\n            <div class=\"input-wrapper\">\n                <label class=\"input-label\" for=\"sweepstakes-email\">Email Address</label>\n                <input id=\"sweepstakes-email\" required autocomplete=\"email\" name=\"email\" type=\"text\">\n                <svg id=\"bang-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"35\" viewbox=\"0 0 35 35\" fill=\"none\">\n                    <circle cx=\"17.5\" cy=\"17.5\" r=\"17.5\" fill=\"#8F8F8F\"></circle>\n                    <path d=\"M17.6126 21.6215C16.761 21.6215 16.0516 20.9688 15.9809 20.1202L15.126 9.8611C15.0048 8.40635 16.1528 7.15869 17.6126 7.15869C19.0723 7.15869 20.2204 8.40635 20.0991 9.8611L19.2442 20.1202C19.1735 20.9688 18.4641 21.6215 17.6126 21.6215Z\" fill=\"white\"></path>\n                    <path d=\"M17.6126 28.636C16.4477 28.636 15.5034 27.6917 15.5034 26.5268C15.5034 25.3619 16.4477 24.4176 17.6126 24.4176C18.7774 24.4176 19.7217 25.3619 19.7217 26.5268C19.7217 27.6917 18.7774 28.636 17.6126 28.636Z\" fill=\"white\"></path>\n                </svg>\n            </div>\n            <div class=\"button-wrapper\">\n                <button id=\"sweepstakes-submit-button\" type=\"submit\" disabled>\n                    ENTER TO WIN*\n                </button>\n                <a id=\"sweepstakes-join-link\" href=\"https://www.arccosgolf.com/collections/arccos-products\" target=\"_blank\" rel=\"noopener\">\n                    BECOME A MEMBER\n                </a>\n            </div>\n        </form>\n    </div>\n    <div id=\"sweepstakes-success-layout\">\n        <svg id=\"checkmark-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"44\" height=\"44\" viewbox=\"0 0 44 44\" fill=\"none\">\n            <circle cx=\"22\" cy=\"22\" r=\"21.25\" fill=\"#56C271\" stroke=\"#56C271\" stroke-width=\"1.5\"></circle>\n            <rect x=\"12.7109\" y=\"22.1333\" width=\"10.3706\" height=\"2.75014\" rx=\"1.37507\" transform=\"rotate(45 12.7109 22.1333)\" fill=\"white\"></rect>\n            <rect x=\"32.7617\" y=\"16.7451\" width=\"20.7412\" height=\"2.75576\" rx=\"1.37788\" transform=\"rotate(135 32.7617 16.7451)\" fill=\"white\"></rect>\n        </svg>\n        <h2 class=\"sweepstakes-section-title\">\n            You've Successfully Entered!\n        </h2>\n        <div class=\"sweepstakes-section-text\">\n            <p class=\"text\">\n                Thanks for entering! The next four (4) winners will be selected on January 15, 2024, and will be notified via email. *Terms and conditions apply. Void where prohibited. US residents only.\n            </p>\n        </div>\n    </div>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 24,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_PBYHRg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nbqLnm": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Parth.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_DrPYky": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Mayes.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_VgXynT": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Tony.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_8gP6NY": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Francesca.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_JFWwRH": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Travis.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_TgUdnV": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Scott.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_bJzcbc": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Dylan.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_qzCpHt": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Jason.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_yK3RGY": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Amanda.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_6cj8KQ": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Andrew.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_NJqh7q": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/William.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_Hr9MFV": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Bill.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_nbqLnm",
+        "column_DrPYky",
+        "column_VgXynT",
+        "column_8gP6NY",
+        "column_JFWwRH",
+        "column_TgUdnV",
+        "column_bJzcbc",
+        "column_qzCpHt",
+        "column_yK3RGY",
+        "column_6cj8KQ",
+        "column_NJqh7q",
+        "column_Hr9MFV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Meet The 12 Winners",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_aqUzAH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9wQk6q": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/THE_STADIUM_Course.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_diAAhb": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Dye_s_Valley_Course.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_gE3c3B": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/AMBASSADOR_Clinic.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_3wJeyA": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Club_Prizes.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_FrgNJ3": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/VIP_TEE_GIFTS.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_PAQ6fW": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Much_MOre.jpg",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_9wQk6q",
+        "column_diAAhb",
+        "column_gE3c3B",
+        "column_3wJeyA",
+        "column_FrgNJ3",
+        "column_PAQ6fW"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "What's Included",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Get a chance to cross off TPC Sawgrass from your bucket list! Enter for a chance to be one of the 12 lucky Arccos Members who will get to have a one-of-a-kind experience at the 2024 Arccos Invitational!</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "rich_text_czfQkJ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3pxQ36": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>PLEASE NOTE: </strong>Selected winners will be responsible for hotel accommodations and travel to the event. Arccos will provide a block of rooms at a preferred rate at selected hotel(s) for the winners.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_3pxQ36"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "rich_text_g8m9J3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gWJnHi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sweepstakes Details",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_PKQ8mU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Sweepstakes begins on Wednesday, Nov 1, 2023, at 12:00 a.m. EST and ends on Monday, Jan. 15, 2024, at 11:59 p.m. EST.</p><p><strong>Drawing 1</strong> - First 4 winners were selected on November 15, 2023<br/><strong>Drawing 2</strong> - Next 4 winners will be selected on December 15, 2023<br/><strong>Drawing 3</strong> - Last 4 winners will be selected on January 15, 2024</p><p>The winner must be available from Tuesday, March 26, 2024, to Wednesday, March 27, 2024, to redeem the prize.</p><p>*<a href=\"/pages/arccos-invitational-at-tpc-sawgrass-official-rules\" target=\"_blank\" title=\"The 2024 Arccos Invitational at TPC Sawgrass Sweepstakes (the “Sweepstakes”) March 26, 2024 and March 27, 2024\">Terms and conditions</a> apply. Void where prohibited. US residents only.<br/><br/><a href=\"/blogs/community/arccos-invitational-first-four-winners-announced\" target=\"_blank\" title=\"/blogs/community/arccos-invitational-first-four-winners-announced\">First Four Winners Announced</a></p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gWJnHi",
+        "text_PKQ8mU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "faq_MrwJqP": {
+      "type": "faq",
+      "blocks": {
+        "question_JADPPC": {
+          "type": "question",
+          "settings": {
+            "title": "How many times can I enter?",
+            "text": "<p>One entry per member. Submitting more than once, will not increase your chance of being chosen.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_UYrbC4": {
+          "type": "question",
+          "settings": {
+            "title": "Can I enter, but have a friend go in my place?",
+            "text": "<p>The sweepstake is only available to the entered members, if you are not available during the Invitational days, we will draw another member at random.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_ajhgcz": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a Handicap/Skill requirement?",
+            "text": "<p>Nope! Anyone can enter regardless of handicap or skill. We just ask you to be courteous and keep up with the group ahead of you. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_JTHNdx": {
+          "type": "question",
+          "settings": {
+            "title": "What is the Event Format? ",
+            "text": "<p>The Event will be based on a team point system. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_crUeXA": {
+          "type": "question",
+          "settings": {
+            "title": "Can I bring a spouse or friend? ",
+            "text": "<p>While you can have a spouse or friend accompany you on your trip, please note that due to space limitations, we cannot accommodate additional guests on the course or at the scheduled golf, events, and receptions.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_iTAnBg": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to submit my entry again for the next drawing?",
+            "text": "<p>There's no need to submit your entry again. Your entry remains eligible for all the upcoming drawings.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_JADPPC",
+        "question_UYrbC4",
+        "question_ajhgcz",
+        "question_JTHNdx",
+        "question_crUeXA",
+        "question_iTAnBg"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "rich_text_yNGJg9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WPB9qi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join The Arccos Community!",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "spacing_mcgT4w": {
+          "type": "spacing",
+          "settings": {
+            "height": 20,
+            "height_mobile": 12
+          }
+        },
+        "image_9Yqpkd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_5377.png",
+            "image_width": "full_width",
+            "image_max_width": 50,
+            "image_max_width_mobile": 50
+          }
+        },
+        "button_Wncfgz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://collections/arccos-products",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_WPB9qi",
+        "spacing_mcgT4w",
+        "image_9Yqpkd",
+        "button_Wncfgz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 76,
+        "padding_bottom": 120,
+        "divider": true,
+        "narrow": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_EaVwqH",
+    "rich_text_tnhPmH",
+    "custom_liquid_3hiHnL",
+    "multicolumn_PBYHRg",
+    "multicolumn_aqUzAH",
+    "rich_text_czfQkJ",
+    "rich_text_g8m9J3",
+    "faq_MrwJqP",
+    "rich_text_yNGJg9"
+  ]
+}

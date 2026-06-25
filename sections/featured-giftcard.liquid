@@ -1,0 +1,476 @@
+{%- liquid
+  assign gc_id = section.id | replace: '_', '' | replace: '-', '' | downcase
+-%}
+
+{% style %}
+  .featured-giftcard-{{ gc_id }} {
+    display: block;
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+  }
+
+  /* ── Header ── */
+  .featured-giftcard__header-{{ gc_id }} {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .featured-giftcard__eyebrow-{{ gc_id }} {
+    color: #56C271;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 14px 0;
+    font-family: var(--font-body-family);
+  }
+
+  .featured-giftcard__heading-{{ gc_id }} {
+    color: #3D3F44;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.15;
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+  }
+
+  /* ── Card ── */
+  .featured-giftcard__card-outer-{{ gc_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /*
+   * The card IS the rendered Shopify product form. That way the theme's
+   * is="product-form" element owns the AJAX add and cart-drawer open —
+   * same pipeline the PDP buy button uses.
+   */
+  .featured-giftcard__card-{{ gc_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease;
+    align-items: stretch;
+    /* Reset default form spacing so the grid layout is clean. */
+    margin: 0;
+    padding: 0;
+  }
+
+  .featured-giftcard__card-{{ gc_id }}:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  /* ── Image ── */
+  .featured-giftcard__image-wrapper-{{ gc_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+
+  .featured-giftcard__image-{{ gc_id }} {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .featured-giftcard__badge-{{ gc_id }} {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #56C271;
+    color: #ffffff;
+    padding: 5px 11px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    z-index: 2;
+    font-family: var(--font-body-family);
+  }
+
+  /* ── Content ── */
+  .featured-giftcard__content-{{ gc_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 32px 32px 32px 40px;
+    justify-content: center;
+  }
+
+  .featured-giftcard__product-title-{{ gc_id }} {
+    color: #252628;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .featured-giftcard__framing-{{ gc_id }} {
+    font-size: 13px;
+    color: #252628;
+    line-height: 1.5;
+    margin: 0;
+    font-family: var(--font-body-family);
+  }
+
+  /* ── Variant selector ──
+   * margin-top on the label + margin-bottom on the pills container
+   * add ~16px of breathing room on top of the parent flex container's
+   * 10px gap, so the selector visually separates from the framing copy
+   * above and the price below.
+   */
+  .featured-giftcard__variant-label-{{ gc_id }} {
+    font-size: 12px;
+    font-weight: 600;
+    color: #252628;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 16px 0 0 0;
+    font-family: var(--font-body-family);
+  }
+
+  .featured-giftcard__variant-pills-{{ gc_id }} {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  /* ── Recipient form wrapper ──
+   * The theme's `gift-card-recipient-form` snippet provides its own
+   * layout (grid gap-6) for the checkbox and recipient fields.
+   *
+   * Margins are set so the gap above the recipient (handled by the
+   * variant pills' margin-bottom) matches the gap below it — keeping the
+   * framing→selector→recipient→price rhythm symmetric at ~26px each.
+   * No top margin here because pills already contributes 16px above.
+   */
+  .featured-giftcard__recipient-{{ gc_id }} {
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+
+  .featured-giftcard__variant-pill-{{ gc_id }} {
+    padding: 7px 14px;
+    border: 1.5px solid #252628;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #252628;
+    background: transparent;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+    font-family: var(--font-body-family);
+    white-space: nowrap;
+  }
+
+  .featured-giftcard__variant-pill-{{ gc_id }}:hover {
+    border-color: #252628;
+  }
+
+  .featured-giftcard__variant-pill-{{ gc_id }}.is-selected {
+    background-color: #252628;
+    border-color: #252628;
+    color: #ffffff;
+  }
+
+  /* ── Price ── */
+  .featured-giftcard__price-{{ gc_id }} {
+    font-size: 22px;
+    font-weight: 700;
+    color: #252628;
+    margin: 0;
+    font-family: var(--font-body-family);
+  }
+
+  /*
+   * ATC button: inherits the theme's own button styling
+   * (`button button--primary button--fixed grow` + is="hover-button"),
+   * so we only add layout glue here. Same fix as featured-products:
+   * neutralize the theme's `grow` (flex-grow:1) class because our content
+   * is a VERTICAL flex column — otherwise the button would stretch.
+   */
+  .featured-giftcard__button-{{ gc_id }} {
+    position: relative;
+    z-index: 2;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  /* ── Mobile ── */
+  @media screen and (max-width: 749px) {
+    .featured-giftcard-{{ gc_id }} {
+      padding: 40px 16px;
+    }
+
+    .featured-giftcard__heading-{{ gc_id }} {
+      font-size: 28px;
+    }
+
+    .featured-giftcard__card-{{ gc_id }} {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-giftcard__content-{{ gc_id }} {
+      padding: 20px 20px 24px;
+    }
+  }
+{% endstyle %}
+
+<featured-giftcard-{{ gc_id }} class="featured-giftcard-{{ gc_id }}">
+  {%- liquid
+    assign current_product = section.settings.product
+    assign first_variant = current_product.selected_or_first_available_variant
+    assign gc_form_id = 'GCProductForm-' | append: gc_id
+    assign gc_form_class = 'featured-giftcard__card-' | append: gc_id
+  -%}
+
+  {%- comment %} ── Section header ── {% endcomment -%}
+  <div class="featured-giftcard__header-{{ gc_id }}">
+    <p class="featured-giftcard__eyebrow-{{ gc_id }}">{{ section.settings.eyebrow_text }}</p>
+    <h2 class="featured-giftcard__heading-{{ gc_id }}">{{ section.settings.heading_text }}</h2>
+  </div>
+
+  {%- comment -%}
+    Unset product settings return an EmptyDrop (truthy) — we must compare
+    against `blank`, not rely on `{% if current_product %}`, or the
+    {% form 'product' %} tag below will error "must be given a product".
+  {%- endcomment -%}
+  {%- if current_product != blank -%}
+    <div class="featured-giftcard__card-outer-{{ gc_id }}">
+
+      {%- comment -%}
+        The card IS the product form. The theme's is="product-form"
+        customized built-in element listens for submit and handles AJAX
+        add + cart drawer open (same as the PDP buy button).
+      {%- endcomment -%}
+      {%- form 'product',
+        current_product,
+        id: gc_form_id,
+        class: gc_form_class,
+        data-type: 'add-to-cart-form',
+        is: 'product-form'
+      -%}
+        <input
+          type="hidden"
+          name="id"
+          value="{{ first_variant.id }}"
+          disabled
+        >
+
+        {%- comment %} ── Left: image ── {% endcomment -%}
+        <div class="featured-giftcard__image-wrapper-{{ gc_id }}">
+          {%- if current_product.featured_image -%}
+            <img
+              src="{{ current_product.featured_image | image_url: width: 900 }}"
+              srcset="
+                {{ current_product.featured_image | image_url: width: 600 }} 600w,
+                {{ current_product.featured_image | image_url: width: 900 }} 900w
+              "
+              sizes="(max-width: 749px) 100vw, 50vw"
+              alt="{{ current_product.featured_image.alt | default: current_product.title | escape }}"
+              class="featured-giftcard__image-{{ gc_id }}"
+              loading="eager"
+              width="900"
+              height="900"
+            >
+          {%- else -%}
+            {%- assign placeholder_class = 'featured-giftcard__image-' | append: gc_id -%}
+            {{ 'product-1' | placeholder_svg_tag: placeholder_class }}
+          {%- endif -%}
+
+          {%- if section.settings.badge_text != blank -%}
+            <div class="featured-giftcard__badge-{{ gc_id }}">{{ section.settings.badge_text }}</div>
+          {%- endif -%}
+        </div>
+
+        {%- comment %} ── Right: copy ── {% endcomment -%}
+        <div class="featured-giftcard__content-{{ gc_id }}">
+
+          <h3 class="featured-giftcard__product-title-{{ gc_id }} text-base-xl font-medium leading-tight">
+            {{ current_product.title }}
+          </h3>
+
+          <p class="featured-giftcard__framing-{{ gc_id }}">{{ section.settings.gift_framing }}</p>
+
+          {%- comment -%}
+            Variant pills update the form's hidden `id` input via JS.
+            type="button" is REQUIRED so a pill click doesn't submit the form.
+          {%- endcomment -%}
+          {%- if current_product.variants.size > 1 -%}
+            <p class="featured-giftcard__variant-label-{{ gc_id }}">{{ section.settings.variant_label }}</p>
+            <div class="featured-giftcard__variant-pills-{{ gc_id }}">
+              {%- for variant in current_product.variants -%}
+                <button
+                  type="button"
+                  class="featured-giftcard__variant-pill-{{ gc_id }}{% if variant.id == first_variant.id %} is-selected{% endif %}"
+                  data-variant-id="{{ variant.id }}"
+                  data-price="{{ variant.price | money }}"
+                  aria-label="{{ variant.title | escape }}"
+                >
+                  {{ variant.title }}
+                </button>
+              {%- endfor -%}
+            </div>
+          {%- endif -%}
+
+          {%- comment -%}
+            ── Gift-card recipient form ──
+            Theme snippet that renders the "Send as a gift" checkbox and
+            the email / name / message / send-on fields. Only renders when
+            the picked product is actually a gift card, so a merchant who
+            picks a non-gift-card product here won't get an orphan form.
+            Must be rendered INSIDE the {% form 'product' %} block so the
+            hidden recipient inputs submit with the add-to-cart payload.
+          {%- endcomment -%}
+          {%- if current_product.gift_card? -%}
+            <div class="featured-giftcard__recipient-{{ gc_id }}">
+              {%- render 'gift-card-recipient-form',
+                product: current_product,
+                form: form,
+                section_id: section.id,
+                product_id: current_product.id
+              -%}
+            </div>
+          {%- endif -%}
+
+          {%- comment %} ── Price — updated by JS on variant select ── {% endcomment -%}
+          <p
+            class="featured-giftcard__price-{{ gc_id }}"
+            data-base-price="{{ first_variant.price | money }}"
+          >
+            {{ first_variant.price | money }}
+          </p>
+
+          {%- capture gc_button_label -%}{{ section.settings.button_text }}{%- endcapture -%}
+          <button
+            type="submit"
+            name="add"
+            form="{{ gc_form_id }}"
+            class="featured-giftcard__button-{{ gc_id }} product-form__submit button button--primary button--fixed grow"
+            is="hover-button"
+            aria-label="{{ 'Add ' | append: current_product.title | append: ' to cart' | escape }}"
+          >
+            {%- render 'button__inner', label: gc_button_label -%}
+          </button>
+
+        </div>
+      {%- endform -%}
+    </div>{%- comment %} /.card-outer -%}{% endcomment %}
+  {%- endif -%}
+
+</featured-giftcard-{{ gc_id }}>
+
+<script>
+  (function () {
+    class FeaturedGiftcard{{ gc_id }} extends HTMLElement {
+      connectedCallback() {
+        this._priceEl  = this.querySelector('.featured-giftcard__price-{{ gc_id }}');
+        this._pills    = this.querySelectorAll('.featured-giftcard__variant-pill-{{ gc_id }}');
+        this._idInput  = this.querySelector('input[name="id"]');
+
+        // Variant pill selection — updates the hidden id input in the form
+        // and the visible price. The form's submit (driven by is="product-form")
+        // then posts the right variant to /cart/add and opens the drawer.
+        this._pills.forEach((pill) => {
+          pill.addEventListener('click', () => {
+            this._pills.forEach((p) => p.classList.remove('is-selected'));
+            pill.classList.add('is-selected');
+
+            if (this._idInput && pill.dataset.variantId) {
+              this._idInput.value = pill.dataset.variantId;
+            }
+
+            if (this._priceEl && pill.dataset.price) {
+              this._priceEl.textContent = pill.dataset.price;
+            }
+          });
+        });
+      }
+    }
+
+    if (!customElements.get('featured-giftcard-{{ gc_id }}')) {
+      customElements.define(
+        'featured-giftcard-{{ gc_id }}',
+        FeaturedGiftcard{{ gc_id }}
+      );
+    }
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Featured Product - GC",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Eyebrow text",
+      "default": "THE EASY GIFT"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading",
+      "default": "Not Sure What To Get? Let Dad Choose"
+    },
+    {
+      "type": "header",
+      "content": "Product"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge ribbon text",
+      "default": "GIFT CARD"
+    },
+    {
+      "type": "text",
+      "id": "gift_framing",
+      "label": "Gift framing copy",
+      "default": "Not sure which Arccos products to gift? Let Dad choose. Delivered instantly by email — no wrapping required."
+    },
+    {
+      "type": "text",
+      "id": "variant_label",
+      "label": "Variant selector label",
+      "default": "Select Value"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Add to Cart"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Product - Gift Card"
+    }
+  ]
+}
+{% endschema %}

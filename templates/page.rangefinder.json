@@ -1,0 +1,629 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_iYJeUb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_RVrpkh": {
+          "type": "heading",
+          "settings": {
+            "heading": "World's First A.I. Powered Rangefinder",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_JV7FRU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Real-Time Yardage Adjustments for Slope, Wind, Temperature, Humidity and Altitude.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVrpkh",
+        "text_JV7FRU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Rangefinder_Comp_313bb766-f0c5-4205-98f1-4d3cb6655f66.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_dpDBFQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BWLiEW": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Most Precise Yardage in the Game:",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_a6rThp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Knowing the GPS distance to the pin is a great start, but with our smart A.I. Powered Rangefinder we take it to the next level. </p><p>Presenting players with the <strong>Arccos Number </strong>(green numbers) — showing the GPS distance (white numbers) adjusted for slope and real-time weather conditions. Players can see the impact in yards plus or minus, how wind speed, direction, temperature, humidity and altitude could be affecting their shots in real-time. </p><p>The altitude calculation is personalized to each Arccos player based on any altitude differential between their home course and the one they’re playing.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BWLiEW",
+        "text_a6rThp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Rangefinder_iPhone_Screens_dff5fce7-e8df-4147-ba9e-69698b60f924.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "testimonials_8etTtp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ECCwKf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>The calculations that we do as caddies – uphill, downhill, wind direction, temperature and even altitude – it takes us a few minutes to figure all that stuff out. Now the Arccos Rangefinder is gonna do that for you in real-time, it’s amazing!</p>",
+            "author": "Ted Scott",
+            "author_info": "PGA Tour Caddie & Arccos Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/TedScott_824bffba-a50e-4519-aae9-b2a93c13f706.png",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ECCwKf"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_Fk4pQe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zcYJRA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let’s Dig into the  Numbers",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HicmWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Left Column</strong> displays white numbers which are the raw GPS yardages, not adjusted for environmental factors<br/><br/><strong>Right Column</strong> displays the <strong>Arccos Numbers </strong>(in green) which are the GPS yardages adjusted in real-time for wind speed, wind direction, temperature, humidity, and altitude. The smaller numbers next to the wind icon are adjusted to account for wind gusts when a gust may impact the shot.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zcYJRA",
+        "text_HicmWW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/A.I._Rangfinder_iPhone_7b43b80e-a7bb-469f-bb5c-393569a0d629.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_TbGaqb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HjbWHk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Setting The Pin Position",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_BcGphx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Get more precise yardages to the hole<br/>• More accurate <a href=\"/pages/strokes-gained-analytics\" title=\"Strokes Gained Analytics\">Strokes Gained Analytics</a> for Approach and Putting performance<br/>• Crowdsourcing; once a player sets the pin position it’s set for everyone that plays on the course that day.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HjbWHk",
+        "text_BcGphx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SetPinGif.gif",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_FGQPnV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HtaqAg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Playing In A Tournament? We Got You Covered.",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_KLR4K8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can still use our A.I. Powered Rangefinder for GPS yardages. Just put the app in tournament mode so you are playing within the rules.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HtaqAg",
+        "text_KLR4K8"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Tournament-Mode_ac147b95-aab7-49fc-8307-6aac8341b749.gif",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "faq_cTaTCf": {
+      "type": "faq",
+      "blocks": {
+        "question_fzLTrA": {
+          "type": "question",
+          "settings": {
+            "title": "What is Arccos Strokes Gained Analytics (SGA)?",
+            "text": "<p>Strokes Gained (SG) is a revolutionary way to analyze the data behind your game. We use our A.I. neural network to accurately compare your current game versus a target handicap of your choosing. Thanks to our vast range of benchmarking options and the largest set of on-course data worldwide, we’re able to provide insights within your player stats for each facet of your game, plus clear ways to improve from world-class coaches.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_XFCBkT": {
+          "type": "question",
+          "settings": {
+            "title": "How do I see an individual round’s Arccos Strokes Gained Analytics?",
+            "text": "<p>To check your individual round stats, go to the <strong>Rounds</strong> tab and select <strong>Stats</strong> under the round you want to review.</p><p>As long as you've played <strong>6 holes or more</strong>, you'll see a detailed <strong>Strokes Gained</strong> analysis for that round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_yiA9V6": {
+          "type": "question",
+          "settings": {
+            "title": "What gets calculated into the Arccos Short Game facet?",
+            "text": "<p>Arccos Short Game facet factors in both your chipping and sand performance from 0-25 yards and 25-50 yards of the green. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_UFJfAP": {
+          "type": "question",
+          "settings": {
+            "title": "What is the Trend Analysis?",
+            "text": "<p>Your <strong>Trend Analysis</strong> chart provides a visual overview of your game’s progression from a <strong>Strokes Gained</strong> perspective. Each round is mapped out, showing your total <strong>SG</strong> for the round, as well as SG stats for each individual facet of your game.</p><ul><li><strong>Selector:</strong> Drag the selector left or right to focus on a specific round.</li><li><strong>Facet Toggle:</strong> You can toggle each facet on and off to zero in on a particular area of your game.</li><li><strong>Grey Bar:</strong> The grey bar in the background compares your overall strokes gained data to your target handicap.</li><li><strong>Colored Lines:</strong> The colored lines represent the performance of each individual facet during that round.</li></ul><p>For a more detailed breakdown of your Strokes Gained Analytics for any given round, simply tap <strong>“See Full Round Details”</strong> for that specific round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_fzLTrA",
+        "question_XFCBkT",
+        "question_yiA9V6",
+        "question_UFJfAP"
+      ],
+      "disabled": true,
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_dcjNQU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_a8CiNi": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Air-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Arccos Air",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want actionable insights without the distraction</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/air",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_NwwJg3": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaser-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Laser",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the most accurate \"Plays Like\" distance in golf</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_tHBEUQ": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Smart-Sensors.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Sensors",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the deepest club-level data in the game</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-sensors",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_a8CiNi",
+        "column_NwwJg3",
+        "column_tHBEUQ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Play Smarter Your Way",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_BHgmcF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XBhXDA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to see more powerful Arccos features?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_kgmKBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/arccos-app",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBhXDA",
+        "button_kgmKBU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/PowerfulFeatures.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "400px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_iYJeUb",
+    "image_with_text_dpDBFQ",
+    "testimonials_8etTtp",
+    "image_with_text_Fk4pQe",
+    "image_with_text_TbGaqb",
+    "image_with_text_FGQPnV",
+    "faq_cTaTCf",
+    "multicolumn_dcjNQU",
+    "image_with_text_overlay_BHgmcF"
+  ]
+}

@@ -1,0 +1,719 @@
+{% comment %}
+  Arccos Golf — Countdown Promo Bar
+  /sections/countdown-promo-bar.liquid
+
+  Requires one addition to sections/header.liquid <style> block:
+    :root { --promo-bar-height: 0px; }
+    #shopify-section-{{ section.id }} { top: var(--promo-bar-height, 0px); }
+
+  TIMEZONE NOTE: All times are entered as Eastern Time (ET).
+  UTC-4 in summer/EDT (Mar–Nov), UTC-5 in winter/EST (Nov–Mar).
+  Update the tz_offset variable below when clocks change.
+{% endcomment %}
+
+{%- comment %} ── Timezone offset: EDT = -04:00 | EST = -05:00 ── {%- endcomment -%}
+{%- assign tz_offset = '-04:00' -%}
+
+{%- assign now_ts = 'now' | date: '%s' | plus: 0 -%}
+
+{%- comment %} Plain format for Liquid date filter (server-side visibility check) {%- endcomment -%}
+{%- capture expiration_date_liquid -%}{{ section.settings.year }}-{{ section.settings.month }}-{{ section.settings.day }} {{ section.settings.hour }}:{{ section.settings.minute }}:00{%- endcapture -%}
+{%- assign end_ts = expiration_date_liquid | date: '%s' | plus: 0 -%}
+
+{%- assign has_second_date = false -%}
+{%- unless section.settings.year_2 == 'disabled' -%}
+  {%- assign has_second_date = true -%}
+{%- endunless -%}
+
+{%- assign end_ts_2 = 0 -%}
+{%- if has_second_date -%}
+  {%- capture expiration_date_2_liquid -%}{{ section.settings.year_2 }}-{{ section.settings.month_2 }}-{{ section.settings.day_2 }} {{ section.settings.hour_2 }}:{{ section.settings.minute_2 }}:00{%- endcapture -%}
+  {%- assign end_ts_2 = expiration_date_2_liquid | date: '%s' | plus: 0 -%}
+{%- endif -%}
+
+{%- assign final_end_ts = end_ts -%}
+{%- if end_ts_2 > end_ts -%}{%- assign final_end_ts = end_ts_2 -%}{%- endif -%}
+
+{%- if now_ts < final_end_ts -%}
+
+{%- assign mobile_text = section.settings.promo_text_mobile -%}
+{%- if mobile_text == blank -%}{%- assign mobile_text = section.settings.promo_text -%}{%- endif -%}
+
+<style>
+  :root {
+    --topbar-height: var(--sp-12);
+    --promo-bar-height: 0px;
+  }
+  @media screen and (min-width: 1536px) {
+    :root { --topbar-height: var(--sp-14); }
+  }
+
+  #shopify-section-{{ section.id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ section.settings.background_color }};
+    {%- if section.settings.sticky %}
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+    {%- endif -%}
+  }
+
+  @media screen and (max-width: 767px) {
+    #shopify-section-{{ section.id }} {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+  }
+
+  .arccos-promo-bar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: var(--topbar-height, 48px);
+    box-sizing: border-box;
+    {%- if section.settings.desktop_layout == 'split' -%}
+      justify-content: space-between;
+      padding: 0 10%;
+    {%- else -%}
+      justify-content: center;
+      padding: 0 24px;
+    {%- endif -%}
+  }
+
+  .arccos-promo-bar__link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    /* Stretch to fill the bar so the click target is as wide as the content area */
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .arccos-promo-bar__text {
+    font-size: 12px;
+    font-weight: 700;
+    color: {{ section.settings.text_color }};
+    letter-spacing: 0.02em;
+    text-transform: none;
+    white-space: normal;
+    flex-shrink: 1;
+  }
+
+  .arccos-promo-bar__divider {
+    width: 1px;
+    height: 16px;
+    background: {{ section.settings.text_color }};
+    opacity: 0.3;
+    flex-shrink: 0;
+    {%- if section.settings.desktop_layout == 'split' -%}
+      display: none;
+    {%- endif -%}
+  }
+
+  .arccos-promo-bar__ends {
+    font-size: 12px;
+    color: {{ section.settings.text_color }};
+    opacity: 0.7;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .arccos-promo-bar__right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .arccos-promo-bar__countdown {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .arccos-promo-bar__unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .arccos-promo-bar__num {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    color: {{ section.settings.text_color }};
+    width: 32px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    line-height: 1;
+  }
+
+  .arccos-promo-bar__lbl {
+    font-size: 8px;
+    font-weight: 600;
+    color: {{ section.settings.text_color }};
+    opacity: 0.55;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1;
+  }
+
+  .arccos-promo-bar__sep {
+    font-size: 12px;
+    font-weight: 700;
+    color: {{ section.settings.text_color }};
+    opacity: 0.4;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    line-height: 1;
+    user-select: none;
+  }
+
+  .arccos-promo-bar__text--mobile { display: none; }
+
+  /* Utility nav — pinned to right edge, desktop only */
+  .arccos-promo-bar__utility {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .arccos-promo-bar__utility ul {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .arccos-promo-bar__utility .menu__item {
+    font-size: 12px;
+    font-weight: 500;
+    color: {{ section.settings.text_color }};
+    opacity: 0.75;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+    padding: 4px 8px;
+  }
+
+  .arccos-promo-bar__utility .menu__item:hover,
+  .arccos-promo-bar__utility .menu__item:focus-visible { opacity: 1; }
+
+  @media screen and (max-width: 1024px) {
+    .arccos-promo-bar__utility { display: none; }
+  }
+
+  @media screen and (max-width: 767px) {
+    .arccos-promo-bar {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: auto !important;
+      min-height: 0 !important;
+      padding: 10px 8px 8px;
+      gap: 10px;
+    }
+    .arccos-promo-bar__text {
+      text-align: left;
+      flex-basis: auto;
+      flex-shrink: 1;
+      font-size: 11px;
+    }
+    .arccos-promo-bar__right {
+      flex-direction: row;
+      align-items: center;
+      flex-shrink: 0;
+      gap: 8px;
+    }
+    .arccos-promo-bar__ends,
+    .arccos-promo-bar__divider { display: none; }
+    .arccos-promo-bar__text--desktop { display: none; }
+    .arccos-promo-bar__text--mobile  { display: inline; }
+    .arccos-promo-bar__utility { display: none; }
+    .arccos-promo-bar__num { width: 28px; height: 24px; font-size: 11px; }
+    .arccos-promo-bar__lbl { font-size: 7px; }
+    .arccos-promo-bar__sep { font-size: 11px; margin-bottom: 10px; }
+  }
+</style>
+
+<div class="arccos-promo-bar">
+
+  {%- if section.settings.promo_link != blank -%}
+  <a href="{{ section.settings.promo_link }}" class="arccos-promo-bar__link" aria-label="{{ section.settings.promo_text | escape }}">
+  {%- endif -%}
+
+  {%- if section.settings.promo_text != blank -%}
+    <span class="arccos-promo-bar__text arccos-promo-bar__text--desktop">{{ section.settings.promo_text }}</span>
+    <span class="arccos-promo-bar__text arccos-promo-bar__text--mobile">{{ mobile_text }}</span>
+  {%- endif -%}
+
+  <div class="arccos-promo-bar__right">
+    <span class="arccos-promo-bar__divider" aria-hidden="true"></span>
+    <span class="arccos-promo-bar__ends">{{ section.settings.ends_label }}</span>
+
+    <div class="arccos-promo-bar__countdown" role="timer" aria-live="off" aria-label="{{ section.settings.ends_label }}">
+      <div class="arccos-promo-bar__unit">
+        <div class="arccos-promo-bar__num" id="apb-d-{{ section.id }}">--</div>
+        <div class="arccos-promo-bar__lbl" aria-hidden="true">{{ 'general.date.days' | t }}</div>
+      </div>
+      <span class="arccos-promo-bar__sep" aria-hidden="true">:</span>
+      <div class="arccos-promo-bar__unit">
+        <div class="arccos-promo-bar__num" id="apb-h-{{ section.id }}">--</div>
+        <div class="arccos-promo-bar__lbl" aria-hidden="true">{{ 'general.date.hours' | t }}</div>
+      </div>
+      <span class="arccos-promo-bar__sep" aria-hidden="true">:</span>
+      <div class="arccos-promo-bar__unit">
+        <div class="arccos-promo-bar__num" id="apb-m-{{ section.id }}">--</div>
+        <div class="arccos-promo-bar__lbl" aria-hidden="true">{{ 'general.date.minutes' | t }}</div>
+      </div>
+      <span class="arccos-promo-bar__sep" aria-hidden="true">:</span>
+      <div class="arccos-promo-bar__unit">
+        <div class="arccos-promo-bar__num" id="apb-s-{{ section.id }}">--</div>
+        <div class="arccos-promo-bar__lbl" aria-hidden="true">{{ 'general.date.seconds' | t }}</div>
+      </div>
+    </div>
+  </div>
+
+  {%- if section.settings.promo_link != blank -%}</a>{%- endif -%}
+
+  {%- if section.settings.show_utility_nav and section.settings.utility_menu != blank -%}
+    {%- assign domain = shop.secure_url -%}
+    <nav class="arccos-promo-bar__utility" aria-label="Utility">
+      <ul class="flex items-center list-menu with-block">
+        {%- for link in section.settings.utility_menu.links limit: 3 -%}
+          {%- liquid
+            assign url = link.url
+            assign is_external = false
+            if url contains '://'
+              unless url contains domain
+                assign is_external = true
+              endunless
+            endif
+          -%}
+          <li>
+            <a
+              href="{{ url }}"
+              class="menu__item text-sm-lg flex items-center font-medium z-2 relative cursor-pointer"
+              is="magnet-link"
+              data-magnet="0"
+              {%- if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}
+              data-nav-click
+              data-nav-type="utility menu"
+              data-nav-category="{{ link.title | escape }}"
+              data-nav-element="{{ link.title | escape }}"
+            >{{ link.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  {%- endif -%}
+
+</div>
+
+<script>
+(function () {
+  var sid       = {{ section.id | json }};
+  var sectionEl = document.getElementById('shopify-section-' + sid);
+  if (!sectionEl) return;
+
+  // Build end times from UTC milliseconds directly.
+  // Liquid outputs the date parts as numbers; we apply the ET offset (EDT = -4h) in JS.
+  // This avoids any Liquid date-filter parsing ambiguity.
+  var ET_OFFSET_MS = -4 * 60 * 60 * 1000; // EDT (UTC-4). Change to -5 in November (EST).
+  var endTime1 = Date.UTC(
+    {{ section.settings.year | plus: 0 }},
+    {{ section.settings.month | plus: 0 | minus: 1 }},
+    {{ section.settings.day | plus: 0 }},
+    {{ section.settings.hour | plus: 0 }},
+    {{ section.settings.minute | plus: 0 }},
+    0
+  ) - ET_OFFSET_MS;
+  {%- if has_second_date -%}
+  var endTime2 = Date.UTC(
+    {{ section.settings.year_2 | plus: 0 }},
+    {{ section.settings.month_2 | plus: 0 | minus: 1 }},
+    {{ section.settings.day_2 | plus: 0 }},
+    {{ section.settings.hour_2 | plus: 0 }},
+    {{ section.settings.minute_2 | plus: 0 }},
+    0
+  ) - ET_OFFSET_MS;
+  {%- else -%}
+  var endTime2 = 0;
+  {%- endif -%}
+  var endTime  = (endTime2 > endTime1 && Date.now() >= endTime1) ? endTime2 : endTime1;
+
+  var dEl = document.getElementById('apb-d-' + sid);
+  var hEl = document.getElementById('apb-h-' + sid);
+  var mEl = document.getElementById('apb-m-' + sid);
+  var sEl = document.getElementById('apb-s-' + sid);
+
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+  function tick() {
+    var now  = Date.now();
+    var diff = endTime - now;
+
+    if (diff <= 0 && endTime === endTime1 && endTime2 > endTime1) {
+      endTime = endTime2;
+      diff    = endTime - now;
+    }
+
+    if (diff <= 0) {
+      sectionEl.parentNode && sectionEl.parentNode.removeChild(sectionEl);
+      document.documentElement.style.setProperty('--promo-bar-height', '0px');
+      clearInterval(timer);
+      return;
+    }
+
+    dEl.textContent = pad(Math.floor(diff / 86400000));
+    hEl.textContent = pad(Math.floor((diff % 86400000) / 3600000));
+    mEl.textContent = pad(Math.floor((diff % 3600000)  / 60000));
+    sEl.textContent = pad(Math.floor((diff % 60000)    / 1000));
+  }
+
+  tick();
+  var timer = setInterval(tick, 1000);
+
+  {%- if section.settings.sticky -%}
+  var headerSection = document.querySelector('.header-section');
+  var isAboveHeader = headerSection
+    ? !!(sectionEl.compareDocumentPosition(headerSection) & Node.DOCUMENT_POSITION_FOLLOWING)
+    : true;
+
+  function updatePromoHeight() {
+    document.documentElement.style.setProperty('--promo-bar-height', sectionEl.offsetHeight + 'px');
+  }
+
+  function updateBelowHeader() {
+    sectionEl.style.top = (headerSection ? headerSection.offsetHeight : 0) + 'px';
+  }
+
+  if (isAboveHeader) {
+    sectionEl.style.top = '0px';
+    // FIX 2: Wrap in rAF so offsetHeight is accurate after layout/fonts settle
+    requestAnimationFrame(updatePromoHeight);
+    window.addEventListener('resize', updatePromoHeight);
+  } else {
+    updateBelowHeader();
+    window.addEventListener('resize', updateBelowHeader);
+    if (window.ResizeObserver && headerSection) {
+      new ResizeObserver(updateBelowHeader).observe(headerSection);
+    }
+    document.documentElement.style.setProperty('--promo-bar-height', '0px');
+  }
+  {%- else -%}
+  document.documentElement.style.setProperty('--promo-bar-height', '0px');
+  {%- endif -%}
+
+})();
+</script>
+
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Countdown promo bar",
+  "class": "topbar-section",
+  "tag": "div",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Promo message"
+    },
+    {
+      "type": "text",
+      "id": "promo_text",
+      "label": "Promo text (desktop)",
+      "default": "Father's Day Sale: Up to $150 Off"
+    },
+    {
+      "type": "text",
+      "id": "promo_text_mobile",
+      "label": "Promo text (mobile)",
+      "info": "Leave blank to use the same text as desktop",
+      "default": "Father's Day: Up to $150 Off"
+    },
+    {
+      "type": "url",
+      "id": "promo_link",
+      "label": "Banner link (optional)",
+      "info": "Makes the entire banner clickable. Leave blank for no link."
+    },
+    {
+      "type": "text",
+      "id": "ends_label",
+      "label": "\"Ends in\" label",
+      "default": "Ends in"
+    },
+    {
+      "type": "header",
+      "content": "Desktop layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "sticky",
+      "label": "Sticky — pin to viewport on scroll",
+      "default": true
+    },
+    {
+      "type": "radio",
+      "id": "desktop_layout",
+      "label": "Layout",
+      "default": "center",
+      "options": [
+        { "value": "center", "label": "Centred — text and timer in the middle" },
+        { "value": "split",  "label": "Split — text left, timer right" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Countdown end date & time"
+    },
+    {
+      "type": "paragraph",
+      "content": "Times are Eastern Time (ET): UTC-4 in summer (Mar–Nov), UTC-5 in winter (Nov–Mar). Update tz_offset in the section code when clocks change. The bar disappears automatically once the countdown reaches zero."
+    },
+    {
+      "type": "select",
+      "id": "year",
+      "label": "Year",
+      "default": "2026",
+      "options": [
+        { "value": "2026", "label": "2026" },
+        { "value": "2027", "label": "2027" },
+        { "value": "2028", "label": "2028" },
+        { "value": "2029", "label": "2029" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "month",
+      "label": "Month",
+      "default": "06",
+      "options": [
+        { "value": "01", "label": "January" },
+        { "value": "02", "label": "February" },
+        { "value": "03", "label": "March" },
+        { "value": "04", "label": "April" },
+        { "value": "05", "label": "May" },
+        { "value": "06", "label": "June" },
+        { "value": "07", "label": "July" },
+        { "value": "08", "label": "August" },
+        { "value": "09", "label": "September" },
+        { "value": "10", "label": "October" },
+        { "value": "11", "label": "November" },
+        { "value": "12", "label": "December" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "day",
+      "label": "Day",
+      "default": "15",
+      "options": [
+        { "value": "1",  "label": "1"  }, { "value": "2",  "label": "2"  },
+        { "value": "3",  "label": "3"  }, { "value": "4",  "label": "4"  },
+        { "value": "5",  "label": "5"  }, { "value": "6",  "label": "6"  },
+        { "value": "7",  "label": "7"  }, { "value": "8",  "label": "8"  },
+        { "value": "9",  "label": "9"  }, { "value": "10", "label": "10" },
+        { "value": "11", "label": "11" }, { "value": "12", "label": "12" },
+        { "value": "13", "label": "13" }, { "value": "14", "label": "14" },
+        { "value": "15", "label": "15" }, { "value": "16", "label": "16" },
+        { "value": "17", "label": "17" }, { "value": "18", "label": "18" },
+        { "value": "19", "label": "19" }, { "value": "20", "label": "20" },
+        { "value": "21", "label": "21" }, { "value": "22", "label": "22" },
+        { "value": "23", "label": "23" }, { "value": "24", "label": "24" },
+        { "value": "25", "label": "25" }, { "value": "26", "label": "26" },
+        { "value": "27", "label": "27" }, { "value": "28", "label": "28" },
+        { "value": "29", "label": "29" }, { "value": "30", "label": "30" },
+        { "value": "31", "label": "31" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "hour",
+      "label": "Hour (24h, Eastern Time)",
+      "default": "00",
+      "options": [
+        { "value": "00", "label": "00:00 (midnight)" },
+        { "value": "01", "label": "01:00" }, { "value": "02", "label": "02:00" },
+        { "value": "03", "label": "03:00" }, { "value": "04", "label": "04:00" },
+        { "value": "05", "label": "05:00" }, { "value": "06", "label": "06:00" },
+        { "value": "07", "label": "07:00" }, { "value": "08", "label": "08:00" },
+        { "value": "09", "label": "09:00" }, { "value": "10", "label": "10:00" },
+        { "value": "11", "label": "11:00" }, { "value": "12", "label": "12:00 (noon)" },
+        { "value": "13", "label": "13:00" }, { "value": "14", "label": "14:00" },
+        { "value": "15", "label": "15:00" }, { "value": "16", "label": "16:00" },
+        { "value": "17", "label": "17:00" }, { "value": "18", "label": "18:00" },
+        { "value": "19", "label": "19:00" }, { "value": "20", "label": "20:00" },
+        { "value": "21", "label": "21:00" }, { "value": "22", "label": "22:00" },
+        { "value": "23", "label": "23:00" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "minute",
+      "label": "Minute",
+      "default": "00",
+      "options": [
+        { "value": "00", "label": "00" }, { "value": "15", "label": "15" },
+        { "value": "30", "label": "30" }, { "value": "45", "label": "45" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Second countdown date (optional)"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the first countdown expires, the timer resets to this date. Set year to 'Disabled' to use only one countdown."
+    },
+    {
+      "type": "select",
+      "id": "year_2",
+      "label": "Year",
+      "default": "disabled",
+      "options": [
+        { "value": "disabled", "label": "Disabled" },
+        { "value": "2026", "label": "2026" },
+        { "value": "2027", "label": "2027" },
+        { "value": "2028", "label": "2028" },
+        { "value": "2029", "label": "2029" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "month_2",
+      "label": "Month",
+      "default": "06",
+      "options": [
+        { "value": "01", "label": "January" },
+        { "value": "02", "label": "February" },
+        { "value": "03", "label": "March" },
+        { "value": "04", "label": "April" },
+        { "value": "05", "label": "May" },
+        { "value": "06", "label": "June" },
+        { "value": "07", "label": "July" },
+        { "value": "08", "label": "August" },
+        { "value": "09", "label": "September" },
+        { "value": "10", "label": "October" },
+        { "value": "11", "label": "November" },
+        { "value": "12", "label": "December" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "day_2",
+      "label": "Day",
+      "default": "16",
+      "options": [
+        { "value": "1",  "label": "1"  }, { "value": "2",  "label": "2"  },
+        { "value": "3",  "label": "3"  }, { "value": "4",  "label": "4"  },
+        { "value": "5",  "label": "5"  }, { "value": "6",  "label": "6"  },
+        { "value": "7",  "label": "7"  }, { "value": "8",  "label": "8"  },
+        { "value": "9",  "label": "9"  }, { "value": "10", "label": "10" },
+        { "value": "11", "label": "11" }, { "value": "12", "label": "12" },
+        { "value": "13", "label": "13" }, { "value": "14", "label": "14" },
+        { "value": "15", "label": "15" }, { "value": "16", "label": "16" },
+        { "value": "17", "label": "17" }, { "value": "18", "label": "18" },
+        { "value": "19", "label": "19" }, { "value": "20", "label": "20" },
+        { "value": "21", "label": "21" }, { "value": "22", "label": "22" },
+        { "value": "23", "label": "23" }, { "value": "24", "label": "24" },
+        { "value": "25", "label": "25" }, { "value": "26", "label": "26" },
+        { "value": "27", "label": "27" }, { "value": "28", "label": "28" },
+        { "value": "29", "label": "29" }, { "value": "30", "label": "30" },
+        { "value": "31", "label": "31" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "hour_2",
+      "label": "Hour (24h, Eastern Time)",
+      "default": "00",
+      "options": [
+        { "value": "00", "label": "00:00 (midnight)" },
+        { "value": "01", "label": "01:00" }, { "value": "02", "label": "02:00" },
+        { "value": "03", "label": "03:00" }, { "value": "04", "label": "04:00" },
+        { "value": "05", "label": "05:00" }, { "value": "06", "label": "06:00" },
+        { "value": "07", "label": "07:00" }, { "value": "08", "label": "08:00" },
+        { "value": "09", "label": "09:00" }, { "value": "10", "label": "10:00" },
+        { "value": "11", "label": "11:00" }, { "value": "12", "label": "12:00 (noon)" },
+        { "value": "13", "label": "13:00" }, { "value": "14", "label": "14:00" },
+        { "value": "15", "label": "15:00" }, { "value": "16", "label": "16:00" },
+        { "value": "17", "label": "17:00" }, { "value": "18", "label": "18:00" },
+        { "value": "19", "label": "19:00" }, { "value": "20", "label": "20:00" },
+        { "value": "21", "label": "21:00" }, { "value": "22", "label": "22:00" },
+        { "value": "23", "label": "23:00" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "minute_2",
+      "label": "Minute",
+      "default": "00",
+      "options": [
+        { "value": "00", "label": "00" }, { "value": "15", "label": "15" },
+        { "value": "30", "label": "30" }, { "value": "45", "label": "45" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Utility navigation"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_utility_nav",
+      "label": "Show utility links (desktop only)",
+      "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "utility_menu",
+      "label": "Utility menu",
+      "info": "Select a navigation menu. Links open in a new tab if they are external URLs."
+    },
+    {
+      "type": "header",
+      "content": "Colours"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background colour",
+      "default": "#252628"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text & digit colour",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown promo bar"
+    }
+  ],
+  "enabled_on": {
+    "groups": ["header"]
+  }
+}
+{% endschema %}

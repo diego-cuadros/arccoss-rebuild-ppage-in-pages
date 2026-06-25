@@ -1,0 +1,20 @@
+<!-- Geolizr-Redirect -->
+<script>
+  document.addEventListener('geolizr.init', () => {
+    Geolizr.redirectFilter = function (redirect, targetUrlObject, helper) {
+      let discount = helper.cookies.get('discount_code');
+      if (discount) {
+        debugger;
+        helper.cookies.remove('discount_code');
+        let redirectParam = '';
+        if (location.pathname !== '/') {
+          redirectParam = '?redirect=' + encodeURIComponent(location.pathname);
+        }
+        let path = '/discount/' + discount + redirectParam;
+        targetUrlObject.url = redirect.url.replace('/%path%', path);
+      }
+      return true;
+    };
+  });
+</script>
+<!-- Geolizr-Redirect -->

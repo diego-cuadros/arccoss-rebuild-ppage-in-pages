@@ -1,0 +1,859 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "video_with_text_overlay_aaFYrJ": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_9GzQch": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Club Distances",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_mFRjmx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Know How Far You Really Hit Each Club, After One Round.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9GzQch",
+        "text_mFRjmx"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/Smart Club Distances_SITE_Broll.mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "video_url_mobile": "",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_dpDBFQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BWLiEW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Know Your True Distances In Every Situation",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_a6rThp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Eliminate cognitive bias by knowing exactly how far you hit each club. Smart Club Distances are normalized and adjusted to filter out the outliers, showing your 'true average'.</p><p>Mishits, unusually long shots, and recovery shots are automatically detected and excluded from our calculations. This normalization process enhances the accuracy of distance measurements, delivering precise club recommendations when you use A.I. Rangefinder.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BWLiEW",
+        "text_a6rThp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SmartClubDistances_iPhone_Screens_e958a7e5-88da-4b56-b270-8b3db40bd838.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_Fk4pQe": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_HicmWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Smart Distances</strong> are calculated after one round and automatically take into account factors like temperature, slope, altitude, humidity, and wind for each shot. These new distances are adjusted based on the conditions at the moment you hit the shot, effectively \"normalizing\" them. Our advanced A.I. algorithms then provides a precise estimate of how far you typically hit a well-struck shot for each club in your bag.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_HicmWW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SmartDistance_Comp.jpg",
+        "image_height": "adapt",
+        "image_width": "large",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_6CfJkg": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_VHf487": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Smart Range</strong> is Arccos’ estimation of a player’s expected range on well-struck shots. A narrower range is indicative of more consistent shot performance.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_VHf487"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SmartRange_Comp.jpg",
+        "image_height": "adapt",
+        "image_width": "large",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_HdCXDW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mLrLVX": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/FilterShots-2025.gif",
+            "image_ratio": "square",
+            "heading": "Flexible Filtering",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Segment club distance data by # of shots or date range.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_kLcbg3": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/ExcludeShots-2025.gif",
+            "image_ratio": "square",
+            "heading": "Exclude Shots",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Ability to remove shots from being included in the distance algorithm.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_EEt7UY": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/CompareClubs-2025.gif",
+            "image_ratio": "square",
+            "heading": "Compare Clubs",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>See exactly how your active paired clubs & unpaired clubs from your bag perform to optimize your bag composition.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_mLrLVX",
+        "column_kLcbg3",
+        "column_EEt7UY"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Filter Your Data For More Detailed Insights",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_TbGaqb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HjbWHk": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Smart Club Distances will Change Your Game",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_BcGphx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Data-driven vs Ego-driven club selection<br/>• Understand which clubs need improved shot consistency<br/>• Identify if your club set up needs to be revised<br/>• Better plan how you play each hole based on shot performance<br/>• Evaluate environmental impact on club distances</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HjbWHk",
+        "text_BcGphx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ArccosWillChangeYourGame.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_FTGGVY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EX9Dpq": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SimulatedWind-2025.gif",
+            "image_ratio": "square",
+            "heading": "Wind",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Understanding how various wind speeds affect your distances whether you’re hitting into a headwind or with a tailwind.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_jjwLKE": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SimulatedTemp-2025.gif",
+            "image_ratio": "square",
+            "heading": "Temperature",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Seasonal temperature changes can impact distances greatly, see exactly how much cold temperatures take off your distances, or how many yards warmer weather will add.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_XJVg4H": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SimulatedAltitude-2025.gif",
+            "image_ratio": "square",
+            "heading": "Altitude",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Taking your game to new heights, will literally change your distances from the difference in air pressure. Higher altitude will add distance, and vice versa.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_EX9Dpq",
+        "column_jjwLKE",
+        "column_XJVg4H"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Simulations Show The Environmental Impact On Distance",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": true,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "testimonials_8etTtp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ECCwKf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Would you take a test without studying? Pre-round prep is so important and that includes mapping out your shot plan and adjusting your distances according to course conditions and weather. Arccos makes it so easy to do this with New Smart Club Distances.</p>",
+            "author": "Erika Larkin",
+            "author_info": "PGA Professional & Arccos Ambassador",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_mXNpNP": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>It’s revolutionary. It has dropped me from 14 to 4 in 18 months and I know exactly which shot to hit wherever I’m playing.</p>",
+            "author": "Johnny I.",
+            "author_info": "Arccos Member",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_wTWNCD": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Arccos is like having someone from the tour keep stats for you. Whether you want information to help you improve your game faster or you want advice on what club to play in a certain situation based on previous performance rather than \"feel\" or guessing, Arccos will help your golf game.</p>",
+            "author": "Charles C.",
+            "author_info": "Arccos Member",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ECCwKf",
+        "testimonial_mXNpNP",
+        "testimonial_wTWNCD"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "faq_cTaTCf": {
+      "type": "faq",
+      "blocks": {
+        "question_fzLTrA": {
+          "type": "question",
+          "settings": {
+            "title": "What is Arccos Strokes Gained Analytics (SGA)?",
+            "text": "<p>Strokes Gained (SG) is a revolutionary way to analyze the data behind your game. We use our A.I. neural network to accurately compare your current game versus a target handicap of your choosing. Thanks to our vast range of benchmarking options and the largest set of on-course data worldwide, we’re able to provide insights within your player stats for each facet of your game, plus clear ways to improve from world-class coaches.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_XFCBkT": {
+          "type": "question",
+          "settings": {
+            "title": "How do I see an individual round’s Arccos Strokes Gained Analytics?",
+            "text": "<p>To check your individual round stats, go to the <strong>Rounds</strong> tab and select <strong>Stats</strong> under the round you want to review.</p><p>As long as you've played <strong>6 holes or more</strong>, you'll see a detailed <strong>Strokes Gained</strong> analysis for that round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_yiA9V6": {
+          "type": "question",
+          "settings": {
+            "title": "What gets calculated into the Arccos Short Game facet?",
+            "text": "<p>Arccos Short Game facet factors in both your chipping and sand performance from 0-25 yards and 25-50 yards of the green. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_UFJfAP": {
+          "type": "question",
+          "settings": {
+            "title": "What is the Trend Analysis?",
+            "text": "<p>Your <strong>Trend Analysis</strong> chart provides a visual overview of your game’s progression from a <strong>Strokes Gained</strong> perspective. Each round is mapped out, showing your total <strong>SG</strong> for the round, as well as SG stats for each individual facet of your game.</p><ul><li><strong>Selector:</strong> Drag the selector left or right to focus on a specific round.</li><li><strong>Facet Toggle:</strong> You can toggle each facet on and off to zero in on a particular area of your game.</li><li><strong>Grey Bar:</strong> The grey bar in the background compares your overall strokes gained data to your target handicap.</li><li><strong>Colored Lines:</strong> The colored lines represent the performance of each individual facet during that round.</li></ul><p>For a more detailed breakdown of your Strokes Gained Analytics for any given round, simply tap <strong>“See Full Round Details”</strong> for that specific round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_fzLTrA",
+        "question_XFCBkT",
+        "question_yiA9V6",
+        "question_UFJfAP"
+      ],
+      "disabled": true,
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_B8MQnB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8GnYyF": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Air-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Arccos Air",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want actionable insights without the distraction</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/air",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_xqwF7x": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaser-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Laser",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the most accurate \"Plays Like\" distance in golf</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_Xy3jJa": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Smart-Sensors.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Sensors",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the deepest club-level data in the game</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-sensors",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_8GnYyF",
+        "column_xqwF7x",
+        "column_Xy3jJa"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Play Smarter Your Way",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": true,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_BHgmcF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XBhXDA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to see more powerful Arccos features?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_kgmKBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/arccos-app",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBhXDA",
+        "button_kgmKBU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/PowerfulFeatures.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "400px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "video_with_text_overlay_aaFYrJ",
+    "image_with_text_dpDBFQ",
+    "image_with_text_Fk4pQe",
+    "image_with_text_6CfJkg",
+    "multicolumn_HdCXDW",
+    "image_with_text_TbGaqb",
+    "multicolumn_FTGGVY",
+    "testimonials_8etTtp",
+    "faq_cTaTCf",
+    "multicolumn_B8MQnB",
+    "image_with_text_overlay_BHgmcF"
+  ]
+}

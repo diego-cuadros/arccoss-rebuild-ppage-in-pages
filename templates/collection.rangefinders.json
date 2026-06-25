@@ -1,0 +1,789 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_H7Ac7Y": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XnyTzg": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SMART LASER RANGEFINDER",
+            "subheading_size": "subtitle-md",
+            "secondary_color": false
+          }
+        },
+        "heading_KpPhmN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Precise \"Plays Like\" Distances For Every Shot",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_Nq9wdf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><em>“Arccos just dropped what could be the most significant advancement in rangefinder technology since the introduction of slope.”</em> -  <strong>MyGolfSpy</strong></p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_Lhw9qc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Smart Laser",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        },
+        "link_qQg3mA": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "label": "Take Our Quiz",
+            "link": "",
+            "external": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XnyTzg",
+        "heading_KpPhmN",
+        "text_Nq9wdf",
+        "button_Lhw9qc",
+        "link_qQg3mA"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/RangefinderBanner-Desktop.jpg",
+        "image_height": "400px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/RangefinderBanner-Mobile_4f12c376-ee8e-44fb-a21b-f1e1e4d761f5.jpg",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-end justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_7c4zLA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_DEjtbi": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SmartLaser.svg",
+            "image_width": "custom",
+            "image_max_width": 300,
+            "image_max_width_mobile": 250
+          }
+        },
+        "subheading_Qinjji": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "New Smart Laser",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_wCPKAF": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Number You Can Trust",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_ntVDBR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Calculates slope, wind, weather, and altitude in real time. Now paired with AI Strategy and Green Maps to play your smartest golf.</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_J88cga": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP SMART LASER",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "image_DEjtbi",
+        "subheading_Qinjji",
+        "heading_wCPKAF",
+        "text_ntVDBR",
+        "button_J88cga"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Site_Product_Banner_037d1711-caf7-468c-8f88-e91a837a8f7d.jpg",
+        "image_height": "400px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/Site_Product_Banner-Mobile_a09121f3-866a-4e66-aa8e-f2b35f310aad.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_jbcfMC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_t6LYef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SmartLaser.svg",
+            "image_width": "custom",
+            "image_max_width": 300,
+            "image_max_width_mobile": 250
+          }
+        },
+        "subheading_JL3xwM": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_bdWyhp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Smart Laser Rangefinder",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_GHT6cL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>“Arccos just dropped what could be the most significant advancement in rangefinder technology since the introduction of slope.”</em> -  <strong>MyGolfSpy</strong></p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_4MU6Xc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        },
+        "link_t4mFD4": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "label": "Take Our Quiz",
+            "link": "",
+            "external": false
+          }
+        }
+      },
+      "block_order": [
+        "image_t6LYef",
+        "subheading_JL3xwM",
+        "heading_bdWyhp",
+        "text_GHT6cL",
+        "button_4MU6Xc",
+        "link_t4mFD4"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/ShopBanner-Rangefinder_5619f823-c2be-4196-ae1b-feba0233425a.jpg",
+        "image_height": "400px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/ShopBanner-Rangefinder-Mobile_50d79c21-ce3e-44ee-a805-9ecaeb8745f4.jpg",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-start justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_cf9kx4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_Yn3rxd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SmartLaser.svg",
+            "image_width": "custom",
+            "image_max_width": 300,
+            "image_max_width_mobile": 250
+          }
+        },
+        "heading_TcHBwW": {
+          "type": "heading",
+          "settings": {
+            "heading": "$125 Off American Smart Sensors",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_JEVgKD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Purchase before September 29, 2025 to be automatically entered to win a Ryder Cup Flag Signed By Matt Fitzpatrick.*</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_HLmqMA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        },
+        "link_xriKfE": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "label": "Take Our Quiz",
+            "link": "",
+            "external": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Yn3rxd",
+        "heading_TcHBwW",
+        "text_JEVgKD",
+        "button_HLmqMA",
+        "link_xriKfE"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/ShopBanner-RyderCup_86692c55-431a-4851-87cc-8fb452158e91.jpg",
+        "image_height": "400px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/ShopBanner-RyderCup-Mobile_b810fe1c-7368-49f8-8a14-310972bb963f.jpg",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-start justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "show_collections_link": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "title-xl"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "title"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": true,
+        "show_image": true,
+        "image_height": "400px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "menu": "",
+            "per_row": 5,
+            "show_count": true
+          }
+        },
+        "promotion_4T6PJf": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/shopify_product_images_new_4.jpg",
+            "heading": "Custom Prints",
+            "content": "<p>Memories to last a lifetime.</p>",
+            "button_label": "Shop Prints",
+            "button_link": "shopify://products/custom-hole-print",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#171717",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 40
+          }
+        },
+        "promotion_tBgYKg": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/Typical_Round-Mobile_9c535473-5735-41c6-b54f-3641f8f31f97.jpg",
+            "heading": "Ready To Track Your Game?",
+            "content": "<p>Get a personalized product recommendation</p>",
+            "button_label": "Take Quiz",
+            "button_link": "shopify://pages/quiz",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#171717",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "promotion_4T6PJf",
+        "promotion_tBgYKg"
+      ],
+      "settings": {
+        "products_per_page": 15,
+        "columns": 4,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_filtering": true,
+        "filter_collapsed": false,
+        "filter_type": "drawer",
+        "filter_color_swatches": true,
+        "enable_sorting": true,
+        "padding_top": 52,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "blog_posts_collage_mJJEV4": {
+      "type": "blog-posts-collage",
+      "disabled": true,
+      "name": "t:sections.blog-posts-collage.presets.name",
+      "settings": {
+        "blog": "community",
+        "post_limit": 3,
+        "show_view_all": false,
+        "image_ratio": "landscape",
+        "show_tags": false,
+        "show_date": true,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "heading": "Featured Insights",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "logo_list_XcjKPD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_QUTDGy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/PGAT_24b00eef-4833-4693-b049-ae0426a9edf0.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_9RjDim": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/PING_7843315d-95fb-48d8-856f-4d29773ce7b6.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_7nRyq4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Cobra_025746ce-8736-42df-8735-e2cb4345e17e.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_76J8Fp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Superstroke.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_r9KQ6z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ClubChampion_1252f498-7132-4c96-a30f-cdfc71300380.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_MNzxXx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/GolfPride_217d047b-ad52-435e-8373-719dcb28c768.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_fUqVWg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/No_Laying_Up.png",
+            "height": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_QUTDGy",
+        "logo_9RjDim",
+        "logo_7nRyq4",
+        "logo_76J8Fp",
+        "logo_r9KQ6z",
+        "logo_MNzxXx",
+        "logo_fUqVWg"
+      ],
+      "name": "t:sections.logo-list.presets.name",
+      "settings": {
+        "layout": "marquee",
+        "grid_horizontal": 50,
+        "direction": "left",
+        "speed": 10,
+        "heading": "Trusted by the best in the industry",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "p",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": true,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_with_icons_7PcG9P": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_bbwFNW": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "Free Shipping",
+            "text": "<p>Get free shipping on on all orders over $90 in the United States.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_LaLtpG": {
+          "type": "column",
+          "settings": {
+            "icon": "wallet",
+            "custom_icon": "",
+            "heading": "Money-Back Guarantee",
+            "text": "<p>30 days, no questions asked, money-back guarantee. Excludes installed Arccos Smart Grips, Apparel & Custom Prints.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_eCjM3E": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Premium Support",
+            "text": "<p>Our team of internal customer support agents are available to answer any questions you may have.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_cG8gie": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Secure payment",
+            "text": "<p>Your payment information is processed securely</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_bbwFNW",
+        "column_LaLtpG",
+        "column_eCjM3E",
+        "column_cG8gie"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_H7Ac7Y",
+    "image_with_text_overlay_7c4zLA",
+    "image_with_text_overlay_jbcfMC",
+    "image_with_text_overlay_cf9kx4",
+    "main-collection-banner",
+    "main-collection",
+    "recently-viewed",
+    "blog_posts_collage_mJJEV4",
+    "logo_list_XcjKPD",
+    "multicolumn_with_icons_7PcG9P"
+  ]
+}

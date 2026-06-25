@@ -1,0 +1,14 @@
+{%- liquid
+  comment
+    Canonical tagging for international sites.
+  endcomment
+
+  # theme-check-disable RemoteAsset
+-%}
+<link rel="canonical" href="{{ canonical_url }}">
+<link rel="alternate" href="https://www.arccosgolf.com{{ request.path }}" hreflang="en-us">
+<link rel="alternate" href="https://uk.arccosgolf.com{{ request.path }}" hreflang="en-gb">
+<link rel="alternate" href="https://eu.arccosgolf.com{{ request.path }}" hreflang="en">
+<link rel="alternate" href="https://jp.arccosgolf.com{{ request.path }}" hreflang="ja-jp">
+<link rel="alternate" href="https://ca.arccosgolf.com{{ request.path }}" hreflang="en-ca">
+<link rel="alternate" href="https://au.arccosgolf.com{{ request.path }}" hreflang="en-au">

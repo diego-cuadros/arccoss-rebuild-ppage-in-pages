@@ -1,0 +1,1517 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": false,
+            "show_rating": true
+          }
+        },
+        "price_PjdzaF": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false,
+            "show_shop_pay_banner": false
+          }
+        },
+        "klarna_on_site_messaging_app_block_DjzHng": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "theme": "custom",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "rating_8NMkQr": {
+          "type": "rating",
+          "settings": {
+            "anchor_id": "reviews_widget"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up!",
+            "subheading": "Sale end in:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "color_swatch_type": "variant",
+            "size_chart": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 15,
+            "show_inventory_transfer": true,
+            "show_inventory_quantity": "low",
+            "color_scheme": "accent-1"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_price": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": true,
+            "show_back_in_stock_phone": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "collapsible_tab_9VxAKc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "style": "with-border",
+            "icon": "none",
+            "heading": "Our Arccos Smart Grips Bundle game tracking system includes:",
+            "content": "<ul><li>13 grips of your choice with ultra-light embedded weather resistant sensors. Featuring a long lasting battery and power saving mode. Includes 2 year warranty.</li><li>1 smart putter sensor that twists into the top of your putter grip</li><li>1 Link Pro - Automatically track shots right from your front pocket, without a phone. Lightweight shot tracking device syncs with the Arccos app. Includes a wireless charging case that provides safe storage and powers up to 12 rounds.</li><li>1st year's membership to the award winning Arccos app* (New Members only).</li><li>Annual Free Sensor Renewal Program: Get 5 new smart sensors every year to use on additional clubs or as replacements. <a href=\"https://arccos-dev.myshopify.com/blogs/community/arccos-member-free-sensors-program\" target=\"_blank\" title=\"Arccos Member Free Sensors Program\">Learn More.</a></li><li>The latest shot tracking software on both iOS and Android platforms.</li></ul>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "collapsible_tab_ybRAyN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "style": "with-border",
+            "icon": "none",
+            "heading": "The smartest way to improve your golf game with:",
+            "content": "<ul><li>A.I. Powered GPS Rangefinder: Get precise yardages adjusted in real time for wind, elevation/slope, temperature, humidity & altitude.</li><li>Smart Club Distances: Know how far you really hit all your clubs in every situation.</li><li>Strokes Gained Insights: Pinpoint your strengths and weaknesses based on your target handicap, so you know exactly which part of your game to work on.</li><li>Personal A.I. Caddie Advice: Real-time insights into optimal & alternative strategies, as well as outcome predictions, for every shot.</li><li>New In Play user experience with live, high resolution maps including 3D, faster course updates, new zoom functionality.</li></ul>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "collapsible_tab_Fnga4t": {
+          "type": "collapsible_tab",
+          "settings": {
+            "style": "with-border",
+            "icon": "none",
+            "heading": "Game tracking subscription:",
+            "content": "<p>1st year's Game Tracking subscription to the award winning Arccos app included* (New Members only).</p><p><em>*This offer is not available to current Game Tracking subscribers or to those who have been Game Tracking subscribers within six months prior to the date of purchase. Game Tracking subscription renews at $16.67 per month billed annually.</em></p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "show_help_desk": true,
+            "help_label": "Need help?",
+            "help_type": "drawer",
+            "help_page": ""
+          }
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_limit": 4,
+            "show_vendor": false,
+            "show_price": true
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "icon": "truck",
+            "icon_width": 20,
+            "text": "In stock! Ships within 1-2 business days.",
+            "text_size": "text-sm"
+          }
+        },
+        "text-4": {
+          "type": "text",
+          "settings": {
+            "icon": "box",
+            "icon_width": 20,
+            "text": "Free shipping over $90 in United States",
+            "text_size": "text-sm"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "icon": "return",
+            "icon_width": 20,
+            "text": "30-day money-back guarantee on uninstalled grips",
+            "text_size": "text-sm"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "settings": {
+            "icon": "shield",
+            "icon_width": 20,
+            "text": "1-year warranty",
+            "text_size": "text-sm"
+          }
+        },
+        "product_bundle_7QyV9x": {
+          "type": "product_bundle",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "heading": "Add Accessories...",
+            "products": [
+              "superstroke-putter-accessory",
+              "arccos-air-clip-accessory-pack"
+            ],
+            "metafield": "",
+            "opened": true,
+            "clickable": false
+          }
+        },
+        "sticky_buy_button": {
+          "type": "sticky_buy_button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "price_PjdzaF",
+        "klarna_on_site_messaging_app_block_DjzHng",
+        "rating_8NMkQr",
+        "countdown",
+        "variant_picker",
+        "inventory",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_9VxAKc",
+        "collapsible_tab_ybRAyN",
+        "collapsible_tab_Fnga4t",
+        "pickup_availability",
+        "share",
+        "complementary",
+        "text-1",
+        "text-4",
+        "text-2",
+        "text-3",
+        "product_bundle_7QyV9x",
+        "sticky_buy_button"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": 40,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "below",
+        "image_ratio": "square",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 72,
+        "padding_bottom": 84,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "multicolumn_with_icons_dxFDEm": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_98QzRB": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_sensor",
+            "custom_icon": "",
+            "heading": "13 Smart Grips & Putter Sensor",
+            "text": "<p>13 grips of your choice with ultra-light embedded weather resistant sensors. Plus 1 twist in putter sensor. All featuring a long lasting battery, power saving mode and 2 year warranty.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_9EqPwV": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_link_pro",
+            "custom_icon": "",
+            "heading": "Link Pro",
+            "text": "<p>Link Pro allows you to automatically track shots right from your front pocket, without a phone.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_EmXYpM": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_year_membership",
+            "custom_icon": "",
+            "heading": "1st year's membership",
+            "text": "<p>1st year's membership to the award winning Arccos app* (New Members only).</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_xcVyy6": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_renewal",
+            "custom_icon": "",
+            "heading": "Annual Free Sensor Renewal Program",
+            "text": "<p>Get 5 new smart sensors every year to use on additional clubs or as replacements.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_98QzRB",
+        "column_9EqPwV",
+        "column_EmXYpM",
+        "column_xcVyy6"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "center",
+        "heading": "What's Included",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_ge8F4G": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gk8EBg": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-Rangefinder-ArccosApp.jpg",
+            "image_ratio": "adapt",
+            "heading": "A.I.-Powered GPS Rangefinder",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Get precise yardages adjusted in real time for wind, elevation/slope, temperature, humidity & altitude.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_Nzk4L4": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-SmartDistances-ArccosApp.jpg",
+            "image_ratio": "adapt",
+            "heading": "Smart Club Distances",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Know how far you really hit all your clubs in every situation.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_JCc4ji": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-StrokesGained_065551be-a1ae-4ed5-a488-1e2439269507.jpg",
+            "image_ratio": "adapt",
+            "heading": "Strokes Gained Insights",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Pinpoint your strengths and weaknesses based on your target handicap, so you know exactly which part of your game to work on.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_VVGxqx": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/iPhone16-CaddieAdvice-ArccosApp.jpg",
+            "image_ratio": "adapt",
+            "heading": "Personal A.I. Caddie Advice",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Real-time insights into optimal & alternative strategies, as well as outcome predictions, for every shot.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_gk8EBg",
+        "column_Nzk4L4",
+        "column_JCc4ji",
+        "column_VVGxqx"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Powerful Features",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Arccos is trusted by Matt Fitzpatrick, Edoardo Molinari and hundreds of thousands of golfers around the world. Game tracking is the key to playing smarter and shooting lower scores.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "video_with_text_overlay_FTC8kV": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_yzbcit": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Most Seamless Experience",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_wm4XrM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>13 Smart Grips, Link Pro & 1st Year's Membership</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yzbcit",
+        "text_wm4XrM"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/Smart Grips Bundle_v2.mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "550px",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "400px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "image_comparison_TgGQ8p": {
+      "type": "image-comparison",
+      "blocks": {
+        "image_4MVUXi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Smart_Grips.jpg",
+            "subheading": "Sensors for every club",
+            "heading": "Smart Grips",
+            "content_position": "end",
+            "color_text": "#ffffff"
+          }
+        },
+        "image_VLfW4V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LinkPro-2.jpg",
+            "subheading": "Track without your phone",
+            "heading": "Link Pro",
+            "content_position": "end",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_4MVUXi",
+        "image_VLfW4V"
+      ],
+      "name": "t:sections.image-comparison.presets.name",
+      "settings": {
+        "layout": "horizontal",
+        "image_height": "550px",
+        "image_height_mobile": "adapt",
+        "heading": "Play the game your way",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_VPGc6m": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_w636MJ": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/MCCgrips_5bca1772-9271-455e-a66a-b205cb6d07c8.png",
+            "image_ratio": "adapt",
+            "heading": "Golf Pride MCC Plus4",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Golf Pride’s MCC Plus4 is a tour-proven, hybrid golf grip featuring a larger lower hand and new softer rubber material. The MCC Plus4 golf grip simulates 4 additional wraps of tape on the lower hand to encourages lighter grip pressure, reduced tension, and increased power.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_y7QW6B": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/TV.png",
+            "image_ratio": "adapt",
+            "heading": "Golf Pride Tour Velvet",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Tour Velvet® is the most popular grip in golf today. It combines an exclusive, state-of-the-art rubber-blend compound, non-slip surface pattern for maximum playability, comfort, and confidence. The Tour Velvet® is the standard upon which many club manufacturers base their grip designs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_w636MJ",
+        "column_y7QW6B"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 2,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Grip Options",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>The best shot tracking in the game is even better. Receive 13 Smart Grips and 1 Putter sensor to start tracking your game like the pros.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_bLV3jF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VLiy7m": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Grips",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_zaidpQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The best shot tracking in the game is even better. Receive 13 Smart Grips and 1 Putter sensor to start tracking your game like the pros.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VLiy7m",
+        "text_zaidpQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Grips-Mobile.png",
+        "image_height": "450px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "center",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_f7zTJM": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_TUPLPF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Link Pro",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_VQFxgm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Completely redesigned, the lightweight device tracks shots and syncs with the Arccos app, and now includes a wireless charging case that powers up to 12 rounds.</p><h1></h1>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_TFhCwk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/WO47lcY6924?si=-jeKm-e1QTNtPHTR",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_TUPLPF",
+        "text_VQFxgm",
+        "button_TFhCwk"
+      ],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video_url": "https://youtu.be/WO47lcY6924?si=-jeKm-e1QTNtPHTR",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "video_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "center",
+        "content_position": "align-self-center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_gJQAQQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jKYYXX": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Frame_3200_f1671b2b-e923-405a-99d4-61552c4a44c4.png",
+            "image_ratio": "square",
+            "heading": "Works In Pocket",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Link Pro can be placed inside your front pocket for seamless shot detection.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_kUEyRK": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Frame_3201_d9f464d7-57fe-4f3b-9678-ff2816cf18d2.png",
+            "image_ratio": "adapt",
+            "heading": "Charging Case",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Power up to 12 rounds of golf and store your Link Pro Securely in your bag.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_cMJi8q": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Frame_3207.png",
+            "image_ratio": "adapt",
+            "heading": "Mark The Pin Button",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Easily mark pin location for even more precise approach and putting stats.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_jKYYXX",
+        "column_kUEyRK",
+        "column_cMJi8q"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Link Pro Key Features",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_zqfWQX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RKxJCT": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "video": "shopify://files/videos/Getting Started_SHORT.mp4",
+            "heading": "How to get started with Link Pro",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/k4vHIaqiQ8E",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_r7cy4G": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "video": "shopify://files/videos/During Play_SHORT.mp4",
+            "heading": "Take a look at in-play with Link Pro",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/W3KmTf7dfV0",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_3P3aXK": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "video": "shopify://files/videos/Charging Case_SHORT.mp4",
+            "heading": "The Link Pro and charging case",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/MPhihAmIJXA",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_RKxJCT",
+        "column_r7cy4G",
+        "column_3P3aXK"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "testimonials_F7gWYb": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_RkbdTU": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>I've been playing golf for 20 years now, been an Arccos user for 5 months, over that 5 month span I've gone from a 15 handicap to a 10.</p>",
+            "author": "Zach K",
+            "author_info": "Arccos Member",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_7zEB4B": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Arccos tells you what kind of golfer you are. It tells you your entire golf game. For me it's more about helping me to improve my game. Telling me where I'm at, and where I want to be.</p>",
+            "author": "Luiza A",
+            "author_info": "Arccos Member",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_Kmtmt8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>I’ve been using Arccos for over a year now. The most beneficial thing for me is preparation for tournaments. It allows me to track my stats and Strokes Gained metrics and that’s huge for validating my practice to make sure I am improving.</p>",
+            "author": "Zach P",
+            "author_info": "Arccos Member",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_RkbdTU",
+        "testimonial_7zEB4B",
+        "testimonial_Kmtmt8"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_with_icons_D73Li7": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_ffLHJy": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_phone",
+            "custom_icon": "",
+            "heading": "iPhone",
+            "text": "<p><br/>Compatible iOS devices include: iPhone 8 and above, running iOS 16.0 and above.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_wg8xL3": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_watch",
+            "custom_icon": "",
+            "heading": "Apple Watch",
+            "text": "<p><br/>Optimized for use with <a href=\"/pages/apple-watch\" title=\"Apple Watch\">Apple Watch</a> Series 6 and newer models.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_gM7YDH": {
+          "type": "column",
+          "settings": {
+            "icon": "arccos_phone",
+            "custom_icon": "",
+            "heading": "Android",
+            "text": "<p><br/>Compatible on select Android devices running Pie 11.0 and above that include a gyroscope and accelerometer.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_ffLHJy",
+        "column_wg8xL3",
+        "column_gM7YDH"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "center",
+        "heading": "<strong>Available On iOS & Android</strong>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "faq_8XYCd7": {
+      "type": "faq",
+      "blocks": {
+        "question_kkQ9cg": {
+          "type": "question",
+          "settings": {
+            "title": "How easy are the grips to install?",
+            "text": "<p>Arccos Smart Grips are installed in the same way normal golfs grips are fitted. The grips come with the sensors already installed and there is no need to remove these before fitting the grips.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_gA4Can": {
+          "type": "question",
+          "settings": {
+            "title": "Is my course mapped?",
+            "text": "<p>We have over 40,000 courses mapped in our system. To see if your course is mapped, use our course search tool.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_Xzd3JJ": {
+          "type": "question",
+          "settings": {
+            "title": "Do sensors require battery replacements?",
+            "text": "<p>Batteries are not replaceable. The sensors have a 2-year guarantee and each member receives 5 new sensors upon membership renewal.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_keEtAX": {
+          "type": "question",
+          "settings": {
+            "title": "Are the sensors waterproof?",
+            "text": "<p>Arccos Smart Sensors are weather and dust resistant. If you get caught out by the weather mid-round, don't worry we'll keep tracking your shots!</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_kkQ9cg",
+        "question_gA4Can",
+        "question_Xzd3JJ",
+        "question_keEtAX"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_with_icons_wffU6j": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_MUbhJz": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "Free shipping",
+            "text": "<p>On all orders over <strong>$90 </strong>in the US</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_tqpazd": {
+          "type": "column",
+          "settings": {
+            "icon": "wallet",
+            "custom_icon": "",
+            "heading": "Money-back guarantee",
+            "text": "<p>30 days, no questions asked, money-back guarantee. Excludes installed Arccos Smart Grips, Apparel & Custom Prints.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_b3p8hM": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Premium support",
+            "text": "<p>Our team of internal customer support agents are available to answer any questions you may have.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_MUbhJz",
+        "column_tqpazd",
+        "column_b3p8hM"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "You may also like",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h5",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "175369173700e7f645": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_G9RhHP": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-polaris/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#56c271",
+            "review_type": "product_review,questions",
+            "per_page": 5,
+            "primary_btn_bg_color": "#252628",
+            "primary_btn_border_color": "#252628",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#252628",
+            "secondary_btn_text_color": "#252628",
+            "border_color": "#d1d6da",
+            "heading_text_color": "#252628",
+            "heading_font": "sans_serif_n4",
+            "body_text_color": "#252628",
+            "badge_icon_color": "#252628",
+            "badge_text_color": "#252628",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "date_desc"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_G9RhHP"
+      ],
+      "settings": {
+        "anchor_id": "reviews_widget",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "help-drawer": {
+      "type": "help-drawer",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Shipping Information",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "icon": "headphone",
+            "heading": "Customer Support",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "FAQ’s",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#be123c",
+            "color_background": "#fff1f2",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Contact Us",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Need help?",
+        "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "multicolumn_with_icons_dxFDEm",
+    "multicolumn_ge8F4G",
+    "video_with_text_overlay_FTC8kV",
+    "image_comparison_TgGQ8p",
+    "multicolumn_VPGc6m",
+    "image_with_text_bLV3jF",
+    "video_with_text_f7zTJM",
+    "multicolumn_gJQAQQ",
+    "multicolumn_zqfWQX",
+    "testimonials_F7gWYb",
+    "multicolumn_with_icons_D73Li7",
+    "faq_8XYCd7",
+    "multicolumn_with_icons_wffU6j",
+    "product-recommendations",
+    "175369173700e7f645",
+    "help-drawer"
+  ]
+}

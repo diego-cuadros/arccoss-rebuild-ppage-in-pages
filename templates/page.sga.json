@@ -1,0 +1,887 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_iYJeUb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_RVrpkh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Strokes Gained Analytics",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_JV7FRU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The most advanced personalized insights in the game.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVrpkh",
+        "text_JV7FRU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/StrokesGained_Comp.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_dpDBFQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BWLiEW": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Make Complicated Stats Simple!",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_a6rThp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Top 3 Insights show clear path to improve<br/>• Set target handicap for more achievable goal<br/>• See detail breakdown of each game facet<br/>• Trend analysis of your game and rounds<br/>• Get specific tips from world-class pros</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BWLiEW",
+        "text_a6rThp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Strokes_Gained_iPhone_Screens.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_overlay_3CJCMa": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_69tLQ7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why is Strokes Gained Analytics so important?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_k6YVX7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://www.youtube.com/watch?v=3OehOgx2CA4&feature=youtu.be",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_69tLQ7",
+        "button_k6YVX7"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video_url": "https://www.youtube.com/watch?v=3OehOgx2CA4&feature=youtu.be",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_Fk4pQe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zcYJRA": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Select Your Target Handicap",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HicmWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SGA uses realistic benchmarks to achieve personal goals. For the first time ever you can compare your game vs realistic handicaps, not just a scratch golfer or tour player. You can easily scroll in the app to select your target handicap, then identify the number of rounds to review your data (we recommend 5 rounds). With this input SGA will show you the clear path to improve.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zcYJRA",
+        "text_HicmWW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SGA_FilterAdjustments.gif",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_overlay_yFaJxD": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_wfNrAj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing Strokes Gained by Club",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_Mzhh7w": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/OfRE_TSe3j8",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfNrAj",
+        "button_Mzhh7w"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video_url": "https://youtu.be/OfRE_TSe3j8",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_TbGaqb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HjbWHk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Strokes Gained by Club",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_BcGphx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Most precise club data in game<br/>• Never before available to any golfer<br/>• See exactly which clubs help or hurt<br/>• Key tool for coaches & fitters</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HjbWHk",
+        "text_BcGphx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Arccos_SGA_by_Club_-_iPhone_Screens.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_FGQPnV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HtaqAg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Access Exclusive Club Comparisons",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_KLR4K8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Compare all your clubs with the power of Strokes Gained data. You can easily view your data by selecting \"Strokes Gained\" from the Club Distances drop down menu.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HtaqAg",
+        "text_KLR4K8"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SGA-by-Club---Overview.gif",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_overlay_aaFYrJ": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_9GzQch": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your SGA Stats Explained",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_r3kcpG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/2LBOiYAJVe8",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9GzQch",
+        "button_r3kcpG"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video_url": "https://youtu.be/2LBOiYAJVe8",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "video_with_text_overlay_p8tUiw": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_g8Kigc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why are Strokes Gained Stats better than Traditional Stats?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_rD9T4Y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/Mkv_qwyO_w8",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_g8Kigc",
+        "button_rD9T4Y"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video_url": "https://youtu.be/Mkv_qwyO_w8",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "testimonials_8etTtp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ECCwKf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Strokes gained data can reveal so much. The problem with it up until this point is that the benchmarks were PGA Tour players and scratch golfers. This is overwhelming if you’re a 20 handicap. Now with Arccos SGA it is truly amazing.</p>",
+            "author": "Trillium Rose",
+            "author_info": "Arccos Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/Trillium_Rose_360x_b20af66a-ae09-4096-addd-762ef10bc4d8.jpg",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_mXNpNP": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Strokes Gained information might seem like it is only for Tour players. No it is not; it is for you. And I believe every golfer, once they see the new Arccos SGA, will gain perspective of what better stats and better decision making brings to the table, and they are going to play better golf.</p>",
+            "author": "Andrew Rice",
+            "author_info": "Arccos Ambassador",
+            "author_url": "",
+            "image": "shopify://shop_images/Andrew_Rice_arccos_director_of_instruction_headshot.png",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ECCwKf",
+        "testimonial_mXNpNP"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
+    },
+    "faq_cTaTCf": {
+      "type": "faq",
+      "blocks": {
+        "question_fzLTrA": {
+          "type": "question",
+          "settings": {
+            "title": "What is Arccos Strokes Gained Analytics (SGA)?",
+            "text": "<p>Strokes Gained (SG) is a revolutionary way to analyze the data behind your game. We use our A.I. neural network to accurately compare your current game versus a target handicap of your choosing. Thanks to our vast range of benchmarking options and the largest set of on-course data worldwide, we’re able to provide insights within your player stats for each facet of your game, plus clear ways to improve from world-class coaches.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_XFCBkT": {
+          "type": "question",
+          "settings": {
+            "title": "How do I see an individual round’s Arccos Strokes Gained Analytics?",
+            "text": "<p>To check your individual round stats, go to the <strong>Rounds</strong> tab and select <strong>Stats</strong> under the round you want to review.</p><p>As long as you've played <strong>6 holes or more</strong>, you'll see a detailed <strong>Strokes Gained</strong> analysis for that round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_yiA9V6": {
+          "type": "question",
+          "settings": {
+            "title": "What gets calculated into the Arccos Short Game facet?",
+            "text": "<p>Arccos Short Game facet factors in both your chipping and sand performance from 0-25 yards and 25-50 yards of the green. </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_UFJfAP": {
+          "type": "question",
+          "settings": {
+            "title": "What is the Trend Analysis?",
+            "text": "<p>Your <strong>Trend Analysis</strong> chart provides a visual overview of your game’s progression from a <strong>Strokes Gained</strong> perspective. Each round is mapped out, showing your total <strong>SG</strong> for the round, as well as SG stats for each individual facet of your game.</p><ul><li><strong>Selector:</strong> Drag the selector left or right to focus on a specific round.</li><li><strong>Facet Toggle:</strong> You can toggle each facet on and off to zero in on a particular area of your game.</li><li><strong>Grey Bar:</strong> The grey bar in the background compares your overall strokes gained data to your target handicap.</li><li><strong>Colored Lines:</strong> The colored lines represent the performance of each individual facet during that round.</li></ul><p>For a more detailed breakdown of your Strokes Gained Analytics for any given round, simply tap <strong>“See Full Round Details”</strong> for that specific round.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_fzLTrA",
+        "question_XFCBkT",
+        "question_yiA9V6",
+        "question_UFJfAP"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_rG3HAX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mPL43d": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Air-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Arccos Air",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want actionable insights without the distraction</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/air",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_b3jaah": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/SmartLaser-Packaging.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Laser",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the most accurate \"Plays Like\" distance in golf</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-laser-rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_xAiAiL": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/Smart-Sensors.jpg",
+            "image_ratio": "square",
+            "heading": "Smart Sensors",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>For players who want the deepest club-level data in the game</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/smart-sensors",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_mPL43d",
+        "column_b3jaah",
+        "column_xAiAiL"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Play Smarter Your Way",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": true,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_BHgmcF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XBhXDA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to see more powerful Arccos features?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_kgmKBU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/arccos-app",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBhXDA",
+        "button_kgmKBU"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/PowerfulFeatures.jpg",
+        "image_height": "700px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "400px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_iYJeUb",
+    "image_with_text_dpDBFQ",
+    "video_with_text_overlay_3CJCMa",
+    "image_with_text_Fk4pQe",
+    "video_with_text_overlay_yFaJxD",
+    "image_with_text_TbGaqb",
+    "image_with_text_FGQPnV",
+    "video_with_text_overlay_aaFYrJ",
+    "video_with_text_overlay_p8tUiw",
+    "testimonials_8etTtp",
+    "faq_cTaTCf",
+    "multicolumn_rG3HAX",
+    "image_with_text_overlay_BHgmcF"
+  ]
+}

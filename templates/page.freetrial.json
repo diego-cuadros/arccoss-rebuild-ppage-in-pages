@@ -1,0 +1,259 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "custom_liquid_wYQkBp": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<meta name=\"robots\" content=\"noindex\"><meta charset=\"utf-8\">",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "custom_liquid_rWz8M3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div class=\"free-trial-page-wrapper\">\n  <style>\n    .free-trial-page-wrapper {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      position: relative;\n      background-image:\n        linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.6)),\n        url('https://cdn.shopify.com/s/files/1/0780/5525/files/Group_1129.jpg?v=1706876314');\n      background-size: cover;\n      background-repeat: no-repeat;\n      padding: max(10px, 5vw);\n      width: 100%;\n      margin-bottom: 0 !important;\n      min-height: max(70vh, 400px);\n    }\n\n    .partner-images {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      grid-template-rows: 1fr 1fr;\n      align-items: center;\n      justify-content: center;\n      gap: max(10px, 2vw); /* grid-gap -> gap */\n      width: 100%;\n      max-width: 1200px;\n    }\n\n    @media (min-width: 768px) {\n      .partner-images {\n        grid-template-columns: 1fr 1fr 1fr 1fr;\n        grid-template-rows: 1fr;\n      }\n    }\n\n    .partner-image-container {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .partner-link {\n      height: 100%;\n      width: 100%;\n      display: block;\n    }\n\n    .partner-image {\n      width: 100%;\n      height: auto;\n      display: block;\n    }\n\n    .text-content {\n      color: white;\n      text-align: center;\n      margin-bottom: max(30px, 3vw);\n      line-height: 1.5;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .title-text {\n      font-family: inherit;\n      font-size: min(7vw, 40px);\n      text-transform: none;\n      line-height: 1;\n      margin: 0.25em 0 0.1em;\ncolor: #ffffff;\n    }\n\n    .subtext {\n      font-size: min(3.5vw, 18px);\n      color: #B2BEC6;\n      line-height: 1.25;\n    }\n\n    .no-clubs-option {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-top: max(24px, 3vw);\n      margin-bottom: max(50px, 5vw);\n    }\n\n    .no-clubs-option > a {\n      color: white;\n      text-decoration: underline;\n      text-align: center;\n      opacity: 0.9;\n      font-size: 14px;\n      width: 100%;\n    }\n\n    .pga-logo {\n      height: 3.75em;\n      width: auto;\n      display: inline-block;\n    }\n  </style>\n\n  <div class=\"header\">\n    <img\n      class=\"pga-logo\"\n      src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/official-game-tracker-pga.svg?v=1692031498\"\n      alt=\"PGA TOUR Official Game Tracker\">\n  </div>\n\n  <div class=\"text-content\">\n    <h1 class=\"title-text\">Get free Arccos sensors and a free trial.</h1>\n    <div class=\"subtext\">Select your brand below to learn more about their program and get started!</div>\n  </div>\n\n  <div class=\"partner-images\">\n    <div class=\"partner-image-container\">\n      <a class=\"partner-link\" href=\"https://ping.arccosgolf.com/\">\n        <img alt=\"PING\" class=\"partner-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Group_2330.png?v=1652367998\">\n      </a>\n    </div>\n\n    <div class=\"partner-image-container\">\n      <a class=\"partner-link\" href=\"https://taylormade.arccosgolf.com/\">\n        <img alt=\"TaylorMade\" class=\"partner-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Group_2333.png?v=1652367998\">\n      </a>\n    </div>\n\n    <div class=\"partner-image-container\">\n      <a class=\"partner-link\" href=\"https://cobra.arccosgolf.com/\">\n        <img alt=\"Cobra\" class=\"partner-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Group_2332.png?v=1652367998\">\n      </a>\n    </div>\n\n    <div class=\"partner-image-container\">\n      <a class=\"partner-link\" href=\"https://dunlopsports.arccosgolf.com/\">\n        <img alt=\"Srixon\" class=\"partner-image\" src=\"https://cdn.shopify.com/s/files/1/0780/5525/files/Cleveland_srixon_430x.png?v=1705938699\">\n      </a>\n    </div>\n  </div>\n\n  <h4 class=\"no-clubs-option\">\n    <a class=\"partner-link\" href=\"https://activate.arccosgolf.com/?affiliate=ArccosTV\">Don’t have any of these clubs?</a>\n  </h4>\n\n  <script>\n    (function () {\n      var links = document.getElementsByClassName('partner-link');\n      var pageParams = new URLSearchParams(window.location.search);\n\n      for (var i = 0; i < links.length; i++) {\n        var a = links[i];\n        var href = a.getAttribute('href');\n\n        // Skip if no href\n        if (!href) continue;\n\n        // Build absolute URL for manipulation\n        var url = new URL(href, window.location.origin);\n\n        // Merge page query params without duplicating existing keys\n        pageParams.forEach(function (value, key) {\n          if (!url.searchParams.has(key)) {\n            url.searchParams.set(key, value);\n          }\n        });\n\n        // Preserve relative URLs for same-origin paths\n        if (url.origin === window.location.origin) {\n          a.setAttribute('href', url.pathname + (url.search ? url.search : ''));\n        } else {\n          a.setAttribute('href', url.toString());\n        }\n      }\n    })();\n  </script>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": false,
+        "rounded": true
+      }
+    },
+    "multicolumn_Mnjnbq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_i6AY36": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "heading": "<strong>PING</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Select PING",
+            "button_link": "https://ping.arccosgolf.com/?oseid=oUgxgbeEcFZuXeyoKxRZ27Xe",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_3zGqep": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "heading": "<strong>TaylorMade</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Select TaylorMade",
+            "button_link": "https://taylormade.arccosgolf.com/?oseid=oUgxgbeEcFZuXeyoKxRZ27Xe",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_4gQ8h6": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "heading": "<strong>COBRA</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Select COBRA",
+            "button_link": "https://cobra.arccosgolf.com/?oseid=oUgxgbeEcFZuXeyoKxRZ27Xe",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_3WEk9C": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
+            "heading": "<strong>Srixon/Cleveland</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "Select Srixon/Cleveland",
+            "button_link": "http://dunlopsports.arccosgolf.com/?oseid=oUgxgbeEcFZuXeyoKxRZ27Xe",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_i6AY36",
+        "column_3zGqep",
+        "column_4gQ8h6",
+        "column_3WEk9C"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Get free Arccos sensors and a free trial.",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Select your brand below to learn more about their program and get started!</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "button_video": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "rich_text_tnhPmH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k7Hyhg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose A Membership",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_HPpVGi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Arccos Today & Access Golf's #1 Game Tracker.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7Hyhg",
+        "text_HPpVGi"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "custom_liquid_wYQkBp",
+    "custom_liquid_rWz8M3",
+    "multicolumn_Mnjnbq",
+    "rich_text_tnhPmH"
+  ]
+}

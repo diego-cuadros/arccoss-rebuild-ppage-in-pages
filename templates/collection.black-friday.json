@@ -1,0 +1,668 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_XHUVPg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_iBYjxL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Save Up To 30% Off Sitewide",
+            "subheading_size": "subtitle-md",
+            "secondary_color": false
+          }
+        },
+        "heading_kWXJVj": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Holiday Event",
+            "heading_size": "title-md",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_hWChW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Treat your favorite golfer to the smartest gift in the game.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_BRCPef": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "See Top Deals Below",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iBYjxL",
+        "heading_kWXJVj",
+        "text_hWChW3",
+        "button_BRCPef"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/ShopBanner-Desktop_6174ea7b-e44a-4810-a42c-fe05fa6b78a8.jpg",
+        "image_height": "400px",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/ShopBanner-Mobile_8b1d114b-f494-4fb2-9f8a-234e8edc2536.jpg",
+        "image_height_mobile": "250px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "featured_collection_k6B3RH": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "",
+        "products": [
+          "smart-sensors",
+          "air-smart-sensors-bundle",
+          "rangefinder-bundle"
+        ],
+        "product_limit": 6,
+        "columns": 3,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "Biggest Savings",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Free Shipping Over $90</p>",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_ECDFgF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_KKPYPx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Give The Gift Of Lower Scores",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_ggEH7K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We created a guide to help you pick the smartest golf gift.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_hmReEy": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Gift Guide",
+            "button_link": "shopify://blogs/community/2025-holiday-gift-guide-smarter-golf-gifts-for-every-golfer",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KKPYPx",
+        "text_ggEH7K",
+        "button_hmReEy"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/ShopBanner-Gift-Desktop.jpg",
+        "image_height": "400px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/ShopBanner-Mobile_8b1d114b-f494-4fb2-9f8a-234e8edc2536.jpg",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#252628",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#2b2b2b",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "show_collections_link": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "title-xl"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "title"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": true,
+        "show_image": true,
+        "image_height": "400px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich_text_iWfb4X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3PGHnW": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Holiday Deals",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3PGHnW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "medium",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 20,
+        "divider": true,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "menu": "",
+            "per_row": 5,
+            "show_count": true
+          }
+        },
+        "promotion_4T6PJf": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/shopify_product_images_new_4.jpg",
+            "heading": "Custom Prints",
+            "content": "<p>Memories to last a lifetime.</p>",
+            "button_label": "Shop Prints",
+            "button_link": "shopify://products/custom-hole-print",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#171717",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 40
+          }
+        },
+        "promotion_tBgYKg": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/Typical_Round-Mobile_9c535473-5735-41c6-b54f-3641f8f31f97.jpg",
+            "heading": "Ready To Track Your Game?",
+            "content": "<p>Get a personalized product recommendation</p>",
+            "button_label": "Take Quiz",
+            "button_link": "shopify://pages/quiz",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#171717",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "promotion_4T6PJf",
+        "promotion_tBgYKg"
+      ],
+      "settings": {
+        "products_per_page": 12,
+        "columns": 4,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_filtering": true,
+        "filter_collapsed": false,
+        "filter_type": "drawer",
+        "filter_color_swatches": true,
+        "enable_sorting": true,
+        "padding_top": 52,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "blog_posts_collage_mJJEV4": {
+      "type": "blog-posts-collage",
+      "disabled": true,
+      "name": "t:sections.blog-posts-collage.presets.name",
+      "settings": {
+        "blog": "community",
+        "post_limit": 3,
+        "show_view_all": false,
+        "image_ratio": "landscape",
+        "show_tags": false,
+        "show_date": true,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "heading": "Featured Insights",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "logo_list_XcjKPD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_QUTDGy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/PGAT_24b00eef-4833-4693-b049-ae0426a9edf0.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_9RjDim": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/PING_7843315d-95fb-48d8-856f-4d29773ce7b6.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_7nRyq4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Cobra_025746ce-8736-42df-8735-e2cb4345e17e.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_yqH6Vb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Srixon_c5005436-c50c-4545-9bc0-d9ed5dc0425e.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_wxd7bi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Cleveland_Golf_60f52e35-f50d-44e1-a304-e01e4732067c.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_76J8Fp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Superstroke.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_r9KQ6z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ClubChampion_1252f498-7132-4c96-a30f-cdfc71300380.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_CD9why": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/MMG_3fe70cbd-f538-4f7d-9f75-796e85b2efdc.png",
+            "height": 100,
+            "link": ""
+          }
+        },
+        "logo_MNzxXx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/GolfPride_217d047b-ad52-435e-8373-719dcb28c768.png",
+            "height": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_QUTDGy",
+        "logo_9RjDim",
+        "logo_7nRyq4",
+        "logo_yqH6Vb",
+        "logo_wxd7bi",
+        "logo_76J8Fp",
+        "logo_r9KQ6z",
+        "logo_CD9why",
+        "logo_MNzxXx"
+      ],
+      "name": "t:sections.logo-list.presets.name",
+      "settings": {
+        "layout": "marquee",
+        "grid_horizontal": 50,
+        "direction": "left",
+        "speed": 10,
+        "heading": "Trusted by the best in the industry",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "p",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": true,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "multicolumn_with_icons_7PcG9P": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_bbwFNW": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "Free Shipping",
+            "text": "<p>Get free shipping on on all orders over $90 in the United States.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_LaLtpG": {
+          "type": "column",
+          "settings": {
+            "icon": "wallet",
+            "custom_icon": "",
+            "heading": "Money-Back Guarantee",
+            "text": "<p>30 days, no questions asked, money-back guarantee. Excludes installed Arccos Smart Grips, Apparel & Custom Prints.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_eCjM3E": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Premium Support",
+            "text": "<p>Our team of internal customer support agents are available to answer any questions you may have.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_cG8gie": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Secure payment",
+            "text": "<p>Your payment information is processed securely</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_bbwFNW",
+        "column_LaLtpG",
+        "column_eCjM3E",
+        "column_cG8gie"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_XHUVPg",
+    "featured_collection_k6B3RH",
+    "image_with_text_overlay_ECDFgF",
+    "main-collection-banner",
+    "rich_text_iWfb4X",
+    "main-collection",
+    "recently-viewed",
+    "blog_posts_collage_mJJEV4",
+    "logo_list_XcjKPD",
+    "multicolumn_with_icons_7PcG9P"
+  ]
+}

@@ -1,0 +1,502 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "spacing": {
+          "type": "spacing",
+          "settings": {
+            "height": 48,
+            "height_mobile": 0
+          }
+        },
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "show_collections_link": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "title-xl"
+          }
+        },
+        "description_YKh7nG": {
+          "type": "description",
+          "settings": {
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "spacing",
+        "breadcrumb",
+        "title",
+        "description_YKh7nG"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": true,
+        "show_image": true,
+        "image_height": "750px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_XHUVPg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_cAdLCt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Arccos_HB_Lockup.png",
+            "image_width": "custom",
+            "image_max_width": 200,
+            "image_max_width_mobile": 80
+          }
+        },
+        "heading_kWXJVj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apparel & Bags",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_hWChW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Where premium design meets data-driven improvement — on and off the course.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "image_cAdLCt",
+        "heading_kWXJVj",
+        "text_hWChW3"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Arccos_HB_Apparel_Banner_b9ba6559-91cf-4830-8312-0031aeccf816.jpg",
+        "image_height": "500px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_XY6PWw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "image_piMfCj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Arccos_HB_Lockup.png",
+            "image_width": "custom",
+            "image_max_width": 200,
+            "image_max_width_mobile": 80
+          }
+        },
+        "heading_JnN3jg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apparel & Bags",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_bNMha6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Where premium design meets data-driven improvement — on and off the course.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "image_piMfCj",
+        "heading_JnN3jg",
+        "text_bNMha6"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Arccos_HB_Apparel_Banner_b9ba6559-91cf-4830-8312-0031aeccf816.jpg",
+        "image_height": "500px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "300px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#56c271",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "menu": "",
+            "per_row": 5,
+            "show_count": true
+          }
+        }
+      },
+      "block_order": [
+        "subcollections"
+      ],
+      "settings": {
+        "products_per_page": 11,
+        "columns": 4,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_filtering": true,
+        "filter_collapsed": false,
+        "filter_type": "drawer",
+        "filter_color_swatches": true,
+        "enable_sorting": true,
+        "padding_top": 52,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "blog_posts_collage_mJJEV4": {
+      "type": "blog-posts-collage",
+      "disabled": true,
+      "name": "t:sections.blog-posts-collage.presets.name",
+      "settings": {
+        "blog": "community",
+        "post_limit": 3,
+        "show_view_all": false,
+        "image_ratio": "landscape",
+        "show_tags": false,
+        "show_date": true,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "heading": "Featured Insights",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_with_icons_7PcG9P": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_bbwFNW": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "Free Shipping",
+            "text": "<p>Get free shipping on on all orders over $90 in the United States.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_LaLtpG": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "icon": "wallet",
+            "custom_icon": "",
+            "heading": "Money-Back Guarantee",
+            "text": "<p>30 days, no questions asked, money-back guarantee. Excludes installed Arccos Smart Grips, Apparel & Custom Prints.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_eCjM3E": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Premium Support",
+            "text": "<p>Our team of internal customer support agents are available to answer any questions you may have.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_cG8gie": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Secure payment",
+            "text": "<p>Your payment information is processed securely</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_bbwFNW",
+        "column_LaLtpG",
+        "column_eCjM3E",
+        "column_cG8gie"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f2f2f2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "logo_list_XcjKPD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_QUTDGy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/PGA_Tour_logo_09d82b12-b3cf-4fd4-b048-4fbaff66e8da.png",
+            "height": 52,
+            "link": ""
+          }
+        },
+        "logo_9RjDim": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ping_logo.png",
+            "height": 52,
+            "link": ""
+          }
+        },
+        "logo_7nRyq4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/cobra_logo.png",
+            "height": 52,
+            "link": ""
+          }
+        },
+        "logo_76J8Fp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/super_stroke_logo.png",
+            "height": 52,
+            "link": ""
+          }
+        },
+        "logo_yqH6Vb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Srixon.png",
+            "height": 52,
+            "link": ""
+          }
+        },
+        "logo_r9KQ6z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Cleveland.png",
+            "height": 52,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_QUTDGy",
+        "logo_9RjDim",
+        "logo_7nRyq4",
+        "logo_76J8Fp",
+        "logo_yqH6Vb",
+        "logo_r9KQ6z"
+      ],
+      "disabled": true,
+      "name": "t:sections.logo-list.presets.name",
+      "settings": {
+        "layout": "marquee",
+        "grid_horizontal": 50,
+        "direction": "left",
+        "speed": 10,
+        "heading": "Trusted by the best in the industry",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "p",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "image_with_text_overlay_XHUVPg",
+    "image_with_text_overlay_XY6PWw",
+    "main-collection",
+    "recently-viewed",
+    "blog_posts_collage_mJJEV4",
+    "multicolumn_with_icons_7PcG9P",
+    "logo_list_XcjKPD"
+  ]
+}

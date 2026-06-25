@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-md",
+        "heading_alignment": "text-center",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_TbACfT": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Annual_Driving_Distane_Report_-_2026.png",
+        "image_height": "adapt",
+        "content_width": "small",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/Group_4541.png",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "custom_liquid_JyN86c": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<style>\n  .google-form-wrapper {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    padding: 1rem 0;\n  }\n  .google-form-wrapper iframe {\n    width: 100%;\n    height: 1000px;\n    border: 0;\n    display: block;\n  }\n  @media (max-width: 600px) {\n    .google-form-wrapper iframe { height: 1400px; }\n  }\n</style>\n\n<div class=\"google-form-wrapper\" id=\"google-form-wrapper\">\n  <iframe\n    id=\"google-form-frame\"\n    src=\"https://docs.google.com/forms/d/e/1FAIpQLSfodYOG4uSgYf0eobppc7oE-InDnpxI6aeMCjcRzEuDLsFFmQ/viewform?embedded=true\"\n    title=\"Form\"\n    loading=\"lazy\"\n    referrerpolicy=\"no-referrer-when-downgrade\">\n    Loading…\n  </iframe>\n</div>\n\n<script>\n  (function () {\n    var iframe = document.getElementById('google-form-frame');\n    var wrapper = document.getElementById('google-form-wrapper');\n    var loadCount = 0;\n\n    iframe.addEventListener('load', function () {\n      loadCount++;\n      // First load = initial page render. Any load after that = a submission.\n      if (loadCount > 1) {\n        wrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });\n      }\n    });\n  })();\n</script>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 24,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_overlay_TbACfT",
+    "custom_liquid_JyN86c"
+  ]
+}

@@ -1,0 +1,296 @@
+{% style %}
+  #section-{{ section.id }} {
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    color: {{ section.settings.text_color }};
+    background-color: {{ section.settings.bg_color }};
+  }
+
+  @media only screen and (max-width: 768px) {
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding-top-mobile }}px;
+      padding-bottom: {{ section.settings.padding-bottom-mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<section class="sc-home-card-grid" id="section-{{ section.id }}">
+  <div class="container">
+    
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+
+    <div class="feature-grid">
+
+      {% for block in section.blocks %}
+      <div class="feature-card">
+        
+        <div class="feature-img">
+          <img src="{{ block.settings.image | img_url: '400x' }}" alt="">
+        </div>
+
+        <div class="feature-content">
+          <h3 class="heading-text">{{ block.settings.title }}</h3>
+          <div class="dec-info">{{ block.settings.text }}</div>
+
+          <a href="{{ block.settings.link }}" class="button-btn">
+            {{ block.settings.button_text }}
+            <div class="btn-arrow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="28" viewBox="0 0 28 28" width="28"><script xmlns="" id="eppiocemhmnlbhjplcgkofciiegomcon"/><script xmlns=""/><script xmlns=""/>
+<rect fill="#56C271" height="28" rx="14" width="28"/>
+<path d="M14.6654 17.9997L18.6654 13.9997L14.6654 9.99976M18.332 13.9997H9.33203" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg></div>
+          </a>
+
+        </div>
+
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .sc-home-card-grid .container {
+    max-width: 1272px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width:100%;
+  }
+.sc-home-card-grid .section-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #242424;
+    margin-bottom: 40px;
+}
+  .sc-home-card-grid .feature-grid {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 24px;
+}
+.sc-home-card-grid .feature-card {
+    background: #F2F2F2;
+    border-radius: 16px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: 34px 38px;
+    grid-template-columns: 0.7fr 1fr;
+}
+.sc-home-card-grid .feature-grid .feature-card:last-child a.button-btn {
+    width: 100%;
+    max-width: 271px;
+}
+.sc-home-card-grid .feature-grid .feature-card:first-child a.button-btn {
+    width: 100%;
+    max-width: 295px;
+}
+.sc-home-card-grid .heading-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #242424;
+}
+.sc-home-card-grid .dec-info {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #575B65;
+}
+.sc-home-card-grid .feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+    justify-content: space-between;
+}
+.sc-home-card-grid .button-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    background: #242424;
+    padding: 14px 10px;
+    border-radius: 100px;
+    display: flex;
+    width: auto !important;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+  @media only screen and (max-width: 1024px) {
+    .sc-home-card-grid .heading-text {
+    font-size: 24px;
+    line-height: 30px;
+}
+.sc-home-card-grid .feature-card {
+    gap: 5px;
+    padding: 20px;
+    grid-template-columns: 0.5fr 1fr;
+}
+  }
+  @media only screen and (max-width: 991px) {
+    .sc-home-card-grid .feature-card {
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 0.26fr 1fr;
+}
+.sc-home-card-grid .section-title {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.sc-home-card-grid .feature-grid {
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 24px;
+}
+  }
+  @media only screen and (max-width: 575px) {
+    .sc-home-card-grid .heading-text {
+    font-size: 20px;
+    line-height: 25px;
+}
+.sc-home-card-grid .button-btn {
+    background: transparent;
+    color: #56C271;
+    font-weight: 600;
+    padding: 0px;
+    letter-spacing: 0px;
+    {% comment %} text-transform: lowercase; {% endcomment %}
+    text-decoration: underline;
+    justify-content: start;
+}
+.sc-home-card-grid .feature-grid .feature-card:first-child a.button-btn,.sc-home-card-grid .feature-grid .feature-card:last-child a.button-btn{
+ max-width:100%;
+}
+.sc-home-card-grid .feature-card {
+    gap: 20px;
+    padding: 16px;
+    grid-template-columns: 0.5fr 1fr;
+}
+.sc-home-card-grid .btn-arrow{
+ display:none;
+}
+.sc-home-card-grid .feature-content {
+    gap: 12px;
+}
+.sc-home-card-grid .button-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+ 
+
+</style>
+
+{% schema %}
+  {
+    "name": "card Grid",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },  
+       {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Play Smarter Your Way"
+    },    
+      {
+        "type": "header",
+        "content": "padding settings"
+      },
+      {
+        "type": "range",
+        "id": "padding-top",
+        "label": "Top Spacing",
+        "min": 0,
+        "max": 200,
+        "step": 2,
+        "default": 134
+      },
+      {
+        "type": "range",
+        "id": "padding-bottom",
+        "label": "Bottom Spacing",
+        "min": 0,
+        "max": 200,
+        "step": 2,
+        "default": 108
+      },
+      { 
+        "type": "range",
+        "id": "padding-top-mobile",
+        "label": "Top Mobile Spacing",
+        "min": 0,
+        "max": 150,
+        "step": 2,
+        "default": 114
+      },
+      {
+        "type": "range",
+        "id": "padding-bottom-mobile",
+        "label": "Bottom Mobile Spacing",
+        "min": 0,
+        "max": 150,
+        "step": 2,
+        "default": 100
+      }
+    ],
+    "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Product Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Feature Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Shop Now"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+    "presets":[
+      {
+        "name": "card Grid",
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,147 @@
+{% doc %}
+Renders all script related tags for the US store.
+Only call this once within the layout's head element and immediately after content_for_header.
+{% enddoc %}
+
+<!-- Heatmap.com Tracking for https://www.arccosgolf.com/ -->
+<script>/* >> Heatmap.com :: Snippet << */(function (h,e,a,t,m,ap) { (h._heatmap_paq = []).push([ 'setTrackerUrl', (h.heatUrl = e) + a]); h.hErrorLogs=h.hErrorLogs || []; ap=t.createElement('script');  ap.src=h.heatUrl+'preprocessor.min.js?sid='+m;  ap.defer=true; t.head.appendChild(ap); ['error', 'unhandledrejection'].forEach(function (ty) {     h.addEventListener(ty, function (et) { h.hErrorLogs.push({ type: ty, event: et }); }); });})(window,'https://dashboard.heatmap.com/','heatmap.php',document,5376);</script>
+<!-- Heatmap.com Tracking for https://www.arccosgolf.com/ -->
+
+<!-- Hotjar Tracking Code for https://www.arccosgolf.com/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:5328481,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script>
+    (function () {
+        let lastSyncedGaId = null;
+
+        const generateFallbackGaClientId = function () {
+            const storedGaClientId = localStorage.getItem('ga_client_id');
+            if (storedGaClientId) {
+                return storedGaClientId
+            } else {
+                const randomPart = Math.floor(Math.random() * 2147483647);
+                const timestampPart = Math.floor(Date.now() / 1000);
+                const generatedGaClientId = `${randomPart}.${timestampPart}`;
+                localStorage.setItem('ga_client_id', generatedGaClientId)
+                return generatedGaClientId;
+            }
+        };
+
+        window.getGaClientId = function () {
+            const name = '_ga=';
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            let clientId = null;
+
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i].trim();
+                if (c.indexOf(name) === 0) {
+                    const parts = c.substring(name.length).split('.');
+                    if (parts.length >= 2) {
+                        clientId = parts.slice(-2).join('.');
+                    }
+                }
+            }
+            return clientId;
+        };
+
+        window.syncTrackingToCart = function (extraData = {}) {
+            const query = window.location.href.split('?').pop();
+            const params = new URLSearchParams(query);
+            const clientId = window.getGaClientId();
+
+            const utmData = {
+                utm_source: params.get('utm_source'),
+                utm_medium: params.get('utm_medium'),
+                utm_campaign: params.get('utm_campaign'),
+                utm_content: params.get('utm_content'),
+                utm_term: params.get('utm_term'),
+                meta_campaign_id: params.get('campaign_id'),
+                meta_ad_id: params.get('ad_id'),
+                fbclid: params.get('fbclid'),
+                ga_client_id: clientId ?? generateFallbackGaClientId(),
+                ...extraData
+            };
+
+            Object.keys(utmData).forEach(key => {
+                if (utmData[key] === null || utmData[key] === undefined) {
+                    delete utmData[key];
+                }
+            });
+
+            if (Object.keys(utmData).length > 0) {
+                const existing = JSON.parse(localStorage.getItem('utm_data') || '{}');
+                const merged = {...existing, ...utmData};
+                localStorage.setItem('utm_data', JSON.stringify(merged));
+
+                fetch(window.Shopify.routes.root + 'cart/update.js', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({attributes: merged})
+                })
+                    .then(response => response.json())
+                    .catch((error) => console.error('Error syncing tracking data:', error));
+            }
+        };
+
+        const onChangeCookieStore = function (event) {
+            const gaCookie = event.changed.find(it => it.name === '_ga');
+
+            if (!gaCookie) return;
+
+            const newId = gaCookie.value.split('.').slice(-2).join('.');
+
+            if (newId === lastSyncedGaId) return;
+
+            localStorage.setItem('ga_client_id', newId);
+
+            lastSyncedGaId = newId;
+
+            window.syncTrackingToCart({
+                ga_client_id: newId
+            });
+        }
+
+        const waitForGaCookieAndSync = function () {
+            let tries = 0;
+
+            const interval = setInterval(() => {
+                const id = window.getGaClientId();
+
+                if (id && id !== lastSyncedGaId) {
+                    localStorage.setItem('ga_client_id', id);
+                    lastSyncedGaId = id;
+                    window.syncTrackingToCart({
+                        ga_client_id: id
+                    });
+                    clearInterval(interval);
+                }
+
+                tries++;
+
+                if (tries > 20) {
+                    clearInterval(interval);
+                }
+            }, 200);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            if (window.cookieStore) {
+                // Chrome / Edge / Firefox
+                window.cookieStore.addEventListener('change', onChangeCookieStore);
+            } else {
+                // Safari
+                waitForGaCookieAndSync();
+            }
+        });
+    })();
+</script>

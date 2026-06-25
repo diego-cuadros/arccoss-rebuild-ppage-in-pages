@@ -1,0 +1,1061 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "video_with_text_overlay_EdXMG8": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "subheading_YrFKBi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How Arccos Works",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_GhP8jN": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Tech Behind<em> Smarter Golf.</em>",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_QCcidM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arccos is a game tracking platform that automatically captures your shots on course and uses A.I. to turn your data into powerful insights.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_V8ctJt": {
+          "type": "button",
+          "settings": {
+            "button_label": "The Smart Play",
+            "button_link": "https://youtu.be/ZU-rpM9tZk0",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YrFKBi",
+        "heading_GhP8jN",
+        "text_QCcidM",
+        "button_V8ctJt"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/Website video.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "850px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "video_url_mobile": "",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_83KN3N": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_AyCqTe": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How Arccos Works",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_TGq44J": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Tech Behind<em> Smarter Golf.</em>",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_PhUf9T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arccos was founded on a simple idea: capture every shot and turn that data into smarter, better golf. Today, that idea powers a system that’s easy to use and built to improve your game. With advanced technology and A.I., Arccos automatically tracks your game and transforms your shots into powerful insights.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_HeiHRK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtu.be/ZU-rpM9tZk0",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AyCqTe",
+        "heading_TGq44J",
+        "text_PhUf9T",
+        "button_HeiHRK"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/How_Arccos_Works_Hero.jpg",
+        "image_height": "850px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/How_Arccos_Works_Hero-Mobile_113197bc-e8e8-4ff3-8fd8-e9b3f268f068.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_4YmBWn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wm8DFw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Simple Set Up",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_MLgMDT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Twist the Smart Sensors into the top of your grips. They automatically record every shot you hit and the club you’re using. Available in multiple color options.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_RNhRpP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Sensors",
+            "button_link": "shopify://products/smart-sensors",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wm8DFw",
+        "text_MLgMDT",
+        "button_RNhRpP"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Setup_2c9b7763-fe8d-41ff-b284-c4a43855b535.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_DcbHkk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FVGa3U": {
+          "type": "heading",
+          "settings": {
+            "heading": "Easily Connect",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_ggNVYy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use your phone, Link Pro or Apple Watch to sync your shots to the Arccos app. Our advanced A.I. algorithms then turn all your data into powerful insights.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_An7hxk": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/apple-watch",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FVGa3U",
+        "text_ggNVYy",
+        "button_An7hxk"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Connected_3f872e9c-c19f-4ed3-81c0-5992843a2858.jpg",
+        "image_height": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "adapt",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_83RGmw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_D7n86V": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Get Ready To Play Smarter Golf.</em>",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_K8QLDA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Once you download the app and pair your clubs, your game tracking subscription gives you access to the award-winning Arccos app.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_ppNawJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/why-arccos",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D7n86V",
+        "text_K8QLDA",
+        "button_ppNawJ"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/How_We_Track_Hero_4fe9cea3-810f-422d-a0d6-1fd779f66123.jpg",
+        "image_height": "adapt",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/How_We_Track_Hero-Mobile_33092c74-b0b0-4b0c-b2e6-380828efb221.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "timeline_mg4x3n": {
+      "type": "timeline",
+      "blocks": {
+        "content_6DB497": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Prepare_bda41ed7-7976-4132-984d-f5453163c5ba.jpg",
+            "subheading": "Prepare",
+            "heading": "Before the round",
+            "heading_tag": "h2",
+            "text": "<p>You’ve set up your sensors and Arccos account. Next, open the app, choose your course and tracking device, then start your round.</p><p>Not playing yet? You can use Arccos to preview the course and plan your strategies.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_tBbefC": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Play_01f94f50-1410-41f8-b49d-c724c7d2a6b1.jpg",
+            "subheading": "Play",
+            "heading": "During the round",
+            "heading_tag": "h2",
+            "text": "<p>Just play your game, mark the pin for accurate stats, and we’ll take care of the rest.</p><p>Use the app for A.I. rangefinder and shot strategy, or keep Link Pro in your pocket and review your round afterward.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_QHwy7z": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Review.jpg",
+            "subheading": "Review",
+            "heading": "Post Round",
+            "heading_tag": "h2",
+            "text": "<p>After your round, confirm your score, make any quick edits, visit your TOUR-quality approach shots, and post straight to your USGA GHIN account.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_3KCMb8": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Improve_6d6d1620-35be-4314-a0fc-146d81db60e5.jpg",
+            "subheading": "Improve",
+            "heading": "Smarter Practice",
+            "heading_tag": "h2",
+            "text": "<p>With every round, Arccos gets smarter about your game.</p><p>Set your target handicap as a benchmark, then use Strokes Gained and personal insights to see where you gain or lose shots, so you can practice with purpose.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "content_6DB497",
+        "content_tBbefC",
+        "content_QHwy7z",
+        "content_3KCMb8"
+      ],
+      "name": "t:sections.timeline.presets.name",
+      "settings": {
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "square",
+        "heading": "Plan, Play & Improve.",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "video_with_text_overlay_nJwPep": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading_ENWnnH": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Typical Arccos Round",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_4xhKR6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Erika Larkin, Golf Digest’s Top 50 Teachers, shows how Arccos’ simple and easy system helps her play smarter.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_XpQbTr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Play A Hole With Erika",
+            "button_link": "https://youtu.be/8r9t8SbQmAw",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENWnnH",
+        "text_4xhKR6",
+        "button_XpQbTr"
+      ],
+      "name": "t:sections.video-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/Arccos_LinkPro_15_16x9.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "850px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "timeline_PDEqxQ": {
+      "type": "timeline",
+      "blocks": {
+        "content_VMKVR9": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Shot_Tracking_-_Timeline_c3d69708-02fe-41c9-9e82-0b398bacfa8b.jpg",
+            "subheading": "Automatic Shot Tracking",
+            "heading": "Automatically Capture Your Shots",
+            "heading_tag": "h2",
+            "text": "<p>Seamlessly track and record your shots on the course with our most advanced shot-tracking technology yet.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/automatic-shot-tracking",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_mmypRT": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Insights_-_Timeline.jpg",
+            "subheading": "Strokes Gained",
+            "heading": "Gain Personal Performance Insights",
+            "heading_tag": "h2",
+            "text": "<p>Transformative personal insights show you exactly what to practice to improve faster.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/strokes-gained-analytics",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_rM96jh": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Club_Distances_-_Timeline.jpg",
+            "subheading": "Smart Club Distances",
+            "heading": "Know Your True Yardages",
+            "heading_tag": "h2",
+            "text": "<p>Know how far you actually hit each one of your clubs and get simulated distances for any situation.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/smart-club-distances",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_EJdU9T": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Rangefinder_-_Timeline.jpg",
+            "subheading": "A.I. Rangefinder",
+            "heading": "Remove Guesswork",
+            "heading_tag": "h2",
+            "text": "<p>Get precise GPS and “Plays Like” distances adjusted in real-time for environmental conditions.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/rangefinder",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_UkWXK4": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/PGATQA_-_Timeline.jpg",
+            "subheading": "PGA TOUR® Quality Approach",
+            "heading": "Compete With The Pros",
+            "heading_tag": "h2",
+            "text": "<p>Compare your approach shots to PGA TOUR players. Share it with your friends as proof you were better, for one shot anyway!</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/pga-tour-quality-approach",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content_YJQYQj": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_-_Timeline_a965b212-2ddc-4e03-835d-fad5c0e1c4fd.jpg",
+            "subheading": "A.I. Caddie",
+            "heading": "Strategy Insights For Every Shot",
+            "heading_tag": "h2",
+            "text": "<p>Get real-time insights into your optimal and alternative strategies, as well as outcome predictions, for every shot you play.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/ai-strategy",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "content_VMKVR9",
+        "content_mmypRT",
+        "content_rM96jh",
+        "content_EJdU9T",
+        "content_UkWXK4",
+        "content_YJQYQj"
+      ],
+      "disabled": true,
+      "name": "t:sections.timeline.presets.name",
+      "settings": {
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "heading": "Powerful Features.",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_eP7wz8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_ing7mb": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Typical Arccos Round",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_NznVRB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From strategy before the first tee, to smarter decisions during your round, to insights after, Arccos delivers the clarity to play your smartest and best golf.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_Wb9mqw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/arccos-products",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ing7mb",
+        "text_NznVRB",
+        "button_Wb9mqw"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Typical_Round_Hero.jpg",
+        "image_height": "adapt",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_mobile": "shopify://shop_images/Typical_Round-Mobile_9c535473-5735-41c6-b54f-3641f8f31f97.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_FrfCzJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pRUKxT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Play a Hole With Arccos",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_NjkCdc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Erika Larkin, Golf Digest’s Top 50 Teachers, shows how Arccos’ simple and easy system helps her play smarter.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_thQFik": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch Video",
+            "button_link": "https://youtube.com/shorts/NTGYMCR1Fp4",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_video": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_pRUKxT",
+        "text_NjkCdc",
+        "button_thQFik"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/PlayHole.jpg",
+        "image_height": "750px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_mobile": "shopify://shop_images/PlayHole-Mobile.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "testimonials_ULckzU": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_UyBHLF": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Arccos continues to reign as heavyweight champ of big data.</p>",
+            "author": "MyGolfSpy",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "adapt",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_XCWJnd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Pairing scoring, GPS, and performance insights, we suggest you add Arccos to your game.</p>",
+            "author": "Golf Digest",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_yYVHmL": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Arccos is a powerful, game-changing golf tool.</p>",
+            "author": "GolfWRX",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_ewtKB8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Having tech that combines your game’s data with thousands of others to help you play smarter is powerful and sets Arccos apart from the rest.</p>",
+            "author": "Golf Magic",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "adapt",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_video": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_UyBHLF",
+        "testimonial_XCWJnd",
+        "testimonial_yYVHmL",
+        "testimonial_ewtKB8"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": true,
+        "rounded": true
+      }
+    },
+    "image_with_text_overlay_3afEfz": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_LbPpmW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Golf’s #1 Game Tracker.",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_cWVnEa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arccos is revolutionizing the game tracking experience by integrating A.I with real-time on-course data to deliver insights and features that help you play your smartest.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_NMbifr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Starter Bundle",
+            "button_link": "shopify://products/air-smart-sensors-bundle",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "button_video": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LbPpmW",
+        "text_cWVnEa",
+        "button_NMbifr"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Play_Hero.jpg",
+        "image_height": "adapt",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/Play_Hero-Mobile_c44e7eb9-ed84-4b84-9133-df292e785388.jpg",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "video_with_text_overlay_EdXMG8",
+    "image_with_text_overlay_83KN3N",
+    "image_with_text_4YmBWn",
+    "image_with_text_DcbHkk",
+    "image_with_text_overlay_83RGmw",
+    "timeline_mg4x3n",
+    "video_with_text_overlay_nJwPep",
+    "timeline_PDEqxQ",
+    "image_with_text_overlay_eP7wz8",
+    "image_with_text_overlay_FrfCzJ",
+    "testimonials_ULckzU",
+    "image_with_text_overlay_3afEfz"
+  ]
+}
