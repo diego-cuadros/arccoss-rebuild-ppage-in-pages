@@ -9,11 +9,11 @@
  */
 {
   "sections": {
-    "main": {
+    "main-page": {
       "type": "main-page",
       "settings": {
-        "heading_size": "title-xl tracking-heading",
-        "heading_alignment": "text-left",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center",
         "heading_tag": "h1",
         "text_size": "text-base",
         "padding_top": 72,
@@ -1267,7 +1267,7 @@
     }
   },
   "order": [
-    "main",
+    "main-page",
     "video_with_text_overlay_kb4Cfx",
     "multicolumn_with_icons_dxFDEm",
     "multicolumn_ge8F4G",
